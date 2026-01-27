@@ -57,3 +57,4 @@ docs
 inst/doc
 
 ./*.zip
+/.quarto/

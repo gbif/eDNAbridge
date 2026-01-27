@@ -8,45 +8,45 @@ This R package provides functions to facilitate the transformation of environmen
 
 ## Features
 
-*   The workflow can be run:
-    *   **Interactively** via a terminal session with prompts.
-    *   **Programmatically** by calling functions with parameters in your own R scripts.
-*   Data can be exported and re-imported at various stages. Primary output is the DwC-A archive, but intermediate data frames can also be exported for advanced users.
+- The workflow can be run:
+  - **Interactively** via a terminal session with prompts.
+  - **Programmatically** by calling functions with parameters in your own R scripts.
+- Data can be exported and re-imported at various stages. Primary output is the DwC-A archive, but intermediate data frames can also be exported for advanced users.
 
 ### Overview of modules
 
-<img src="man/figures/flow_chart.svg" alt="eDNABridge workflow flowchart"/>
+<img src="man/figures/flow_chart.png" alt="eDNABridge workflow flowchart" style="background: #fff;"/>
 
 ### 1. Source eDNA Occurrence Data
 
-*   Import data directly from Wilderlab using their API (requires user authentication).
-*   Load data from CSV files in Wilderlab’s multi-file format.
-*   Load data from a single CSV files with user-specified column mappings.
+- Import data directly from Wilderlab using their API (requires user authentication).
+- Load data from CSV files in Wilderlab’s multi-file format.
+- Load data from a single CSV files with user-specified column mappings.
 
 ### 2. Validate and Clean Data
 
-*   Rename columns to match Darwin Core terms using:
-    *   Default mappings for Wilderlab data.
-    *   User-supplied mappings.
-*   Check for required columns and validate data types.
-*   Standardise taxonomic names using GBIF’s backbone taxonomy.
-*   Suggest recommended GBIF fields if missing.
-*   Generate a summary report highlighting issues and data completeness.
+- Rename columns to match Darwin Core terms using:
+  - Default mappings for Wilderlab data.
+  - User-supplied mappings.
+- Check for required columns and validate data types.
+- Standardise taxonomic names using GBIF’s backbone taxonomy.
+- Suggest recommended GBIF fields if missing.
+- Generate a summary report highlighting issues and data completeness.
 
 ### 3. Generate a Darwin Core Archive (DwC-A)
 
 Create a fully compliant DwC-A `.zip` file, including:
 
-*   **Core occurrence file** (CSV).
-*   Optional **Extended Measurement or Facts file** (CSV).
-*   Optional **DNA extension file** (CSV).
-*   **Meta file** (XML) describing file structure and term mappings.
-*   **EML metadata file** (XML) with dataset, sampling, and author details.
+- **Core occurrence file** (CSV).
+- Optional **Extended Measurement or Facts file** (CSV).
+- Optional **DNA extension file** (CSV).
+- **Meta file** (XML) describing file structure and term mappings.
+- **EML metadata file** (XML) with dataset, sampling, and author details.
 
 ### 4. Upload to IPT
 
-*   Upload the DwC-A archive directly to a user-specified IPT instance using credentials and URL.
-*   Supports IPT configurations where datasets are either published immediately or require admin review.
+- Upload the DwC-A archive directly to a user-specified IPT instance using credentials and URL.
+- Supports IPT configurations where datasets are either published immediately or require admin review.
 
 ## Installation
 
