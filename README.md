@@ -15,7 +15,7 @@ This R package provides functions to facilitate the transformation of environmen
 
 ### Overview of modules
 
-<img src="man/figures/flow_chart.png" alt="eDNABridge workflow flowchart" style="background: #fff;"/>
+<img src="man/figures/flow_chart.png" alt="eDNABridge workflow flowchart"/>
 
 ### 1. Source eDNA Occurrence Data
 
