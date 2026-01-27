@@ -1,0 +1,46 @@
+Package: eDNABridge
+Title: Automate validating eDNA data against the Darwin Core and upload to GBIF
+Version: 0.3.0
+Authors@R: c(
+    person("Epi, NZ", role = c("aut", "cre"), email = "office@epi.group", comment = "The package was designed and developed by Epi (<https://www.epi.group/>) with funding provided by the New Zealand Ministry for the Environment. Support was provided by Wilderlab, the Hawke's Bay Regional Council, Department of Conservation and NIWA."),
+    person("Ministry for the Environment, NZ", role = "fnd", comment="<https://environment.govt.nz/>"),
+    person("Wilderlab, NZ", role = "ctb", comment="<https://wilderlab.co/>"),
+    person("Hawke's Bay Regional Council, NZ", role = "ctb", comment="<https://www.hbrc.govt.nz/>"),
+    person("Department of Conservation, NZ", role = "ctb", comment="<https://www.doc.govt.nz/>"),
+    person("Earth Sciences New Zealand, NZ", role = "ctb", comment="<https://www.earthsciences.nz/>"),
+    person("Kiel", "Hards", email = "kiel@epi.group", role = c("aut")),
+    person("Nick", "Snellgrove", email = "nick@epi.group", role = c("aut")))
+Description: This R package provides functions to facilitate the transformation of environmental DNA (eDNA) occurrence data into the Darwin Core Archive (DwC-A) format and publishing via the Global Biodiversity Information Facility (GBIF) Integrated Publishing Toolkit (IPT). It is aimed to be an end-to-end workflow primarily focused for holders of eDNA data looking for more automated solutions to publishing eDNA data to GBIF.
+License: CC BY-SA 4.0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends:
+    R (>= 4.0.0)
+Imports: 
+    cli,
+    curl,
+    dplyr,
+    httr2,
+    insect,
+    lubridate,
+    magrittr,
+    purrr,
+    readr,
+    rvest,
+    R6,
+    stringr,
+    tibble,
+    tidyr,
+    tidyselect,
+    uuid,
+    xml2,
+    zip
+Suggests: 
+    EML,
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0),
+    withr
+Config/testthat/edition: 3
+VignetteBuilder: knitr

@@ -1,0 +1,69 @@
+url: ~
+home:
+  title: "eDNABridge: A bridge for uploading eDNA occurrence data to GBIF"
+  description: "eDNABridge is an R package that facilitates the submission of environmental DNA (eDNA) occurrence data to the Global Biodiversity Information Facility (GBIF). It provides functions to format, validate, and upload eDNA data, ensuring compliance with GBIF's data standards."
+template:
+  bootstrap: 5
+
+reference:
+  - title: "CLI Interface"
+    contents:
+      - eDNABridge
+  - title: "Data Ingestion"
+    contents:
+      - wl_read_wilderlab_data
+      - wl_get_wilderlab_data
+      - wl_get_records_from_joblist
+      - wl_get_all_wilderlab_data
+      - wl_map_wilderlab_data
+      - wl_inject_dwc_wilderlab_constants
+      - wl_export_wilderlab_data
+      - ingest_read_and_map_table
+  - title: "Data Validation"
+    contents:
+      - val_validate_dwc_to_level
+      - val_validate_no_additional_terms
+      - val_validate_all_fields
+      - val_check_scientific_name
+      - val_check_name_list
+  - title: "EML Generation"
+    contents:
+      - eml_gbif_create
+      - eml_gbif_template_create
+      - eml_gbif_template_read
+      - eml_base
+      - eml_set_title
+      - eml_set_abstract
+      - eml_set_license
+      - eml_parse_person
+      - eml_add_persons
+      - eml_add_creator
+      - eml_add_contact
+      - eml_calculate_bounding_box
+      - eml_set_coverage
+      - eml_set_maintenance
+      - eml_set_methods
+      - eml_set_project
+      - eml_add_project_personnel
+  - title: "Archive Creation"
+    contents:
+      - gen_tibble_to_dwc_frames
+      - gen_make_dwc_archive
+      - meta_xml_base
+      - meta_xml_add_file
+      - meta_write_xml
+  - title: "Archive Upload"
+    contents:
+      - ipt_login
+      - ipt_get_jsessionid
+      - ipt_upload_archive
+      - ipt_save_metadata
+      - ipt_set_visible
+      - ipt_publish_resource
+      - ipt_upload_and_publish
+      - ipt_register_resource
+  - title: "Utilities"
+    contents:
+      - config_set_creds
+      - config_set_wilderlab_creds
+      - get_all_gbif_dwc_schema

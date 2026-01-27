@@ -1,0 +1,2412 @@
+HID,UID,TaxID,Rank,Name,CommonName,Group,Count
+71630993,549833,10,genus,Cellvibrio,NA,Bacteria,6213
+71632950,549834,10,genus,Cellvibrio,NA,Bacteria,2931
+71635286,549835,10,genus,Cellvibrio,NA,Bacteria,4542
+71637302,549836,10,genus,Cellvibrio,NA,Bacteria,4704
+71639192,549837,10,genus,Cellvibrio,NA,Bacteria,2823
+71744577,549834,18,genus,Pelobacter,NA,Bacteria,10
+71747916,549837,18,genus,Pelobacter,NA,Bacteria,6
+71744050,549834,22,genus,Shewanella,NA,Bacteria,61
+71747340,549837,22,genus,Shewanella,NA,Bacteria,42
+71743674,549833,39,family,Archangiaceae,NA,Bacteria,6
+71747566,549837,39,family,Archangiaceae,NA,Bacteria,18
+71638913,549836,64,genus,Herpetosiphon,NA,Bacteria,6
+71745297,549835,75,genus,Caulobacter,NA,Bacteria,45
+71631974,549833,81,genus,Hyphomicrobium,NA,Bacteria,19
+71633135,549834,81,genus,Hyphomicrobium,NA,Bacteria,223
+71635617,549835,81,genus,Hyphomicrobium,NA,Bacteria,116
+71638264,549836,81,genus,Hyphomicrobium,NA,Bacteria,19
+71639385,549837,81,genus,Hyphomicrobium,NA,Bacteria,142
+71631181,549833,85,genus,Hyphomonas,NA,Bacteria,147
+71633893,549834,85,genus,Hyphomonas,NA,Bacteria,27
+71635751,549835,85,genus,Hyphomonas,NA,Bacteria,66
+71637359,549836,85,genus,Hyphomonas,NA,Bacteria,323
+71639876,549837,85,genus,Hyphomonas,NA,Bacteria,58
+71631000,549833,96,genus,Gallionella,NA,Bacteria,1379
+71637315,549836,96,genus,Gallionella,NA,Bacteria,955
+71633036,549834,101,genus,Flectobacillus,NA,Bacteria,257
+71635605,549835,101,genus,Flectobacillus,NA,Bacteria,71
+71639505,549837,101,genus,Flectobacillus,NA,Bacteria,76
+71747414,549837,113,genus,Gemmata,NA,Bacteria,30
+71632391,549833,123,genus,Pirellula,NA,Bacteria,10
+71633388,549834,123,genus,Pirellula,NA,Bacteria,80
+71636492,549835,123,genus,Pirellula,NA,Bacteria,16
+71637741,549836,123,genus,Pirellula,NA,Bacteria,48
+71639706,549837,123,genus,Pirellula,NA,Bacteria,64
+71632025,549833,126,family,Planctomycetaceae,NA,Bacteria,18
+71633436,549834,126,family,Planctomycetaceae,NA,Bacteria,87
+71636082,549835,126,family,Planctomycetaceae,NA,Bacteria,37
+71637874,549836,126,family,Planctomycetaceae,NA,Bacteria,36
+71639698,549837,126,family,Planctomycetaceae,NA,Bacteria,107
+71744730,549834,127,genus,Isosphaera,NA,Bacteria,7
+71633073,549834,137,family,Spirochaetaceae,NA,Bacteria,177
+71635765,549835,137,family,Spirochaetaceae,NA,Bacteria,51
+71639329,549837,137,family,Spirochaetaceae,NA,Bacteria,161
+71632651,549833,170,family,Leptospiraceae,NA,Bacteria,6
+71638359,549836,170,family,Leptospiraceae,NA,Bacteria,17
+71640894,549837,170,family,Leptospiraceae,NA,Bacteria,9
+71636004,549835,187,genus,Aquaspirillum,NA,Bacteria,32
+71638675,549836,187,genus,Aquaspirillum,NA,Bacteria,10
+71638859,549836,194,genus,Campylobacter,NA,Bacteria,7
+71743580,549833,209,genus,Helicobacter,NA,Bacteria,8
+71631001,549833,237,genus,Flavobacterium,NA,Bacteria,3367
+71632949,549834,237,genus,Flavobacterium,NA,Bacteria,8131
+71635301,549835,237,genus,Flavobacterium,NA,Bacteria,3899
+71637313,549836,237,genus,Flavobacterium,NA,Bacteria,3150
+71639191,549837,237,genus,Flavobacterium,NA,Bacteria,5200
+71631139,549833,286,genus,Pseudomonas,NA,Bacteria,222
+71633142,549834,286,genus,Pseudomonas,NA,Bacteria,227
+71635568,549835,286,genus,Pseudomonas,NA,Bacteria,204
+71637453,549836,286,genus,Pseudomonas,NA,Bacteria,189
+71639430,549837,286,genus,Pseudomonas,NA,Bacteria,174
+71631853,549833,349,genus,Zoogloea,NA,Bacteria,23
+71632138,549833,407,genus,Methylobacterium,NA,Bacteria,15
+71633593,549834,407,genus,Methylobacterium,NA,Bacteria,61
+71636025,549835,407,genus,Methylobacterium,NA,Bacteria,31
+71638888,549836,407,genus,Methylobacterium,NA,Bacteria,7
+71639851,549837,407,genus,Methylobacterium,NA,Bacteria,70
+71632210,549833,416,genus,Methylomonas,NA,Bacteria,13
+71631833,549833,429,genus,Methylobacter,NA,Bacteria,24
+71631557,549833,433,family,Acetobacteraceae,NA,Bacteria,68
+71633630,549834,433,family,Acetobacteraceae,NA,Bacteria,45
+71635733,549835,433,family,Acetobacteraceae,NA,Bacteria,55
+71637892,549836,433,family,Acetobacteraceae,NA,Bacteria,103
+71639823,549837,433,family,Acetobacteraceae,NA,Bacteria,110
+71631191,549833,444,family,Legionellaceae,NA,Bacteria,347
+71633080,549834,444,family,Legionellaceae,NA,Bacteria,727
+71635527,549835,444,family,Legionellaceae,NA,Bacteria,276
+71638896,549836,444,family,Legionellaceae,NA,Bacteria,157
+71639366,549837,444,family,Legionellaceae,NA,Bacteria,577
+71631369,549833,445,genus,Legionella,NA,Bacteria,57
+71633590,549834,445,genus,Legionella,NA,Bacteria,73
+71636338,549835,445,genus,Legionella,NA,Bacteria,32
+71637899,549836,445,genus,Legionella,NA,Bacteria,34
+71640072,549837,445,genus,Legionella,NA,Bacteria,38
+71632209,549833,468,family,Moraxellaceae,NA,Bacteria,25
+71636347,549835,468,family,Moraxellaceae,NA,Bacteria,19
+71638734,549836,468,family,Moraxellaceae,NA,Bacteria,9
+71747586,549837,468,family,Moraxellaceae,NA,Bacteria,17
+71633761,549834,469,genus,Acinetobacter,NA,Bacteria,32
+71640473,549837,469,genus,Acinetobacter,NA,Bacteria,17
+71634302,549834,481,family,Neisseriaceae,NA,Bacteria,16
+71636495,549835,481,family,Neisseriaceae,NA,Bacteria,16
+71640223,549837,481,family,Neisseriaceae,NA,Bacteria,23
+71632574,549833,497,genus,Psychrobacter,NA,Bacteria,7
+71636311,549835,497,genus,Psychrobacter,NA,Bacteria,20
+71631189,549833,506,family,Alcaligenaceae,NA,Bacteria,149
+71634353,549834,506,family,Alcaligenaceae,NA,Bacteria,15
+71635775,549835,506,family,Alcaligenaceae,NA,Bacteria,50
+71637567,549836,506,family,Alcaligenaceae,NA,Bacteria,117
+71640297,549837,506,family,Alcaligenaceae,NA,Bacteria,21
+71635058,549834,535,genus,Chromobacterium,NA,Bacteria,5
+71632096,549833,543,family,Enterobacteriaceae,NA,Bacteria,17
+71634797,549834,586,genus,Providencia,NA,Bacteria,8
+71636973,549835,586,genus,Providencia,NA,Bacteria,7
+71639858,549837,586,genus,Providencia,NA,Bacteria,38
+71631594,549833,641,family,Vibrionaceae,NA,Bacteria,34
+71634943,549834,641,family,Vibrionaceae,NA,Bacteria,6
+71635777,549835,641,family,Vibrionaceae,NA,Bacteria,49
+71638791,549836,641,family,Vibrionaceae,NA,Bacteria,8
+71641062,549837,641,family,Vibrionaceae,NA,Bacteria,6
+71630999,549833,642,genus,Aeromonas,NA,Bacteria,1541
+71632952,549834,642,genus,Aeromonas,NA,Bacteria,1750
+71635295,549835,642,genus,Aeromonas,NA,Bacteria,1222
+71637311,549836,642,genus,Aeromonas,NA,Bacteria,1133
+71639196,549837,642,genus,Aeromonas,NA,Bacteria,1217
+71635013,549834,712,family,Pasteurellaceae,NA,Bacteria,6
+71745628,549835,712,family,Pasteurellaceae,NA,Bacteria,17
+71631138,549833,775,family,Rickettsiaceae,NA,Bacteria,157
+71634165,549834,775,family,Rickettsiaceae,NA,Bacteria,19
+71635478,549835,775,family,Rickettsiaceae,NA,Bacteria,113
+71637513,549836,775,family,Rickettsiaceae,NA,Bacteria,131
+71640251,549837,775,family,Rickettsiaceae,NA,Bacteria,22
+71631231,549833,815,family,Bacteroidaceae,NA,Bacteria,232
+71633474,549834,815,family,Bacteroidaceae,NA,Bacteria,49
+71635481,549835,815,family,Bacteroidaceae,NA,Bacteria,386
+71637618,549836,815,family,Bacteroidaceae,NA,Bacteria,128
+71639729,549837,815,family,Bacteroidaceae,NA,Bacteria,46
+71631155,549833,816,genus,Bacteroides,NA,Bacteria,193
+71637493,549836,816,genus,Bacteroides,NA,Bacteria,116
+71631223,549833,838,genus,Prevotella,NA,Bacteria,84
+71633622,549834,838,genus,Prevotella,NA,Bacteria,39
+71636000,549835,838,genus,Prevotella,NA,Bacteria,66
+71637458,549836,838,genus,Prevotella,NA,Bacteria,120
+71640753,549837,838,genus,Prevotella,NA,Bacteria,11
+71631676,549833,848,genus,Fusobacterium,NA,Bacteria,30
+71635889,549835,848,genus,Fusobacterium,NA,Bacteria,39
+71637859,549836,848,genus,Fusobacterium,NA,Bacteria,36
+71631795,549833,872,genus,Desulfovibrio,NA,Bacteria,51
+71634366,549834,872,genus,Desulfovibrio,NA,Bacteria,23
+71636272,549835,872,genus,Desulfovibrio,NA,Bacteria,48
+71637937,549836,872,genus,Desulfovibrio,NA,Bacteria,31
+71640428,549837,872,genus,Desulfovibrio,NA,Bacteria,50
+71636589,549835,890,genus,Desulfuromonas,NA,Bacteria,14
+71631148,549833,914,genus,Nitrosomonas,NA,Bacteria,224
+71637631,549836,914,genus,Nitrosomonas,NA,Bacteria,126
+71632394,549833,958,genus,Bdellovibrio,NA,Bacteria,10
+71636695,549835,958,genus,Bdellovibrio,NA,Bacteria,21
+71631242,549833,978,genus,Cytophaga,NA,Bacteria,80
+71632998,549834,978,genus,Cytophaga,NA,Bacteria,378
+71635427,549835,978,genus,Cytophaga,NA,Bacteria,152
+71637650,549836,978,genus,Cytophaga,NA,Bacteria,61
+71639280,549837,978,genus,Cytophaga,NA,Bacteria,229
+71630996,549833,1046,family,Chromatiaceae,Purple sulfur bacteria,Bacteria,2687
+71632992,549834,1046,family,Chromatiaceae,Purple sulfur bacteria,Bacteria,423
+71635289,549835,1046,family,Chromatiaceae,Purple sulfur bacteria,Bacteria,1782
+71637305,549836,1046,family,Chromatiaceae,Purple sulfur bacteria,Bacteria,1843
+71639199,549837,1046,family,Chromatiaceae,Purple sulfur bacteria,Bacteria,1100
+71631082,549833,1060,genus,Rhodobacter,NA,Bacteria,211
+71633031,549834,1060,genus,Rhodobacter,NA,Bacteria,269
+71635368,549835,1060,genus,Rhodobacter,NA,Bacteria,250
+71637353,549836,1060,genus,Rhodobacter,NA,Bacteria,321
+71639272,549837,1060,genus,Rhodobacter,NA,Bacteria,246
+71631015,549833,1234,genus,Nitrospira,NA,Bacteria,603
+71744152,549834,1234,genus,Nitrospira,NA,Bacteria,34
+71637352,549836,1234,genus,Nitrospira,NA,Bacteria,327
+71636570,549835,1301,genus,Streptococcus,NA,Bacteria,15
+71631439,549833,1485,genus,Clostridium,NA,Bacteria,68
+71633377,549834,1485,genus,Clostridium,NA,Bacteria,62
+71635785,549835,1485,genus,Clostridium,NA,Bacteria,55
+71637619,549836,1485,genus,Clostridium,NA,Bacteria,74
+71639719,549837,1485,genus,Clostridium,NA,Bacteria,66
+71634190,549834,1653,family,Corynebacteriaceae,Coryneform bacteria,Bacteria,19
+71634586,549834,1762,family,Mycobacteriaceae,NA,Bacteria,11
+71638625,549836,1762,family,Mycobacteriaceae,NA,Bacteria,11
+71640611,549837,1762,family,Mycobacteriaceae,NA,Bacteria,14
+71631390,549833,1839,genus,Nocardioides,NA,Bacteria,53
+71633272,549834,1839,genus,Nocardioides,NA,Bacteria,132
+71635877,549835,1839,genus,Nocardioides,NA,Bacteria,52
+71637719,549836,1839,genus,Nocardioides,NA,Bacteria,84
+71639453,549837,1839,genus,Nocardioides,NA,Bacteria,92
+71638533,549836,1865,genus,Actinoplanes,NA,Bacteria,13
+71636238,549835,1883,genus,Streptomyces,NA,Bacteria,23
+71641077,549837,1883,genus,Streptomyces,NA,Bacteria,6
+71634680,549834,2086,genus,Anaeroplasma,NA,Bacteria,10
+71635002,549834,2132,genus,Spiroplasma,NA,Bacteria,6
+71636949,549835,2132,genus,Spiroplasma,NA,Bacteria,8
+71632312,549833,2192,genus,Methanocorpusculum,NA,Archaea,12
+71638780,549836,2192,genus,Methanocorpusculum,NA,Archaea,9
+71745989,549835,2206,family,Methanosarcinaceae,NA,Archaea,6
+71632276,549833,2349,genus,Haliscomenobacter,NA,Bacteria,12
+71634342,549834,2349,genus,Haliscomenobacter,NA,Bacteria,15
+71636963,549835,2349,genus,Haliscomenobacter,NA,Bacteria,7
+71638567,549836,2349,genus,Haliscomenobacter,NA,Bacteria,12
+71640663,549837,2349,genus,Haliscomenobacter,NA,Bacteria,13
+71743166,549833,2735,genus,Verrucomicrobium,NA,Bacteria,32
+71745603,549835,2735,genus,Verrucomicrobium,NA,Bacteria,18
+71746636,549836,2735,genus,Verrucomicrobium,NA,Bacteria,18
+71631077,549833,2742,genus,Marinobacter,NA,Bacteria,220
+71633132,549834,2742,genus,Marinobacter,NA,Bacteria,127
+71635376,549835,2742,genus,Marinobacter,NA,Bacteria,235
+71637396,549836,2742,genus,Marinobacter,NA,Bacteria,192
+71639293,549837,2742,genus,Marinobacter,NA,Bacteria,200
+71887690,549834,2803,family,Rhodomelaceae,NA,Red algae,52
+71473403,549833,2857,genus,Nitzschia,Pennate diatom,Diatoms,34
+71474067,549834,2857,genus,Nitzschia,Pennate diatom,Diatoms,183
+71474576,549835,2857,genus,Nitzschia,Pennate diatom,Diatoms,370
+71475866,549836,2857,genus,Nitzschia,Pennate diatom,Diatoms,81
+71476824,549837,2857,genus,Nitzschia,Pennate diatom,Diatoms,430
+71743316,549833,2896,family,Cryptomonadaceae,NA,Cryptomonads,18
+71889282,549836,2896,family,Cryptomonadaceae,NA,Cryptomonads,10
+71887176,549833,2985,genus,Ochromonas,NA,Heterokont algae,35
+71887759,549834,2985,genus,Ochromonas,NA,Heterokont algae,33
+71889078,549836,2985,genus,Ochromonas,NA,Heterokont algae,33
+71561104,549833,2995,genus,Hydrurus,NA,Heterokont algae,691
+71561217,549836,2995,genus,Hydrurus,NA,Heterokont algae,1898
+71743376,549833,3028,genus,Chroomonas,NA,Cryptomonads,34
+71746968,549836,3028,genus,Chroomonas,NA,Cryptomonads,5
+71742896,549833,3030,genus,Cryptomonas,NA,Cryptomonads,1003
+71744666,549834,3030,genus,Cryptomonas,NA,Cryptomonads,8
+71745607,549835,3030,genus,Cryptomonas,NA,Cryptomonads,44
+71746253,549836,3030,genus,Cryptomonas,NA,Cryptomonads,592
+71747382,549837,3030,genus,Cryptomonas,NA,Cryptomonads,56
+71887419,549833,3052,genus,Chlamydomonas,Green alga,Green algae,12
+71747800,549837,3052,genus,Chlamydomonas,Green alga,Green algae,9
+71570954,549834,3362,family,Podocarpaceae,NA,Plants,711
+71571087,549836,3362,family,Podocarpaceae,NA,Plants,48
+71571108,549836,3363,genus,Podocarpus,Conifers,Plants,23
+71571060,549836,3367,family,Cupressaceae,Cypress family,Plants,259
+71571093,549836,3402,genus,Magnolia,NA,Plants,38
+71931805,549836,3433,family,Lauraceae,Laurel family,Plants,12
+71421150,549833,3445,genus,Ranunculus,Buttercups; spearworts; water crowfoots,Plants,1477
+71421316,549835,3445,genus,Ranunculus,Buttercups; spearworts; water crowfoots,Plants,449
+71421388,549836,3445,genus,Ranunculus,Buttercups; spearworts; water crowfoots,Plants,377
+71421121,549833,3452,genus,Clematis,NA,Plants,194
+71421205,549834,3452,genus,Clematis,NA,Plants,330
+71421407,549836,3452,genus,Clematis,NA,Plants,35
+71570946,549834,3459,genus,Coriaria,Tutu,Plants,948
+71570992,549835,3459,genus,Coriaria,Tutu,Plants,757
+71571082,549836,3474,family,Ulmaceae,Elm family,Plants,62
+71421145,549833,3486,species,Humulus lupulus,Common hop,Plants,88
+71421395,549836,3486,species,Humulus lupulus,Common hop,Plants,26
+71931717,549833,3499,family,Urticaceae,Nettle family,Plants,315
+71931755,549835,3499,family,Urticaceae,Nettle family,Plants,10
+71931767,549836,3499,family,Urticaceae,Nettle family,Plants,223
+71931823,549837,3499,family,Urticaceae,Nettle family,Plants,1092
+71421210,549834,3500,genus,Urtica,NA,Plants,181
+71421385,549836,3500,genus,Urtica,NA,Plants,37
+71421528,549837,3500,genus,Urtica,NA,Plants,30
+71421426,549836,3503,family,Fagaceae,Beech family,Plants,9
+71571125,549836,3504,genus,Betula,Birch,Plants,9
+71571089,549836,3511,genus,Quercus,Oaks,Plants,45
+71570891,549833,3515,genus,Alnus,Alder,Plants,2176
+71421427,549836,3515,genus,Alnus,Alder,Plants,43
+71421213,549834,3568,family,Caryophyllaceae,Pink family,Plants,167
+71421335,549835,3568,family,Caryophyllaceae,Pink family,Plants,7
+71570994,549835,3618,genus,Rumex,Docks; sorrels,Plants,635
+71421392,549836,3618,genus,Rumex,Docks; sorrels,Plants,102
+71571127,549836,3629,family,Malvaceae,Mallow family,Plants,8
+71421425,549836,3688,family,Salicaceae,Willow family,Plants,9
+71570894,549833,3700,family,Brassicaceae,Mustard family,Plants,1793
+71421208,549834,3700,family,Brassicaceae,Mustard family,Plants,1325
+71421297,549835,3700,family,Brassicaceae,Mustard family,Plants,7681
+71421438,549836,3700,family,Brassicaceae,Mustard family,Plants,770
+71421493,549837,3700,family,Brassicaceae,Mustard family,Plants,5172
+71421435,549836,3705,genus,Brassica,NA,Plants,6
+71421116,549833,3726,species,Raphanus sativus,Radish,Plants,245
+71421299,549835,3726,species,Raphanus sativus,Radish,Plants,55
+71421373,549836,3726,species,Raphanus sativus,Radish,Plants,69
+71931732,549834,3803,family,Fabaceae,Pea family,Plants,1276
+71931791,549836,3803,family,Fabaceae,Pea family,Plants,43
+71931829,549837,3803,family,Fabaceae,Pea family,Plants,386
+71571052,549836,3804,subfamily,Caesalpinioideae,NA,Plants,283
+71421531,549837,3814,subfamily,Papilionoideae,NA,Plants,28
+71571101,549836,3833,genus,Cytisus,Brooms,Plants,31
+71571005,549835,3867,genus,Lotus,NA,Plants,321
+71571077,549836,3867,genus,Lotus,NA,Plants,72
+71421129,549833,3898,genus,Trifolium,Clover; trefoil,Plants,156
+71421243,549834,3898,genus,Trifolium,Clover; trefoil,Plants,42
+71571012,549835,3898,genus,Trifolium,Clover; trefoil,Plants,182
+71421386,549836,3898,genus,Trifolium,Clover; trefoil,Plants,166
+71570944,549834,3901,genus,Ulex,Gorses,Plants,1006
+71571006,549835,3901,genus,Ulex,Gorses,Plants,309
+71571149,549837,3901,genus,Ulex,Gorses,Plants,1707
+71421525,549837,3902,species,Ulex europaeus,Gorse; Furze,Plants,35
+71421329,549835,3904,genus,Vicia,NA,Plants,8
+71571080,549836,3931,family,Myrtaceae,Myrtle family,Plants,65
+71571097,549836,4005,genus,Linum,NA,Plants,34
+71421160,549833,4019,genus,Tropaeolum,nasturtium,Plants,59
+71746524,549836,4019,genus,Tropaeolum,nasturtium,Plants,62
+71421113,549833,4020,species,Tropaeolum majus,Nasturtium,Plants,892
+71421356,549836,4020,species,Tropaeolum majus,Nasturtium,Plants,209
+71931812,549836,4027,family,Geraniaceae,Geranium family,Plants,7
+71931824,549837,4027,family,Geraniaceae,Geranium family,Plants,799
+71421415,549836,4028,genus,Geranium,Geraniums; cranesbills,Plants,25
+71571157,549837,4028,genus,Geranium,Geraniums; cranesbills,Plants,1129
+71421141,549833,4037,family,Apiaceae,Carrot family,Plants,5470
+71570987,549835,4037,family,Apiaceae,Carrot family,Plants,2017
+71421390,549836,4037,family,Apiaceae,Carrot family,Plants,410
+71571164,549837,4037,family,Apiaceae,Carrot family,Plants,870
+71421149,549833,4043,species,Petroselinum crispum,Parsley,Plants,77
+71570887,549833,4050,family,Araliaceae,Ginseng family,Plants,2666
+71571038,549836,4050,family,Araliaceae,Ginseng family,Plants,599
+71931708,549833,4118,family,Convolvulaceae,Morning-glory family,Plants,910
+71571028,549836,4118,family,Convolvulaceae,Morning-glory family,Plants,1744
+71570884,549833,4149,family,Scrophulariaceae,Figwort family,Plants,2816
+71421559,549837,4163,genus,Digitalis,Foxgloves,Plants,1665
+71570877,549833,4173,genus,Veronica,Brooklimes,Plants,7737
+71421193,549834,4173,genus,Veronica,Brooklimes,Plants,28722
+71421285,549835,4173,genus,Veronica,Brooklimes,Plants,4226
+71421360,549836,4173,genus,Veronica,Brooklimes,Plants,628
+71421481,549837,4173,genus,Veronica,Brooklimes,Plants,30998
+71570953,549834,4200,family,Caprifoliaceae,Honeysuckle famly,Plants,2525
+71571117,549836,4200,family,Caprifoliaceae,Honeysuckle famly,Plants,33
+71570889,549833,4210,family,Asteraceae,Daisy family,Plants,2523
+71570935,549834,4210,family,Asteraceae,Daisy family,Plants,5049
+71571003,549835,4210,family,Asteraceae,Daisy family,Plants,340
+71571067,549836,4210,family,Asteraceae,Daisy family,Plants,268
+71571140,549837,4210,family,Asteraceae,Daisy family,Plants,6208
+71421484,549837,4216,genus,Arctium,Burdocks,Plants,296
+71570880,549833,4312,species,Corynocarpus laevigatus,Karaka,Plants,5388
+71421255,549834,4312,species,Corynocarpus laevigatus,Karaka,Plants,562
+71571001,549835,4312,species,Corynocarpus laevigatus,Karaka,Plants,386
+71421375,549836,4312,species,Corynocarpus laevigatus,Karaka,Plants,635
+71571143,549837,4312,species,Corynocarpus laevigatus,Karaka,Plants,2463
+71571170,549837,4335,family,Primulaceae,Primrose family,Plants,315
+71571083,549836,4402,genus,Platanus,Planes; plane trees,Plants,56
+71571072,549836,4454,family,Araceae,Arum family,Plants,87
+71421124,549833,4479,family,Poaceae,Grass family,Plants,314
+71421203,549834,4479,family,Poaceae,Grass family,Plants,1880
+71421277,549835,4479,family,Poaceae,Grass family,Plants,613
+71746556,549836,4479,family,Poaceae,Grass family,Plants,25
+71421469,549837,4479,family,Poaceae,Grass family,Plants,3428
+71421227,549834,4501,genus,Bromus,Bromes; chess grasses; cheat grasses,Plants,75
+71421533,549837,4501,genus,Bromus,Bromes; chess grasses; cheat grasses,Plants,24
+71421117,549833,4508,genus,Dactylis,Bluegrass,Plants,404
+71421302,549835,4508,genus,Dactylis,Bluegrass,Plants,113
+71421398,549836,4508,genus,Dactylis,Bluegrass,Plants,24
+71421504,549837,4508,genus,Dactylis,Bluegrass,Plants,179
+71421126,549833,4509,species,Dactylis glomerata,Catgrass; cocksfoot,Plants,172
+71421366,549836,4509,species,Dactylis glomerata,Catgrass; cocksfoot,Plants,85
+71421487,549837,4509,species,Dactylis glomerata,Catgrass; cocksfoot,Plants,2422
+71421119,549833,4520,genus,Lolium,NA,Plants,201
+71421198,549834,4520,genus,Lolium,NA,Plants,734
+71421281,549835,4520,genus,Lolium,NA,Plants,233
+71421364,549836,4520,genus,Lolium,NA,Plants,93
+71421468,549837,4520,genus,Lolium,NA,Plants,1224
+71421209,549834,4544,genus,Poa,Bluegrass,Plants,198
+71421312,549835,4544,genus,Poa,Bluegrass,Plants,30
+71421472,549837,4544,genus,Poa,Bluegrass,Plants,1049
+71421408,549836,4575,genus,Zea,NA,Plants,16
+71570952,549834,4605,genus,Festuca,Grass,Plants,771
+71570986,549835,4605,genus,Festuca,Grass,Plants,2546
+71571074,549836,4605,genus,Festuca,Grass,Plants,84
+71571153,549837,4605,genus,Festuca,Grass,Plants,1554
+71931855,549837,4609,family,Cyperaceae,Sedge family,Plants,22
+71571110,549836,4637,family,Musaceae,Banana family,Plants,21
+71931813,549836,4740,family,Commelinaceae,Spiderwort family,Plants,6
+71744231,549834,4764,family,Saprolegniaceae,NA,Oomycetes,59
+71745188,549835,4764,family,Saprolegniaceae,NA,Oomycetes,153
+71747319,549837,4764,family,Saprolegniaceae,NA,Oomycetes,74
+71744074,549834,4765,genus,Achlya,NA,Oomycetes,49
+71745630,549835,4765,genus,Achlya,NA,Oomycetes,39
+71746759,549836,4765,genus,Achlya,NA,Oomycetes,20
+71747416,549837,4765,genus,Achlya,NA,Oomycetes,44
+71742974,549833,4769,genus,Saprolegnia,Cotton mould; water mould,Oomycetes,333
+71743971,549834,4769,genus,Saprolegnia,Cotton mould; water mould,Oomycetes,233
+71745093,549835,4769,genus,Saprolegnia,Cotton mould; water mould,Oomycetes,792
+71746382,549836,4769,genus,Saprolegnia,Cotton mould; water mould,Oomycetes,274
+71747217,549837,4769,genus,Saprolegnia,Cotton mould; water mould,Oomycetes,210
+71743375,549833,4777,family,Peronosporaceae,NA,Oomycetes,27
+71742894,549833,4782,family,Pythiaceae,Water moulds,Oomycetes,1748
+71743897,549834,4782,family,Pythiaceae,Water moulds,Oomycetes,8237
+71745054,549835,4782,family,Pythiaceae,Water moulds,Oomycetes,3822
+71746238,549836,4782,family,Pythiaceae,Water moulds,Oomycetes,2940
+71747141,549837,4782,family,Pythiaceae,Water moulds,Oomycetes,2837
+71472787,549833,4783,genus,Phytophthora,Water mold,Oomycetes,112
+71473852,549834,4783,genus,Phytophthora,Water mold,Oomycetes,17
+71474689,549835,4783,genus,Phytophthora,Water mold,Oomycetes,18
+71475479,549836,4783,genus,Phytophthora,Water mold,Oomycetes,124
+71476797,549837,4783,genus,Phytophthora,Water mold,Oomycetes,35
+71742990,549833,4797,genus,Pythium,Parasitic oomycete,Oomycetes,97
+71745162,549835,4797,genus,Pythium,Parasitic oomycete,Oomycetes,119
+71746372,549836,4797,genus,Pythium,Parasitic oomycete,Oomycetes,66
+71888043,549834,5410,genus,Cystofilobasidium,NA,Fungi,7
+71889386,549836,5410,genus,Cystofilobasidium,NA,Fungi,6
+71887032,549833,5654,family,Trypanosomatidae,NA,Other,415
+71887970,549834,5654,family,Trypanosomatidae,NA,Other,10
+71745638,549835,5654,family,Trypanosomatidae,NA,Other,46
+71888865,549836,5654,family,Trypanosomatidae,NA,Other,671
+71889672,549837,5654,family,Trypanosomatidae,NA,Other,24
+71743108,549833,5712,genus,Bodo,Excavate,Other,86
+71744038,549834,5712,genus,Bodo,Excavate,Other,117
+71745225,549835,5712,genus,Bodo,Excavate,Other,132
+71746422,549836,5712,genus,Bodo,Excavate,Other,89
+71747335,549837,5712,genus,Bodo,Excavate,Other,75
+71743469,549833,5761,genus,Naegleria,Amoeba,Other,19
+71744296,549834,5761,genus,Naegleria,Amoeba,Other,45
+71745424,549835,5761,genus,Naegleria,Amoeba,Other,52
+71746628,549836,5761,genus,Naegleria,Amoeba,Other,34
+71747618,549837,5761,genus,Naegleria,Amoeba,Other,22
+71745976,549835,5776,family,Hartmannellidae,NA,Amoebae,6
+71744399,549834,5799,family,Eimeriidae,Apicomplexan,Other,17
+71745356,549835,5799,family,Eimeriidae,Apicomplexan,Other,69
+71747872,549837,5799,family,Eimeriidae,Apicomplexan,Other,7
+71743392,549833,5884,genus,Paramecium,NA,Ciliates,49
+71888061,549834,5884,genus,Paramecium,NA,Ciliates,7
+71745189,549835,5884,genus,Paramecium,NA,Ciliates,241
+71746418,549836,5884,genus,Paramecium,NA,Ciliates,200
+71742945,549833,5890,genus,Tetrahymena,NA,Ciliates,388
+71743917,549834,5890,genus,Tetrahymena,NA,Ciliates,1357
+71745061,549835,5890,genus,Tetrahymena,NA,Ciliates,3123
+71746283,549836,5890,genus,Tetrahymena,NA,Ciliates,726
+71747156,549837,5890,genus,Tetrahymena,NA,Ciliates,1202
+71742899,549833,5962,genus,Stentor,NA,Ciliates,1397
+71745059,549835,5962,genus,Stentor,NA,Ciliates,2087
+71746258,549836,5962,genus,Stentor,NA,Ciliates,898
+71747150,549837,5962,genus,Stentor,NA,Ciliates,1889
+71889396,549836,5964,genus,Metopus,NA,Ciliates,5
+71746421,549836,5973,genus,Halteria,NA,Ciliates,85
+71744120,549834,5991,genus,Chaenea,NA,Ciliates,40
+71745865,549835,5991,genus,Chaenea,NA,Ciliates,8
+71746805,549836,5991,genus,Chaenea,NA,Ciliates,10
+71743117,549833,6002,family,Colepidae,NA,Ciliates,85
+71745357,549835,6002,family,Colepidae,NA,Ciliates,66
+71746378,549836,6002,family,Colepidae,NA,Ciliates,146
+71747796,549837,6002,family,Colepidae,NA,Ciliates,9
+71743271,549833,6083,genus,Hydra,Hydra,Cnidarians,43
+71746877,549836,6083,genus,Hydra,Hydra,Cnidarians,21
+71565417,549833,6087,species,Hydra vulgaris,Hydra,Cnidarians,110
+71476165,549836,6087,species,Hydra vulgaris,Hydra,Cnidarians,5
+71565404,549833,6386,species,Tubifex tubifex,Sludge worm,Worms,2478
+71565502,549836,6386,species,Tubifex tubifex,Sludge worm,Worms,1303
+71888082,549834,6389,genus,Enchytraeus,Worm,Worms,6
+71745717,549835,6389,genus,Enchytraeus,Worm,Worms,19
+71747977,549837,6389,genus,Enchytraeus,Worm,Worms,5
+71473424,549833,6392,family,Lumbricidae,NA,Worms,12
+71473808,549834,6392,family,Lumbricidae,NA,Worms,26
+71474593,549835,6392,family,Lumbricidae,NA,Worms,31
+71475675,549836,6392,family,Lumbricidae,NA,Worms,23
+71476908,549837,6392,family,Lumbricidae,NA,Worms,21
+71476184,549836,6913,family,Araneidae,Orb weavers,Spiders,5
+71561107,549833,7029,species,Acyrthosiphon pisum,Pea aphid,Insects,362
+71561147,549834,7029,species,Acyrthosiphon pisum,Pea aphid,Insects,171
+71561173,549835,7029,species,Acyrthosiphon pisum,Pea aphid,Insects,537
+71561225,549836,7029,species,Acyrthosiphon pisum,Pea aphid,Insects,328
+71561278,549837,7029,species,Acyrthosiphon pisum,Pea aphid,Insects,4973
+71472648,549833,7149,family,Chironomidae,Nonbiting midges,Insects,1170
+71473663,549834,7149,family,Chironomidae,Nonbiting midges,Insects,233
+71474381,549835,7149,family,Chironomidae,Nonbiting midges,Insects,645
+71475327,549836,7149,family,Chironomidae,Nonbiting midges,Insects,1652
+71476571,549837,7149,family,Chironomidae,Nonbiting midges,Insects,803
+71561122,549833,7150,genus,Chironomus,Midges,Insects,64
+71561150,549834,7150,genus,Chironomus,Midges,Insects,79
+71561187,549835,7150,genus,Chironomus,Midges,Insects,158
+71561239,549836,7150,genus,Chironomus,Midges,Insects,71
+71472691,549833,7190,family,Simuliidae,Blackflies,Insects,235
+71474364,549835,7190,family,Simuliidae,Blackflies,Insects,67396
+71475374,549836,7190,family,Simuliidae,Blackflies,Insects,274
+71476580,549837,7190,family,Simuliidae,Blackflies,Insects,517
+71476233,549836,7201,genus,Psychoda,Drainfly; mothfly,Insects,5
+71473963,549834,7402,family,Braconidae,NA,Insects,11
+71558393,549834,7935,genus,Anguilla,Eels,Fish,134
+71565552,549837,7935,genus,Anguilla,Eels,Fish,174
+71473180,549833,7940,species,Anguilla australis,Shortfin eel,Fish,16
+71558416,549836,7940,species,Anguilla australis,Shortfin eel,Fish,2015
+71565516,549836,8015,family,Salmonidae,Salmonids,Fish,81
+71558384,549833,8016,genus,Oncorhynchus,Salmon/Trout,Fish,830
+71558411,549836,8016,genus,Oncorhynchus,Salmon/Trout,Fish,2025
+71473083,549833,8022,species,Oncorhynchus mykiss,Rainbow trout,Fish,3223
+71475891,549836,8022,species,Oncorhynchus mykiss,Rainbow trout,Fish,1654
+71558400,549835,8830,family,Anatidae,Ducks/Geese/Swan,Birds,521
+71558396,549835,8835,genus,Anas,Dabbling ducks,Birds,3227
+71558412,549836,8835,genus,Anas,Dabbling ducks,Birds,1904
+71558431,549837,8835,genus,Anas,Dabbling ducks,Birds,366
+71565486,549835,8839,species,Anas platyrhynchos,Mallard duck,Birds,11
+71558403,549835,9146,family,Meliphagidae,Honeyeaters,Birds,170
+71476881,549837,9171,genus,Sturnus,Starlings,Birds,24
+71558418,549836,9172,species,Sturnus vulgaris,Common starling,Birds,799
+71558427,549837,9172,species,Sturnus vulgaris,Common starling,Birds,4392
+71558385,549833,9186,genus,Turdus,Thrush,Birds,811
+71558389,549834,9186,genus,Turdus,Thrush,Birds,3814
+71558397,549835,9186,genus,Turdus,Thrush,Birds,2794
+71558410,549836,9186,genus,Turdus,Thrush,Birds,2171
+71558428,549837,9186,genus,Turdus,Thrush,Birds,1458
+71568542,549837,9337,species,Trichosurus vulpecula,Common brushtail possum,Mammals,125
+71558421,549836,9611,genus,Canis,Dog,Mammals,398
+71472773,549833,9612,species,Canis lupus,Dog,Mammals,1834
+71475499,549836,9612,species,Canis lupus,Dog,Mammals,4528
+71565556,549837,9612,species,Canis lupus,Dog,Mammals,36
+71476161,549836,9913,species,Bos taurus,Cattle,Mammals,5
+71475750,549836,9940,species,Ovis aries,Sheep,Mammals,2099
+71558430,549837,10117,species,Rattus rattus,Black Rat,Mammals,652
+71743203,549833,10194,genus,Brachionus,NA,Rotifers,29
+71746561,549836,10194,genus,Brachionus,NA,Rotifers,25
+71421405,549836,13069,genus,Fuchsia,NA,Plants,16
+71561109,549833,13131,species,Macrosiphum euphorbiae,Potato aphid,Insects,192
+71561223,549836,13131,species,Macrosiphum euphorbiae,Potato aphid,Insects,338
+71570898,549833,13186,genus,Parietaria,Parietarias,Plants,1467
+71570990,549835,13186,genus,Parietaria,Parietarias,Plants,1036
+71571035,549836,13186,genus,Parietaria,Parietarias,Plants,773
+71571137,549837,13186,genus,Parietaria,Parietarias,Plants,5284
+71561263,549836,13192,genus,Pemphigus,NA,Insects,20
+71570915,549833,13215,genus,Piper,Pepper plants; pepper vines,Plants,76
+71570927,549834,13215,genus,Piper,Pepper plants; pepper vines,Plants,63692
+71570988,549835,13215,genus,Piper,Pepper plants; pepper vines,Plants,1926
+71571049,549836,13215,genus,Piper,Pepper plants; pepper vines,Plants,388
+71571133,549837,13215,genus,Piper,Pepper plants; pepper vines,Plants,25907
+71743718,549833,13334,genus,Anaerobiospirillum,NA,Bacteria,5
+71475976,549836,13347,species,Armadillidium vulgare,Common pillbug,Crustaceans,9
+71571188,549837,13398,genus,Carex,Sedges,Plants,35
+71421225,549834,13578,genus,Juncus,Rushes,Plants,83
+71632164,549833,13687,genus,Sphingomonas,NA,Bacteria,23
+71633439,549834,13687,genus,Sphingomonas,NA,Bacteria,90
+71636222,549835,13687,genus,Sphingomonas,NA,Bacteria,44
+71637999,549836,13687,genus,Sphingomonas,NA,Bacteria,48
+71640174,549837,13687,genus,Sphingomonas,NA,Bacteria,42
+71931854,549837,13799,family,Sematophyllaceae,NA,Mosses,33
+71421518,549837,15324,genus,Anthoxanthum,Vernalgrasses,Plants,60
+71570941,549834,15488,genus,Ehrharta,Veldtgrass,Plants,1234
+71571081,549836,15488,genus,Ehrharta,Veldtgrass,Plants,62
+71571158,549837,15488,genus,Ehrharta,Veldtgrass,Plants,1095
+71570964,549834,15560,genus,Holcus,Soft-grasses; velvet grasses,Plants,387
+71570985,549835,15560,genus,Holcus,Soft-grasses; velvet grasses,Plants,3421
+71571084,549836,15560,genus,Holcus,Soft-grasses; velvet grasses,Plants,55
+71571150,549837,15560,genus,Holcus,Soft-grasses; velvet grasses,Plants,3314
+71571175,549837,16714,family,Juglandaceae,Walnut family,Plants,261
+71421197,549834,16739,family,Piperaceae,Pepper family,Plants,839
+71421311,549835,16739,family,Piperaceae,Pepper family,Plants,20
+71421422,549836,16739,family,Piperaceae,Pepper family,Plants,9
+71421510,549837,16739,family,Piperaceae,Pepper family,Plants,53
+71571115,549836,22656,species,Fuchsia cyrtandroides,Fuchsia,Plants,19
+71571182,549837,22656,species,Fuchsia cyrtandroides,Fuchsia,Plants,102
+71421125,549833,23129,genus,Pittosporum,NA,Plants,2757
+71421423,549836,23129,genus,Pittosporum,NA,Plants,410
+71421118,549833,23216,genus,Rubus,Bramble,Plants,386
+71421358,549836,23216,genus,Rubus,Bramble,Plants,303
+71570966,549834,23513,family,Rutaceae,Rue family,Plants,271
+71571119,549836,23513,family,Rutaceae,Rue family,Plants,15
+71571104,549836,24079,family,Bignoniaceae,Trumpet creeper family,Plants,30
+71570876,549833,24966,family,Rubiaceae,Madder family,Plants,9007
+71570934,549834,24966,family,Rubiaceae,Madder family,Plants,3688
+71931771,549836,24966,family,Rubiaceae,Madder family,Plants,169
+71571156,549837,24966,family,Rubiaceae,Madder family,Plants,1520
+71931783,549836,26339,family,Iridaceae,Iris family,Plants,80
+71570951,549834,26473,genus,Buddleja,Butterfly bush,Plants,799
+71571066,549836,26473,genus,Buddleja,Butterfly bush,Plants,147
+71931716,549833,26867,genus,Plantago,Plaintains; fleaworts,Plants,320
+71421233,549834,26867,genus,Plantago,Plaintains; fleaworts,Plants,64
+71570995,549835,26867,genus,Plantago,Plaintains; fleaworts,Plants,629
+71421391,549836,26867,genus,Plantago,Plaintains; fleaworts,Plants,123
+71421494,549837,26867,genus,Plantago,Plaintains; fleaworts,Plants,1706
+71571123,549836,27065,family,Theaceae,Tea family,Plants,12
+71473144,549833,27482,family,Aphididae,Aphids,Insects,19
+71473931,549834,27482,family,Aphididae,Aphids,Insects,12
+71474750,549835,27482,family,Aphididae,Aphids,Insects,194
+71475854,549836,27482,family,Aphididae,Aphids,Insects,82
+71476673,549837,27482,family,Aphididae,Aphids,Insects,125
+71634405,549834,28056,family,Micromonosporaceae,NA,Bacteria,14
+71636435,549835,28056,family,Micromonosporaceae,NA,Bacteria,17
+71640262,549837,28056,family,Micromonosporaceae,NA,Bacteria,22
+71631028,549833,28196,genus,Arcobacter,NA,Bacteria,701
+71633233,549834,28196,genus,Arcobacter,NA,Bacteria,133
+71635436,549835,28196,genus,Arcobacter,NA,Bacteria,203
+71637319,549836,28196,genus,Arcobacter,NA,Bacteria,1237
+71639484,549837,28196,genus,Arcobacter,NA,Bacteria,118
+71635516,549835,28253,genus,Marinomonas,NA,Bacteria,97
+71636098,549835,28256,family,Halomonadaceae,NA,Bacteria,28
+71638379,549836,28261,genus,Thermodesulfovibrio,NA,Bacteria,17
+71636039,549835,28453,genus,Sphingobacterium,NA,Bacteria,42
+71476164,549836,29204,species,Cyclotella cryptica,Brackish-water diatom,Diatoms,5
+71570973,549834,29635,family,Cyatheaceae,NA,Plants,49
+71571055,549836,29635,family,Cyatheaceae,NA,Plants,304
+71571166,549837,29635,family,Cyatheaceae,NA,Plants,615
+71421436,549836,29665,species,Briza maxima,Big quaking grass; Great quaking grass,Plants,6
+71421207,549834,29679,species,Holcus lanatus,Yorkshire fog,Plants,287
+71421275,549835,29679,species,Holcus lanatus,Yorkshire fog,Plants,995
+71421379,549836,29679,species,Holcus lanatus,Yorkshire fog,Plants,45
+71421470,549837,29679,species,Holcus lanatus,Yorkshire fog,Plants,1580
+71476234,549836,30083,family,Miridae,Leaf bugs,Insects,5
+71743443,549833,31262,family,Dugesiidae,NA,Flatworms,12
+71745460,549835,31262,family,Dugesiidae,NA,Flatworms,57
+71746479,549836,31262,family,Dugesiidae,NA,Flatworms,63
+71743218,549833,31324,genus,Goniomonas,NA,Cryptomonads,54
+71744184,549834,31324,genus,Goniomonas,NA,Cryptomonads,58
+71745311,549835,31324,genus,Goniomonas,NA,Cryptomonads,64
+71746576,549836,31324,genus,Goniomonas,NA,Cryptomonads,71
+71747743,549837,31324,genus,Goniomonas,NA,Cryptomonads,21
+71631078,549833,31989,family,Paracoccaceae,NA,Bacteria,406
+71633169,549834,31989,family,Paracoccaceae,NA,Bacteria,361
+71635357,549835,31989,family,Paracoccaceae,NA,Bacteria,529
+71637378,549836,31989,family,Paracoccaceae,NA,Bacteria,432
+71639382,549837,31989,family,Paracoccaceae,NA,Bacteria,458
+71633655,549834,32014,genus,Iodobacter,NA,Bacteria,37
+71638620,549836,32014,genus,Iodobacter,NA,Bacteria,11
+71631204,549833,32033,family,Lysobacteraceae,NA,Bacteria,140
+71633322,549834,32033,family,Lysobacteraceae,NA,Bacteria,131
+71635370,549835,32033,family,Lysobacteraceae,NA,Bacteria,352
+71637455,549836,32033,family,Lysobacteraceae,NA,Bacteria,143
+71639473,549837,32033,family,Lysobacteraceae,NA,Bacteria,222
+71744049,549834,33362,family,Delphacidae,NA,Insects,106
+71473859,549834,33406,family,Cecidomyiidae,Gall midges,Insects,33
+71474963,549835,33406,family,Cecidomyiidae,Gall midges,Insects,7
+71476152,549836,33406,family,Cecidomyiidae,Gall midges,Insects,6
+71477200,549837,33406,family,Cecidomyiidae,Gall midges,Insects,22
+71745314,549835,33644,genus,Fragilaria,NA,Diatoms,41
+71746521,549836,33644,genus,Fragilaria,NA,Diatoms,93
+71475973,549836,33852,family,Bacillariaceae,NA,Diatoms,9
+71744487,549834,33856,family,Fragilariaceae,NA,Diatoms,13
+71638314,549836,33986,genus,Exiguobacterium,NA,Bacteria,18
+71631255,549833,34008,genus,Rhodovulum,NA,Bacteria,77
+71633107,549834,34008,genus,Rhodovulum,NA,Bacteria,146
+71635535,549835,34008,genus,Rhodovulum,NA,Bacteria,88
+71637457,549836,34008,genus,Rhodovulum,NA,Bacteria,116
+71639410,549837,34008,genus,Rhodovulum,NA,Bacteria,107
+71742919,549833,34125,genus,Cladophora,Green alga,Green algae,256
+71743953,549834,34125,genus,Cladophora,Green alga,Green algae,154
+71745149,549835,34125,genus,Cladophora,Green alga,Green algae,138
+71746286,549836,34125,genus,Cladophora,Green alga,Green algae,182
+71747144,549837,34125,genus,Cladophora,Green alga,Green algae,1317
+71889694,549837,34481,family,Entomophthoraceae,NA,Fungi,21
+71743324,549833,34518,family,Plumatellidae,NA,Bryozoans,28
+71746745,549836,34518,family,Plumatellidae,NA,Bryozoans,18
+71561195,549835,34664,species,Acyrthosiphon kondoi,Blue alfalfa aphid,Insects,91
+71743030,549833,35099,genus,Cyclidium,NA,Ciliates,273
+71743981,549834,35099,genus,Cyclidium,NA,Ciliates,226
+71745080,549835,35099,genus,Cyclidium,NA,Ciliates,756
+71746340,549836,35099,genus,Cyclidium,NA,Ciliates,261
+71747178,549837,35099,genus,Cyclidium,NA,Ciliates,305
+71742909,549833,35124,genus,Melosira,Diatom,Diatoms,810
+71744069,549834,35124,genus,Melosira,Diatom,Diatoms,82
+71745131,549835,35124,genus,Melosira,Diatom,Diatoms,256
+71746251,549836,35124,genus,Melosira,Diatom,Diatoms,1815
+71747448,549837,35124,genus,Melosira,Diatom,Diatoms,37
+71743658,549833,35445,family,Trentepohliaceae,Green alga,Green algae,6
+71744464,549834,35445,family,Trentepohliaceae,Green alga,Green algae,35
+71565519,549836,35632,species,Lumbricus rubellus,Red earthworm,Worms,52
+71745833,549835,35727,genus,Prostoma,NA,Ribbon worms,9
+71747763,549837,35727,genus,Prostoma,NA,Ribbon worms,10
+71636634,549835,35838,genus,Holophaga,NA,Bacteria,13
+71421115,549833,35905,genus,Coprosma,Coprosma,Plants,7191
+71421201,549834,35905,genus,Coprosma,Coprosma,Plants,1991
+71421304,549835,35905,genus,Coprosma,Coprosma,Plants,479
+71421350,549836,35905,genus,Coprosma,Coprosma,Plants,3225
+71421473,549837,35905,genus,Coprosma,Coprosma,Plants,1650
+71473066,549833,36144,species,Isotomurus palustris,Marsh springtail,Springtails,26
+71474697,549835,36144,species,Isotomurus palustris,Marsh springtail,Springtails,17
+71476916,549837,36144,species,Isotomurus palustris,Marsh springtail,Springtails,20
+71473921,549834,36152,family,Cixiidae,NA,Insects,13
+71477287,549837,36668,family,Formicidae,NA,Insects,6
+71744434,549834,36769,genus,Paraphysomonas,Golden-brown alga,Heterokont algae,56
+71745344,549835,36769,genus,Paraphysomonas,Golden-brown alga,Heterokont algae,55
+71746718,549836,36769,genus,Paraphysomonas,Golden-brown alga,Heterokont algae,24
+71747533,549837,36769,genus,Paraphysomonas,Golden-brown alga,Heterokont algae,44
+71571063,549836,36776,genus,Elaeagnus,NA,Plants,193
+71744477,549834,37358,family,Plasmodiophoridae,Plasmodiophorids,Other,98
+71888274,549835,37358,family,Plasmodiophoridae,Plasmodiophorids,Other,119
+71889250,549836,37358,family,Plasmodiophoridae,Plasmodiophorids,Other,21
+71889554,549837,37358,family,Plasmodiophoridae,Plasmodiophorids,Other,93
+71888631,549835,37387,genus,Leptosira,NA,Green algae,9
+71743094,549833,37473,genus,Trithigmostoma,NA,Ciliates,90
+71887861,549834,37473,genus,Trithigmostoma,NA,Ciliates,17
+71745442,549835,37473,genus,Trithigmostoma,NA,Ciliates,43
+71746330,549836,37473,genus,Trithigmostoma,NA,Ciliates,193
+71747405,549837,37473,genus,Trithigmostoma,NA,Ciliates,63
+71558391,549834,37598,species,Fringilla coelebs,Common chaffinch,Birds,1484
+71558398,549835,37598,species,Fringilla coelebs,Common chaffinch,Birds,610
+71743926,549834,37867,genus,Spirostomum,Ciliate,Ciliates,563
+71570998,549835,37871,genus,Glyceria,Mannagrasses; sweet-grasses,Plants,441
+71743384,549833,38821,genus,Pteridomonas,NA,Heterokont algae,15
+71746890,549836,38821,genus,Pteridomonas,NA,Heterokont algae,7
+71571065,549836,39020,family,Escalloniaceae,NA,Plants,159
+71744499,549834,39217,genus,Macrostomum,NA,Flatworms,36
+71747897,549837,39217,genus,Macrostomum,NA,Flatworms,7
+71744486,549834,39219,genus,Prorhynchus,NA,Flatworms,28
+71745793,549835,39219,genus,Prorhynchus,NA,Flatworms,10
+71747862,549837,39219,genus,Prorhynchus,NA,Flatworms,18
+71405513,549833,39238,genus,Stenostomum,Freshwater catenulid flatworm,Flatworms,166
+71405560,549834,39238,genus,Stenostomum,Freshwater catenulid flatworm,Flatworms,108
+71405603,549836,39238,genus,Stenostomum,Freshwater catenulid flatworm,Flatworms,391
+71405677,549837,39238,genus,Stenostomum,Freshwater catenulid flatworm,Flatworms,74
+71421309,549835,39414,species,Plantago lanceolata,"Ribwort plantain, narrowleaf plantain, English plantain, ribleaf, lamb's tongue, buckhorn",Plants,24
+71742923,549833,39458,genus,Loxophyllum,NA,Ciliates,468
+71743956,549834,39458,genus,Loxophyllum,NA,Ciliates,328
+71745642,549835,39458,genus,Loxophyllum,NA,Ciliates,15
+71746257,549836,39458,genus,Loxophyllum,NA,Ciliates,804
+71747232,549837,39458,genus,Loxophyllum,NA,Ciliates,164
+71421138,549833,39500,genus,Cordyline,NA,Plants,106
+71888749,549835,39716,genus,Paulinella,NA,Other,5
+71746982,549836,39716,genus,Paulinella,NA,Other,5
+71638430,549836,39948,genus,Dialister,NA,Bacteria,16
+71421192,549834,40010,genus,Haloragis,NA,Plants,1502
+71421413,549836,40010,genus,Haloragis,NA,Plants,14
+71421508,549837,40010,genus,Haloragis,NA,Plants,108
+71631936,549833,40544,genus,Sutterella,NA,Bacteria,21
+71571009,549835,40552,family,Asparagaceae,Asparagus family,Plants,243
+71571062,549836,40552,family,Asparagaceae,Asparagus family,Plants,190
+71421130,549833,40685,genus,Salix,Willows,Plants,172
+71421353,549836,40685,genus,Salix,Willows,Plants,458
+71473391,549833,40931,genus,Rhopalosiphum,Aphid,Insects,7
+71473935,549834,40931,genus,Rhopalosiphum,Aphid,Insects,12
+71475841,549836,40931,genus,Rhopalosiphum,Aphid,Insects,13
+71476835,549837,40931,genus,Rhopalosiphum,Aphid,Insects,30
+71561152,549834,40932,species,Rhopalosiphum padi,Bird cherry-oat aphid,Insects,63
+71561198,549835,40932,species,Rhopalosiphum padi,Bird cherry-oat aphid,Insects,79
+71561250,549836,40932,species,Rhopalosiphum padi,Bird cherry-oat aphid,Insects,42
+71743725,549833,40980,genus,Dictyochloropsis,Green alga,Green algae,5
+71745778,549835,41042,family,Tipulidae,Crane flies,Insects,20
+71747422,549837,41042,family,Tipulidae,Crane flies,Insects,40
+71476051,549836,41097,family,Cantharidae,Soldier beetles,Insects,7
+71631379,549833,41275,genus,Brevundimonas,NA,Bacteria,94
+71633365,549834,41275,genus,Brevundimonas,NA,Bacteria,111
+71635870,549835,41275,genus,Brevundimonas,NA,Bacteria,98
+71637718,549836,41275,genus,Brevundimonas,NA,Bacteria,131
+71640087,549837,41275,genus,Brevundimonas,NA,Bacteria,62
+71747245,549837,41294,family,Nitrobacteraceae,NA,Bacteria,89
+71631116,549833,41297,family,Sphingomonadaceae,NA,Bacteria,249
+71633433,549834,41297,family,Sphingomonadaceae,NA,Bacteria,52
+71635718,549835,41297,family,Sphingomonadaceae,NA,Bacteria,91
+71637440,549836,41297,family,Sphingomonadaceae,NA,Bacteria,256
+71639471,549837,41297,family,Sphingomonadaceae,NA,Bacteria,164
+71565450,549834,41366,species,Prostoma eilhardi,Freshwater ribbon worm,Ribbon worms,52
+71565545,549837,41366,species,Prostoma eilhardi,Freshwater ribbon worm,Ribbon worms,888
+71744224,549834,41372,family,Chaetonotidae,NA,Other,27
+71889232,549836,41372,family,Chaetonotidae,NA,Other,13
+71744159,549834,41455,genus,Polymyxa,NA,Other,74
+71745158,549835,41455,genus,Polymyxa,NA,Other,249
+71747221,549837,41455,genus,Polymyxa,NA,Other,284
+71570955,549834,41617,genus,Osteospermum,daisybushes,Plants,691
+71571176,549837,41617,genus,Osteospermum,daisybushes,Plants,259
+71571051,549836,41776,species,Nandina domestica,Heavenly bamboo,Plants,287
+71421434,549836,42088,genus,Rytidosperma,Grasses,Plants,6
+71888730,549835,42244,genus,Macrobiotus,NA,Other,6
+71421218,549834,42332,species,Centranthus ruber,Red valerian,Plants,99
+71558417,549836,43581,species,Zosterops lateralis,Silvereye,Birds,851
+71421389,549836,43718,genus,Dodonaea,hop-bushes,Plants,32
+71640992,549837,43773,genus,Syntrophus,NA,Bacteria,8
+71743293,549833,43807,subfamily,Diamesinae,NA,Insects,27
+71744482,549834,43807,subfamily,Diamesinae,NA,Insects,13
+71745127,549835,43807,subfamily,Diamesinae,NA,Insects,285
+71746666,549836,43807,subfamily,Diamesinae,NA,Insects,45
+71747373,549837,43807,subfamily,Diamesinae,NA,Insects,62
+71743173,549833,43808,subfamily,Orthocladiinae,NA,Insects,53
+71744478,549834,43808,subfamily,Orthocladiinae,NA,Insects,13
+71745115,549835,43808,subfamily,Orthocladiinae,NA,Insects,298
+71746355,549836,43808,subfamily,Orthocladiinae,NA,Insects,104
+71747279,549837,43808,subfamily,Orthocladiinae,NA,Insects,98
+71745069,549835,43813,subfamily,Simuliinae,NA,Insects,1712
+71889371,549836,43813,subfamily,Simuliinae,NA,Insects,6
+71744498,549834,43938,genus,Pseudendoclonium,Green alga,Green algae,41
+71747856,549837,43938,genus,Pseudendoclonium,Green alga,Green algae,27
+71745491,549835,43940,genus,Ulothrix,Green alga,Green algae,24
+71631198,549833,43947,genus,Tolumonas,NA,Bacteria,138
+71633977,549834,43947,genus,Tolumonas,NA,Bacteria,50
+71637456,549836,43947,genus,Tolumonas,NA,Bacteria,150
+71640210,549837,43947,genus,Tolumonas,NA,Bacteria,23
+71631143,549833,44013,genus,Polynucleobacter,NA,Bacteria,154
+71637571,549836,44013,genus,Polynucleobacter,NA,Bacteria,97
+71561118,549833,44658,species,Myzus ornatus,Ornate aphid; violet aphid,Insects,77
+71477147,549837,44658,species,Myzus ornatus,Ornate aphid; violet aphid,Insects,384
+71472906,549833,44662,genus,Sitobion,NA,Insects,202
+71561197,549835,44662,genus,Sitobion,NA,Insects,89
+71561218,549836,44662,genus,Sitobion,NA,Insects,1043
+71636960,549835,44675,genus,Geothrix,NA,Bacteria,7
+71638067,549836,44675,genus,Geothrix,NA,Bacteria,25
+71887342,549833,45108,family,Cercomonadidae,Flagellate,Other,11
+71744255,549834,45108,family,Cercomonadidae,Flagellate,Other,172
+71745498,549835,45108,family,Cercomonadidae,Flagellate,Other,89
+71746620,549836,45108,family,Cercomonadidae,Flagellate,Other,71
+71747535,549837,45108,family,Cercomonadidae,Flagellate,Other,85
+71743089,549833,45109,genus,Cercomonas,NA,Other,84
+71743978,549834,45109,genus,Cercomonas,NA,Other,287
+71745333,549835,45109,genus,Cercomonas,NA,Other,84
+71746452,549836,45109,genus,Cercomonas,NA,Other,98
+71747375,549837,45109,genus,Cercomonas,NA,Other,74
+71743061,549833,45115,genus,Oikomonas,NA,Heterokont algae,58
+71746402,549836,45115,genus,Oikomonas,NA,Heterokont algae,96
+71421245,549834,45317,genus,Tetragonia,NA,Plants,35
+71421327,549835,45317,genus,Tetragonia,NA,Plants,9
+71421553,549837,45317,genus,Tetragonia,NA,Plants,13
+71631225,549833,45401,family,Hyphomicrobiaceae,NA,Bacteria,167
+71633193,549834,45401,family,Hyphomicrobiaceae,NA,Bacteria,308
+71635636,549835,45401,family,Hyphomicrobiaceae,NA,Bacteria,144
+71637492,549836,45401,family,Hyphomicrobiaceae,NA,Bacteria,166
+71639522,549837,45401,family,Hyphomicrobiaceae,NA,Bacteria,222
+71931768,549836,46408,genus,Pseudopanax,NA,Plants,205
+71633987,549834,46913,genus,Devosia,NA,Bacteria,45
+71636368,549835,46913,genus,Devosia,NA,Bacteria,19
+71638399,549836,46913,genus,Devosia,NA,Bacteria,16
+71640296,549837,46913,genus,Devosia,NA,Bacteria,42
+71631034,549833,47420,genus,Hydrogenophaga,NA,Bacteria,734
+71633033,549834,47420,genus,Hydrogenophaga,NA,Bacteria,431
+71635369,549835,47420,genus,Hydrogenophaga,NA,Bacteria,607
+71637331,549836,47420,genus,Hydrogenophaga,NA,Bacteria,857
+71639261,549837,47420,genus,Hydrogenophaga,NA,Bacteria,528
+71631620,549833,47494,genus,Pedomicrobium,NA,Bacteria,33
+71634029,549834,47494,genus,Pedomicrobium,NA,Bacteria,23
+71636501,549835,47494,genus,Pedomicrobium,NA,Bacteria,16
+71638409,549836,47494,genus,Pedomicrobium,NA,Bacteria,16
+71640562,549837,47494,genus,Pedomicrobium,NA,Bacteria,15
+71421131,549833,47518,genus,Calystegia,bindweed,Plants,201
+71421374,549836,47518,genus,Calystegia,bindweed,Plants,59
+71421114,549833,47519,species,Calystegia sepium,Hedge bindweed,Plants,575
+71421334,549835,48248,species,Coriaria arborea,tutu,Plants,7
+71631803,549833,48463,genus,Prosthecobacter,NA,Bacteria,25
+71637511,549836,48463,genus,Prosthecobacter,NA,Bacteria,92
+71558420,549836,48849,species,Passer domesticus,House sparrow,Birds,711
+71630994,549833,49546,family,Flavobacteriaceae,NA,Bacteria,4960
+71632953,549834,49546,family,Flavobacteriaceae,NA,Bacteria,4347
+71635296,549835,49546,family,Flavobacteriaceae,NA,Bacteria,3065
+71638914,549836,49546,family,Flavobacteriaceae,NA,Bacteria,4769
+71639193,549837,49546,family,Flavobacteriaceae,NA,Bacteria,3973
+71570886,549833,49606,genus,Lonicera,Honeysuckles,Plants,2716
+71421414,549836,49606,genus,Lonicera,Honeysuckles,Plants,490
+71421172,549833,49743,genus,Taraxacum,dandelions,Plants,8
+71421439,549836,49743,genus,Taraxacum,dandelions,Plants,5
+71421565,549837,49743,genus,Taraxacum,dandelions,Plants,7
+71421253,549834,50190,genus,Sonchus,NA,Plants,17
+71421483,549837,50190,genus,Sonchus,NA,Plants,234
+71476628,549837,50443,genus,Hydropsyche,Netspinning caddisfly,Insects,153
+71475071,549835,50638,subfamily,Eumeninae,Potter wasps,Insects,5
+71743001,549833,50949,genus,Navicula,Diatom,Diatoms,169
+71743960,549834,50949,genus,Navicula,Diatom,Diatoms,494
+71745066,549835,50949,genus,Navicula,Diatom,Diatoms,3704
+71746376,549836,50949,genus,Navicula,Diatom,Diatoms,283
+71747172,549837,50949,genus,Navicula,Diatom,Diatoms,598
+71568535,549836,51242,genus,Galaxias,Galaxiids,Fish,495
+71887325,549833,51333,genus,Rhynchobodo,NA,Other,12
+71889158,549836,51333,genus,Rhynchobodo,NA,Other,20
+71571109,549836,51426,genus,Agapanthus,NA,Plants,23
+71421534,549837,51474,genus,Phormium,NZ Flax,Plants,24
+71570968,549834,51475,species,Phormium tenax,NZ flax,Plants,142
+71571007,549835,51475,species,Phormium tenax,NZ flax,Plants,289
+71571085,549836,51475,species,Phormium tenax,NZ flax,Plants,54
+71571148,549837,51475,species,Phormium tenax,NZ flax,Plants,1795
+71421162,549833,52138,genus,Arrhenatherum,NA,Plants,64
+71421202,549834,52138,genus,Arrhenatherum,NA,Plants,547
+71421287,549835,52138,genus,Arrhenatherum,NA,Plants,147
+71421354,549836,52138,genus,Arrhenatherum,NA,Plants,292
+71421486,549837,52138,genus,Arrhenatherum,NA,Plants,407
+71421107,549833,52139,species,Arrhenatherum elatius,NA,Plants,1384
+71421191,549834,52139,species,Arrhenatherum elatius,NA,Plants,1404
+71421276,549835,52139,species,Arrhenatherum elatius,NA,Plants,532
+71421347,549836,52139,species,Arrhenatherum elatius,NA,Plants,683
+71421466,549837,52139,species,Arrhenatherum elatius,NA,Plants,1956
+71631187,549833,52972,genus,Polaromonas,NA,Bacteria,100
+71633003,549834,52972,genus,Polaromonas,NA,Bacteria,349
+71635330,549835,52972,genus,Polaromonas,NA,Bacteria,379
+71637436,549836,52972,genus,Polaromonas,NA,Bacteria,134
+71639273,549837,52972,genus,Polaromonas,NA,Bacteria,244
+71421570,549837,53171,genus,Stachys,NA,Plants,5
+71636139,549835,53246,genus,Pseudoalteromonas,NA,Bacteria,35
+71570939,549834,54173,species,Carpodetus serratus,Putaputaweta,Plants,1593
+71571178,549837,54173,species,Carpodetus serratus,Putaputaweta,Plants,238
+71561126,549833,54970,subfamily,Chironominae,NA,Insects,48
+71476012,549836,55077,genus,Monomorium,NA,Insects,8
+71889058,549836,55195,genus,Enchelyodon,NA,Ciliates,37
+71744441,549834,55815,family,Aeolosomatidae,NA,Worms,50
+71746820,549836,55815,family,Aeolosomatidae,NA,Worms,19
+71747876,549837,55815,family,Aeolosomatidae,NA,Worms,7
+71743102,549833,55816,genus,Aeolosoma,Minute freshwater worm,Worms,74
+71743997,549834,55816,genus,Aeolosoma,Minute freshwater worm,Worms,178
+71745705,549835,55816,genus,Aeolosoma,Minute freshwater worm,Worms,23
+71746339,549836,55816,genus,Aeolosoma,Minute freshwater worm,Worms,285
+71747392,549837,55816,genus,Aeolosoma,Minute freshwater worm,Worms,58
+71743478,549833,55993,genus,Oedogonium,Filamentous green alga,Green algae,131
+71745081,549835,55993,genus,Oedogonium,Filamentous green alga,Green algae,1068
+71888883,549836,55993,genus,Oedogonium,Filamentous green alga,Green algae,275
+71474903,549835,56364,species,Agrotis ipsilon,"Dark sword-grass; Black cutworm, Greasy cutworm, Floodplain cutworm;Ipsilon dart",Insects,8
+71742967,549833,56451,genus,Petalomonas,NA,Other,147
+71744440,549834,56451,genus,Petalomonas,NA,Other,15
+71745480,549835,56451,genus,Petalomonas,NA,Other,24
+71746316,549836,56451,genus,Petalomonas,NA,Other,118
+71747572,549837,56451,genus,Petalomonas,NA,Other,18
+71421110,549833,57115,genus,Myoporum,NA,Plants,790
+71421348,549836,57115,genus,Myoporum,NA,Plants,501
+71636924,549835,57479,genus,Microvirgula,NA,Bacteria,8
+71742921,549833,57506,family,Oxytrichidae,NA,Ciliates,397
+71744180,549834,57506,family,Oxytrichidae,NA,Ciliates,69
+71745086,549835,57506,family,Oxytrichidae,NA,Ciliates,870
+71746254,549836,57506,family,Oxytrichidae,NA,Ciliates,1196
+71747146,549837,57506,family,Oxytrichidae,NA,Ciliates,1796
+71631570,549833,57665,genus,Sulfurospirillum,NA,Bacteria,36
+71633918,549834,57665,genus,Sulfurospirillum,NA,Bacteria,26
+71636018,549835,57665,genus,Sulfurospirillum,NA,Bacteria,31
+71637554,549836,57665,genus,Sulfurospirillum,NA,Bacteria,93
+71640003,549837,57665,genus,Sulfurospirillum,NA,Bacteria,30
+71631210,549833,57739,genus,Vogesella,NA,Bacteria,90
+71633446,549834,57739,genus,Vogesella,NA,Bacteria,51
+71635496,549835,57739,genus,Vogesella,NA,Bacteria,106
+71637557,549836,57739,genus,Vogesella,NA,Bacteria,77
+71639549,549837,57739,genus,Vogesella,NA,Bacteria,69
+71571047,549836,58027,species,Agathis australis,kauri,Plants,405
+71571114,549836,58706,genus,Sisyrinchium,Blue-eyed grasses,Plants,20
+71631330,549833,59732,genus,Chryseobacterium,NA,Bacteria,64
+71633864,549834,59732,genus,Chryseobacterium,NA,Bacteria,28
+71637710,549836,59732,genus,Chryseobacterium,NA,Bacteria,51
+71931804,549836,59907,genus,Schismus,NA,Plants,13
+71743544,549833,60002,genus,Frontonia,NA,Ciliates,15
+71745301,549835,60002,genus,Frontonia,NA,Ciliates,60
+71746723,549836,60002,genus,Frontonia,NA,Ciliates,25
+71747396,549837,60002,genus,Frontonia,NA,Ciliates,62
+71887585,549834,60004,family,Strombidiidae,NA,Ciliates,326
+71889575,549837,60004,family,Strombidiidae,NA,Ciliates,63
+71745272,549835,60005,genus,Strombidium,NA,Ciliates,51
+71742941,549833,60849,genus,Vorticella,NA,Ciliates,284
+71744615,549834,60849,genus,Vorticella,NA,Ciliates,9
+71745062,549835,60849,genus,Vorticella,NA,Ciliates,1547
+71746261,549836,60849,genus,Vorticella,NA,Ciliates,443
+71747186,549837,60849,genus,Vorticella,NA,Ciliates,335
+71472710,549833,61127,species,Anguilla dieffenbachii,Longfin eel,Fish,186
+71473655,549834,61127,species,Anguilla dieffenbachii,Longfin eel,Fish,11906
+71474407,549835,61127,species,Anguilla dieffenbachii,Longfin eel,Fish,6752
+71475413,549836,61127,species,Anguilla dieffenbachii,Longfin eel,Fish,12365
+71476620,549837,61127,species,Anguilla dieffenbachii,Longfin eel,Fish,17697
+71472718,549833,61662,species,Lumbriculus variegatus,Blackworm,Worms,456
+71475426,549836,61662,species,Lumbriculus variegatus,Blackworm,Worms,2164
+71570897,549833,62695,genus,Metrosideros,Myrtle,Plants,1524
+71421420,549836,62695,genus,Metrosideros,Myrtle,Plants,119
+71744410,549834,63236,genus,Waitea,NA,Fungi,17
+71747630,549837,63236,genus,Waitea,NA,Fungi,15
+71743154,549833,63335,genus,Dexiostoma,NA,Ciliates,33
+71746411,549836,63335,genus,Dexiostoma,NA,Ciliates,99
+71632215,549833,64001,genus,Nevskia,NA,Bacteria,13
+71636155,549835,64001,genus,Nevskia,NA,Bacteria,25
+71638434,549836,64001,genus,Nevskia,NA,Bacteria,15
+71475725,549836,65023,genus,Ctenopseustis,Brownheaded leafroller moth,Insects,19
+71476006,549836,65025,genus,Planotortrix,Blacklegged leafroller moth,Insects,8
+71421196,549834,65948,species,Nasturtium officinale,Watercress,Plants,2579
+71421283,549835,65948,species,Nasturtium officinale,Watercress,Plants,959
+71421409,549836,65948,species,Nasturtium officinale,Watercress,Plants,403
+71421467,549837,65948,species,Nasturtium officinale,Watercress,Plants,4019
+71565497,549836,66447,species,Galaxias brevipinnis,Koaro,Fish,2038
+71744357,549834,67474,family,Naviculaceae,NA,Diatoms,54
+71745205,549835,67474,family,Naviculaceae,NA,Diatoms,168
+71747421,549837,67474,family,Naviculaceae,NA,Diatoms,73
+71631011,549833,67575,genus,Rheinheimera,NA,Bacteria,831
+71633012,549834,67575,genus,Rheinheimera,NA,Bacteria,323
+71635315,549835,67575,genus,Rheinheimera,NA,Bacteria,619
+71637328,549836,67575,genus,Rheinheimera,NA,Bacteria,577
+71639233,549837,67575,genus,Rheinheimera,NA,Bacteria,449
+71472864,549833,68038,genus,Chaetonotus,Gastrotrich,Other,1383
+71473947,549834,68038,genus,Chaetonotus,Gastrotrich,Other,1975
+71474707,549835,68038,genus,Chaetonotus,Gastrotrich,Other,68
+71475739,549836,68038,genus,Chaetonotus,Gastrotrich,Other,368
+71476569,549837,68038,genus,Chaetonotus,Gastrotrich,Other,5224
+71889411,549836,68460,subfamily,Hexamitinae,NA,Other,5
+71472763,549833,69196,species,Brevicoryne brassicae,Cabbage aphid,Insects,1419
+71561153,549834,69196,species,Brevicoryne brassicae,Cabbage aphid,Insects,52
+71474481,549835,69196,species,Brevicoryne brassicae,Cabbage aphid,Insects,4321
+71475552,549836,69196,species,Brevicoryne brassicae,Cabbage aphid,Insects,4257
+71561314,549837,69196,species,Brevicoryne brassicae,Cabbage aphid,Insects,34
+71631599,549833,69277,family,Phyllobacteriaceae,NA,Bacteria,34
+71633116,549834,69277,family,Phyllobacteriaceae,NA,Bacteria,165
+71635620,549835,69277,family,Phyllobacteriaceae,NA,Bacteria,69
+71637472,549836,69277,family,Phyllobacteriaceae,NA,Bacteria,108
+71639435,549837,69277,family,Phyllobacteriaceae,NA,Bacteria,167
+71888008,549834,69518,genus,Caenoplana,NA,Flatworms,8
+71887283,549833,69520,genus,Cura,NA,Flatworms,15
+71745528,549835,69520,genus,Cura,NA,Flatworms,21
+71746882,549836,69520,genus,Cura,NA,Flatworms,19
+71571071,549836,69721,species,Zantedeschia aethiopica,Calla lily; Arum lily,Plants,97
+71743540,549833,70185,genus,Spongospora,NA,Other,9
+71744008,549834,70185,genus,Spongospora,NA,Other,79
+71745088,549835,70185,genus,Spongospora,NA,Other,906
+71746880,549836,70185,genus,Spongospora,NA,Other,7
+71747218,549837,70185,genus,Spongospora,NA,Other,130
+71744003,549834,70188,genus,Olpidium,NA,Fungi,189
+71745063,549835,70188,genus,Olpidium,NA,Fungi,2030
+71747175,549837,70188,genus,Olpidium,NA,Fungi,518
+71421157,549833,70607,species,Sophora microphylla,Kowhai,Plants,51
+71887725,549834,71233,genus,Orychophragmus,NA,Plants,38
+71745546,549835,71233,genus,Orychophragmus,NA,Plants,34
+71747256,549837,71233,genus,Orychophragmus,NA,Plants,135
+71633213,549834,71655,genus,Brenneria,NA,Bacteria,89
+71635616,549835,71655,genus,Brenneria,NA,Bacteria,69
+71638339,549836,71655,genus,Brenneria,NA,Bacteria,17
+71639468,549837,71655,genus,Brenneria,NA,Bacteria,85
+71476163,549836,72013,species,Porphyrio melanotus,Pukeko,Birds,2280
+71631087,549833,72294,family,Campylobacteraceae,NA,Bacteria,223
+71633624,549834,72294,family,Campylobacteraceae,NA,Bacteria,39
+71635953,549835,72294,family,Campylobacteraceae,NA,Bacteria,35
+71638917,549836,72294,family,Campylobacteraceae,NA,Bacteria,349
+71640171,549837,72294,family,Campylobacteraceae,NA,Bacteria,24
+71421384,549836,72371,species,Paraserianthes lophantha,NA,Plants,38
+71421240,549834,72958,genus,Olearia,Daisy-bush,Plants,49
+71744582,549834,73345,family,Opecoelidae,NA,Flatworms,10
+71747425,549837,73345,family,Opecoelidae,NA,Flatworms,28
+71472650,549833,74726,genus,Chaetogaster,Oligochaete worm,Worms,890
+71473648,549834,74726,genus,Chaetogaster,Oligochaete worm,Worms,249
+71474383,549835,74726,genus,Chaetogaster,Oligochaete worm,Worms,479
+71475319,549836,74726,genus,Chaetogaster,Oligochaete worm,Worms,3364
+71476562,549837,74726,genus,Chaetogaster,Oligochaete worm,Worms,1472
+71565406,549833,74727,species,Chaetogaster diastrophus,Oligochaete worm,Worms,1910
+71473911,549834,74727,species,Chaetogaster diastrophus,Oligochaete worm,Worms,13
+71474541,549835,74727,species,Chaetogaster diastrophus,Oligochaete worm,Worms,691
+71565490,549836,74727,species,Chaetogaster diastrophus,Oligochaete worm,Worms,8514
+71477269,549837,74727,species,Chaetogaster diastrophus,Oligochaete worm,Worms,6
+71472635,549833,74730,genus,Nais,Sludgeworm,Worms,21434
+71473708,549834,74730,genus,Nais,Sludgeworm,Worms,11447
+71474370,549835,74730,genus,Nais,Sludgeworm,Worms,16138
+71475318,549836,74730,genus,Nais,Sludgeworm,Worms,13070
+71476668,549837,74730,genus,Nais,Sludgeworm,Worms,25700
+71472950,549833,74736,species,Nais elinguis,Sludgeworm,Worms,1367
+71473758,549834,74736,species,Nais elinguis,Sludgeworm,Worms,287
+71474519,549835,74736,species,Nais elinguis,Sludgeworm,Worms,422
+71475461,549836,74736,species,Nais elinguis,Sludgeworm,Worms,185
+71476832,549837,74736,species,Nais elinguis,Sludgeworm,Worms,1395
+71744403,549834,74741,genus,Paranais,Worm,Worms,46
+71631270,549833,75682,family,Oxalobacteraceae,NA,Bacteria,74
+71633310,549834,75682,family,Oxalobacteraceae,NA,Bacteria,68
+71635850,549835,75682,family,Oxalobacteraceae,NA,Bacteria,42
+71637677,549836,75682,family,Oxalobacteraceae,NA,Bacteria,55
+71639974,549837,75682,family,Oxalobacteraceae,NA,Bacteria,31
+71421111,549833,75704,species,Salix alba,White willow,Plants,714
+71421346,549836,75704,species,Salix alba,White willow,Plants,1005
+71631190,549833,75787,family,Rhodocyclaceae,NA,Bacteria,97
+71633231,549834,75787,family,Rhodocyclaceae,NA,Bacteria,124
+71635469,549835,75787,family,Rhodocyclaceae,NA,Bacteria,121
+71637491,549836,75787,family,Rhodocyclaceae,NA,Bacteria,99
+71639428,549837,75787,family,Rhodocyclaceae,NA,Bacteria,168
+71632152,549833,76008,genus,Fusibacter,NA,Bacteria,15
+71637873,549836,76008,genus,Fusibacter,NA,Bacteria,36
+71931763,549836,76024,genus,Fallopia,NA,Plants,640
+71421241,549834,76038,genus,Muehlenbeckia,Maidenhair,Plants,47
+71421328,549835,76038,genus,Muehlenbeckia,Maidenhair,Plants,8
+71421345,549836,76038,genus,Muehlenbeckia,Maidenhair,Plants,45243
+71421556,549837,76038,genus,Muehlenbeckia,Maidenhair,Plants,11
+71565526,549836,76584,genus,Aulodrilus,Aquatic oligochaete worm,Worms,6
+71565438,549834,76587,species,Limnodrilus hoffmeisteri,Redworm,Worms,522
+71631648,549833,76890,genus,Asticcacaulis,NA,Bacteria,58
+71633158,549834,76890,genus,Asticcacaulis,NA,Bacteria,212
+71635533,549835,76890,genus,Asticcacaulis,NA,Bacteria,189
+71638137,549836,76890,genus,Asticcacaulis,NA,Bacteria,55
+71639476,549837,76890,genus,Asticcacaulis,NA,Bacteria,129
+71631153,549833,76892,family,Caulobacteraceae,NA,Bacteria,220
+71633019,549834,76892,family,Caulobacteraceae,NA,Bacteria,522
+71635374,549835,76892,family,Caulobacteraceae,NA,Bacteria,471
+71637394,549836,76892,family,Caulobacteraceae,NA,Bacteria,364
+71639348,549837,76892,family,Caulobacteraceae,NA,Bacteria,285
+71746700,549836,77569,family,Lumbriculidae,NA,Worms,26
+71747866,549837,77569,family,Lumbriculidae,NA,Worms,7
+71473832,549834,77571,species,Stylodrilus heringianus,Worm,Worms,21
+71474463,549835,77571,species,Stylodrilus heringianus,Worm,Worms,426
+71475987,549836,77571,species,Stylodrilus heringianus,Worm,Worms,8
+71476724,549837,77571,species,Stylodrilus heringianus,Worm,Worms,1761
+71475089,549835,77730,genus,Fridericia,Worm,Worms,5
+71636281,549835,79206,genus,Desulfosporosinus,NA,Bacteria,21
+71634351,549834,79328,genus,Chitinophaga,NA,Bacteria,15
+71631037,549833,80864,family,Comamonadaceae,NA,Bacteria,650
+71633097,549834,80864,family,Comamonadaceae,NA,Bacteria,401
+71635337,549835,80864,family,Comamonadaceae,NA,Bacteria,521
+71637327,549836,80864,family,Comamonadaceae,NA,Bacteria,782
+71639250,549837,80864,family,Comamonadaceae,NA,Bacteria,507
+71638828,549836,81466,genus,Aminobacterium,NA,Bacteria,8
+71887772,549834,81529,family,Salpingoecidae,NA,Other,38
+71888448,549835,81529,family,Salpingoecidae,NA,Other,39
+71889670,549837,81529,family,Salpingoecidae,NA,Other,24
+71635630,549835,81682,genus,Methylovorus,NA,Bacteria,66
+71474724,549835,81703,species,Spilogona sp.,NA,Insects,15
+71476189,549836,81703,species,Spilogona sp.,NA,Insects,5
+71631475,549833,82115,family,Rhizobiaceae,NA,Bacteria,44
+71633189,549834,82115,family,Rhizobiaceae,NA,Bacteria,141
+71635656,549835,82115,family,Rhizobiaceae,NA,Bacteria,102
+71639587,549837,82115,family,Rhizobiaceae,NA,Bacteria,65
+71634481,549834,82978,genus,Budvicia,NA,Bacteria,13
+71636912,549835,82978,genus,Budvicia,NA,Bacteria,8
+71640561,549837,82978,genus,Budvicia,NA,Bacteria,15
+71631400,549833,83551,genus,Parachlamydia,NA,Bacteria,52
+71635053,549834,83551,genus,Parachlamydia,NA,Bacteria,5
+71638372,549836,83551,genus,Parachlamydia,NA,Bacteria,17
+71640963,549837,83551,genus,Parachlamydia,NA,Bacteria,8
+71632194,549833,83618,genus,Pseudoxanthomonas,NA,Bacteria,14
+71634668,549834,83618,genus,Pseudoxanthomonas,NA,Bacteria,10
+71636709,549835,83618,genus,Pseudoxanthomonas,NA,Bacteria,12
+71638548,549836,83763,family,Succinivibrionaceae,NA,Bacteria,13
+71638306,549836,83766,genus,Propionivibrio,NA,Bacteria,18
+71746790,549836,84088,genus,Microdalyellia,NA,Flatworms,18
+71742902,549833,84092,subspecies,Stenostomum leucops aquariorum,NA,Flatworms,980
+71743928,549834,84092,subspecies,Stenostomum leucops aquariorum,NA,Flatworms,453
+71745175,549835,84092,subspecies,Stenostomum leucops aquariorum,NA,Flatworms,187
+71746241,549836,84092,subspecies,Stenostomum leucops aquariorum,NA,Flatworms,4836
+71747190,549837,84092,subspecies,Stenostomum leucops aquariorum,NA,Flatworms,387
+71745065,549835,84315,family,Cyclopidae,NA,Crustaceans,1848
+71746344,549836,84315,family,Cyclopidae,NA,Crustaceans,180
+71743248,549833,84316,genus,Eucyclops,Copepod,Crustaceans,24
+71746449,549836,84316,genus,Eucyclops,Copepod,Crustaceans,103
+71472852,549833,84397,species,Asplanchna sieboldii,Rotifer,Rotifers,64
+71631316,549833,84566,family,Sphingobacteriaceae,NA,Bacteria,65
+71636125,549835,84566,family,Sphingobacteriaceae,NA,Bacteria,27
+71637599,549836,84566,family,Sphingobacteriaceae,NA,Bacteria,69
+71640838,549837,84566,family,Sphingobacteriaceae,NA,Bacteria,10
+71631613,549833,84567,genus,Pedobacter,NA,Bacteria,91
+71633017,549834,84567,genus,Pedobacter,NA,Bacteria,554
+71635288,549835,84567,genus,Pedobacter,NA,Bacteria,2235
+71637669,549836,84567,genus,Pedobacter,NA,Bacteria,116
+71639189,549837,84567,genus,Pedobacter,NA,Bacteria,3496
+71631499,549833,84642,family,Aeromonadaceae,NA,Bacteria,42
+71631396,549833,85023,family,Microbacteriaceae,NA,Bacteria,85
+71633252,549834,85023,family,Microbacteriaceae,NA,Bacteria,208
+71636249,549835,85023,family,Microbacteriaceae,NA,Bacteria,59
+71637561,549836,85023,family,Microbacteriaceae,NA,Bacteria,147
+71639696,549837,85023,family,Microbacteriaceae,NA,Bacteria,114
+71633363,549834,85413,genus,Bosea,NA,Bacteria,82
+71638628,549836,85413,genus,Bosea,NA,Bacteria,11
+71639944,549837,85413,genus,Bosea,NA,Bacteria,45
+71743104,549833,85904,family,Vorticellidae,NA,Ciliates,49
+71745185,549835,85904,family,Vorticellidae,NA,Ciliates,97
+71746322,549836,85904,family,Vorticellidae,NA,Ciliates,123
+71888045,549834,86017,genus,Salpingoeca,NA,Other,7
+71745461,549835,86017,genus,Salpingoeca,NA,Other,38
+71746883,549836,86017,genus,Salpingoeca,NA,Other,7
+71747918,549837,86017,genus,Salpingoeca,NA,Other,17
+71565492,549836,86236,genus,Gobiomorphus,Bullies,Fish,4386
+71561253,549836,87322,species,Uroleucon sonchi,Aphid,Insects,39
+71744065,549834,88569,genus,Pseudoplatyophrya,NA,Ciliates,89
+71889301,549836,88569,genus,Pseudoplatyophrya,NA,Ciliates,9
+71747564,549837,88569,genus,Pseudoplatyophrya,NA,Ciliates,18
+71888655,549835,88712,genus,Anurofeca,NA,Other,9
+71631195,549833,88875,genus,Ferribacterium,NA,Bacteria,96
+71637588,549836,88875,genus,Ferribacterium,NA,Bacteria,70
+71640172,549837,88875,genus,Ferribacterium,NA,Bacteria,24
+71743233,549833,89043,genus,Spumella,Golden-brown alga,Heterokont algae,72
+71744002,549834,89043,genus,Spumella,Golden-brown alga,Heterokont algae,238
+71745358,549835,89043,genus,Spumella,Golden-brown alga,Heterokont algae,77
+71746480,549836,89043,genus,Spumella,Golden-brown alga,Heterokont algae,96
+71747419,549837,89043,genus,Spumella,Golden-brown alga,Heterokont algae,80
+71631103,549833,89373,family,Cytophagaceae,NA,Bacteria,346
+71633126,549834,89373,family,Cytophagaceae,NA,Bacteria,387
+71635403,549835,89373,family,Cytophagaceae,NA,Bacteria,384
+71637385,549836,89373,family,Cytophagaceae,NA,Bacteria,468
+71639343,549837,89373,family,Cytophagaceae,NA,Bacteria,351
+71634587,549834,89374,family,Saprospiraceae,NA,Bacteria,19
+71637081,549835,89374,family,Saprospiraceae,NA,Bacteria,5
+71638849,549836,89374,family,Saprospiraceae,NA,Bacteria,15
+71639927,549837,89374,family,Saprospiraceae,NA,Bacteria,57
+71558415,549836,89555,species,Galaxias fasciatus,Banded kokopu,Fish,3579
+71421136,549833,89684,species,Poa trivialis,Rough bluegrass,Plants,107
+71634651,549834,89966,genus,Hymenobacter,NA,Bacteria,10
+71638793,549836,89966,genus,Hymenobacter,NA,Bacteria,13
+71743425,549833,91373,genus,Diplonema,NA,Other,13
+71744769,549834,91373,genus,Diplonema,NA,Other,6
+71745448,549835,91373,genus,Diplonema,NA,Other,43
+71746651,549836,91373,genus,Diplonema,NA,Other,41
+71747921,549837,91373,genus,Diplonema,NA,Other,11
+71475970,549836,92248,family,Anystidae,Whirligig mites,Mites and ticks,9
+71631889,549833,92713,family,Parachlamydiaceae,NA,Bacteria,27
+71638375,549836,92713,family,Parachlamydiaceae,NA,Bacteria,17
+71421211,549834,92907,species,Cirsium vulgare,NA,Plants,174
+71477110,549837,93701,genus,Dolomedes,fishing spiders; raft spiders; dock spiders; wharf spiders,Spiders,10
+71561265,549836,93721,species,Myzus cerasi,NA,Insects,18
+71744579,549834,94288,genus,Sterkiella,NA,Ciliates,20
+71744530,549834,95227,family,Vannellidae,Amoebozoa,Amoebae,41
+71745749,549835,95227,family,Vannellidae,Amoebozoa,Amoebae,26
+71747802,549837,95227,family,Vannellidae,Amoebozoa,Amoebae,30
+71473252,549833,95228,genus,Vannella,Amoeba,Amoebae,30
+71473812,549834,95228,genus,Vannella,Amoeba,Amoebae,66
+71888590,549835,95228,genus,Vannella,Amoeba,Amoebae,12
+71746603,549836,95228,genus,Vannella,Amoeba,Amoebae,48
+71476921,549837,95228,genus,Vannella,Amoeba,Amoebae,20
+71561120,549833,96550,genus,Tuberolachnus,Giant willow aphid,Insects,73
+71561269,549836,96550,genus,Tuberolachnus,Giant willow aphid,Insects,13
+71473367,549833,96551,species,Tuberolachnus salignus,Giant willow aphid,Insects,8
+71742924,549833,97226,genus,Gomphonema,Diatom,Diatoms,371
+71744001,549834,97226,genus,Gomphonema,Diatom,Diatoms,187
+71745129,549835,97226,genus,Gomphonema,Diatom,Diatoms,302
+71746294,549836,97226,genus,Gomphonema,Diatom,Diatoms,356
+71747193,549837,97226,genus,Gomphonema,Diatom,Diatoms,324
+71421154,549833,97308,species,Prunus sargentii,Sargent's cherry; North Japanese hill cherry,Plants,62
+71743026,549833,98651,family,Chromulinaceae,NA,Heterokont algae,145
+71744077,549834,98651,family,Chromulinaceae,NA,Heterokont algae,92
+71745107,549835,98651,family,Chromulinaceae,NA,Heterokont algae,441
+71746438,549836,98651,family,Chromulinaceae,NA,Heterokont algae,104
+71747265,549837,98651,family,Chromulinaceae,NA,Heterokont algae,136
+71421562,549837,98722,species,Jacobaea vulgaris,Ragwort,Plants,7
+71421156,549833,98862,species,Carex appressa,tall sedge,Plants,53
+71744344,549834,99299,genus,Rehmannia,NA,Plants,39
+71745192,549835,99299,genus,Rehmannia,NA,Plants,163
+71747261,549837,99299,genus,Rehmannia,NA,Plants,132
+71421109,549833,99497,species,Helosciadium nodiflorum,Water celery,Plants,791
+71421274,549835,99497,species,Helosciadium nodiflorum,Water celery,Plants,991
+71421361,549836,99497,species,Helosciadium nodiflorum,Water celery,Plants,111
+71421479,549837,99497,species,Helosciadium nodiflorum,Water celery,Plants,270
+71561143,549834,99773,genus,Paranephrops,Freshwater crayfish,Crustaceans,376
+71561174,549835,99773,genus,Paranephrops,Freshwater crayfish,Crustaceans,405
+71561279,549837,99773,genus,Paranephrops,Freshwater crayfish,Crustaceans,3372
+71743525,549833,100860,genus,Aphanomyces,NA,Oomycetes,10
+71744083,549834,100860,genus,Aphanomyces,NA,Oomycetes,88
+71745321,549835,100860,genus,Aphanomyces,NA,Oomycetes,99
+71747336,549837,100860,genus,Aphanomyces,NA,Oomycetes,63
+71474685,549835,101160,family,Phalangiidae,NA,Other,28
+71421127,549833,101983,species,Metrosideros robusta,Northern rata,Plants,168
+71421557,549837,102804,subfamily,Asteroideae,NA,Plants,685
+71745862,549835,104789,family,Flosculariidae,NA,Rotifers,8
+71475901,549836,106920,species,Neanura muscorum,Springtail,Springtails,11
+71472832,549833,109671,species,Physella acuta,Left handed sinistral snail,Molluscs,78
+71475555,549836,109671,species,Physella acuta,Left handed sinistral snail,Molluscs,66
+71745524,549835,109872,family,Catenariaceae,NA,Fungi,35
+71747740,549837,109880,genus,Nowakowskiella,NA,Fungi,11
+71745884,549835,109935,genus,Cladochytrium,NA,Fungi,8
+71745777,549835,110069,genus,Lacustromyces,NA,Fungi,11
+71744415,549834,110246,genus,Tubaria,NA,Fungi,17
+71633594,549834,112008,genus,Ignatzschineria,NA,Bacteria,41
+71635679,549835,112008,genus,Ignatzschineria,NA,Bacteria,60
+71639338,549837,112008,genus,Ignatzschineria,NA,Bacteria,152
+71472899,549833,112323,species,Euura proxima,Introduced sawfly,Insects,49
+71475432,549836,112323,species,Euura proxima,Introduced sawfly,Insects,170
+71889879,549837,114910,family,Plectidae,NA,Roundworms,7
+71631215,549833,118968,family,Coxiellaceae,NA,Bacteria,106
+71633148,549834,118968,family,Coxiellaceae,NA,Bacteria,292
+71635570,549835,118968,family,Coxiellaceae,NA,Bacteria,147
+71637790,549836,118968,family,Coxiellaceae,NA,Bacteria,43
+71639398,549837,118968,family,Coxiellaceae,NA,Bacteria,221
+71634323,549834,119045,family,Methylobacteriaceae,NA,Bacteria,16
+71636150,549835,119045,family,Methylobacteriaceae,NA,Bacteria,26
+71640584,549837,119045,family,Methylobacteriaceae,NA,Bacteria,15
+71631799,549833,119060,family,Burkholderiaceae,NA,Bacteria,25
+71635319,549835,119060,family,Burkholderiaceae,NA,Bacteria,503
+71639302,549837,119060,family,Burkholderiaceae,NA,Bacteria,200
+71634742,549834,120831,genus,Dyadobacter,NA,Bacteria,9
+71887413,549833,122941,genus,Urocentrum,NA,Ciliates,7
+71474112,549834,123749,species,Nocturama antipodites,Freshwater red alga,Red algae,6
+71474056,549834,124226,genus,Kikihia,NA,Insects,8
+71421158,549833,124858,genus,Vallea,NA,Plants,51
+71632029,549833,125216,genus,Roseomonas,NA,Bacteria,18
+71634475,549834,125216,genus,Roseomonas,NA,Bacteria,13
+71636322,549835,125216,genus,Roseomonas,NA,Bacteria,32
+71638005,549836,125216,genus,Roseomonas,NA,Bacteria,33
+71640028,549837,125216,genus,Roseomonas,NA,Bacteria,29
+71743197,549833,127149,genus,Rhynchomonas,Flagellates,Other,51
+71744323,549834,127149,genus,Rhynchomonas,Flagellates,Other,39
+71746577,549836,127149,genus,Rhynchomonas,Flagellates,Other,52
+71565418,549833,128123,genus,Craspedacusta,NA,Cnidarians,94
+71746353,549836,128123,genus,Craspedacusta,NA,Cnidarians,129
+71561130,549833,128124,species,Craspedacusta sowerbii,Freshwater jellyfish,Cnidarians,12185
+71565466,549835,128124,species,Craspedacusta sowerbii,Freshwater jellyfish,Cnidarians,1362
+71565489,549836,128124,species,Craspedacusta sowerbii,Freshwater jellyfish,Cnidarians,13002
+71565550,549837,128124,species,Craspedacusta sowerbii,Freshwater jellyfish,Cnidarians,256
+71570959,549834,129932,genus,Achrophyllum,NA,Mosses,544
+71570996,549835,129932,genus,Achrophyllum,NA,Mosses,627
+71571159,549837,129932,genus,Achrophyllum,NA,Mosses,999
+71421195,549834,130373,species,Piper excelsum,NA,Plants,997
+71421514,549837,130373,species,Piper excelsum,NA,Plants,46
+71421292,549835,130956,species,Isolepis prolifera,Budding club-rush,Plants,82
+71421497,549837,130956,species,Isolepis prolifera,Budding club-rush,Plants,102
+71631135,549833,131079,genus,Limnobacter,NA,Bacteria,128
+71633101,549834,131079,genus,Limnobacter,NA,Bacteria,150
+71635402,549835,131079,genus,Limnobacter,NA,Bacteria,183
+71637486,549836,131079,genus,Limnobacter,NA,Bacteria,102
+71639341,549837,131079,genus,Limnobacter,NA,Bacteria,150
+71472813,549833,133076,subfamily,Aphidinae,NA,Insects,927
+71561154,549834,133076,subfamily,Aphidinae,NA,Insects,103
+71561193,549835,133076,subfamily,Aphidinae,NA,Insects,95
+71475518,549836,133076,subfamily,Aphidinae,NA,Insects,1175
+71747695,549837,133076,subfamily,Aphidinae,NA,Insects,12
+71638632,549836,135617,family,Thiotrichaceae,NA,Bacteria,11
+71744443,549834,135621,family,Pseudomonadaceae,NA,Bacteria,15
+71747296,549837,135621,family,Pseudomonadaceae,NA,Bacteria,59
+71743135,549833,136449,genus,Echinamoeba,NA,Amoebae,59
+71744620,549834,136449,genus,Echinamoeba,NA,Amoebae,26
+71745477,549835,136449,genus,Echinamoeba,NA,Amoebae,37
+71746519,549836,136449,genus,Echinamoeba,NA,Amoebae,53
+71747870,549837,136449,genus,Echinamoeba,NA,Amoebae,26
+71743531,549833,136457,family,Flabellulidae,NA,Amoebae,10
+71887183,549833,137465,genus,Eolimna,Diatom,Diatoms,31
+71744182,549834,137465,genus,Eolimna,Diatom,Diatoms,48
+71745469,549835,137465,genus,Eolimna,Diatom,Diatoms,58
+71746406,549836,137465,genus,Eolimna,Diatom,Diatoms,103
+71747474,549837,137465,genus,Eolimna,Diatom,Diatoms,24
+71421137,549833,138854,genus,Aristotelia,NA,Plants,106
+71421430,549836,138854,genus,Aristotelia,NA,Plants,7
+71476809,549837,140081,species,Kikihia muta,NA,Insects,34
+71887676,549834,140243,genus,Parabodo,NA,Other,78
+71745502,549835,140243,genus,Parabodo,NA,Other,23
+71889202,549836,140243,genus,Parabodo,NA,Other,16
+71571061,549836,140574,species,Aristotelia serrata,Wineberry,Plants,198
+71631908,549833,141948,genus,Thermomonas,NA,Bacteria,21
+71634404,549834,141948,genus,Thermomonas,NA,Bacteria,14
+71637911,549836,141948,genus,Thermomonas,NA,Bacteria,33
+71640022,549837,141948,genus,Thermomonas,NA,Bacteria,29
+71744424,549834,143712,genus,Zelandoperla,Stonefly,Insects,16
+71747694,549837,143712,genus,Zelandoperla,Stonefly,Insects,12
+71474615,549835,143713,species,Zelandoperla agnetis,Stonefly,Insects,29
+71888033,549834,143743,family,Notonemouridae,Stoneflies,Insects,7
+71565407,549833,145636,genus,Potamopyrgus,Mud snails,Molluscs,1343
+71565451,549834,145636,genus,Potamopyrgus,Mud snails,Molluscs,49
+71565469,549835,145636,genus,Potamopyrgus,Mud snails,Molluscs,765
+71565503,549836,145636,genus,Potamopyrgus,Mud snails,Molluscs,867
+71565543,549837,145636,genus,Potamopyrgus,Mud snails,Molluscs,1087
+71472786,549833,145637,species,Potamopyrgus antipodarum,Mud Snail,Molluscs,92
+71474748,549835,145637,species,Potamopyrgus antipodarum,Mud Snail,Molluscs,13
+71475399,549836,145637,species,Potamopyrgus antipodarum,Mud Snail,Molluscs,198
+71931719,549833,147022,species,Tropaeolum minus,NA,Plants,176
+71931809,549836,147022,species,Tropaeolum minus,NA,Plants,8
+71472642,549833,147297,subfamily,Hydropsychinae,Caddisflies,Insects,1193
+71473643,549834,147297,subfamily,Hydropsychinae,Caddisflies,Insects,396
+71474377,549835,147297,subfamily,Hydropsychinae,Caddisflies,Insects,765
+71475330,549836,147297,subfamily,Hydropsychinae,Caddisflies,Insects,1160
+71476560,549837,147297,subfamily,Hydropsychinae,Caddisflies,Insects,1865
+71421168,549833,147368,subfamily,Pooideae,NA,Plants,19
+71421221,549834,147368,subfamily,Pooideae,NA,Plants,235
+71421290,549835,147368,subfamily,Pooideae,NA,Plants,94
+71571102,549836,147368,subfamily,Pooideae,NA,Plants,39
+71421521,549837,147368,subfamily,Pooideae,NA,Plants,104
+71473430,549833,150439,genus,Pristina,Worm,Worms,6
+71565453,549834,150439,genus,Pristina,Worm,Worms,17
+71475991,549836,150439,genus,Pristina,Worm,Worms,8
+71743185,549833,151076,genus,Chilodonella,NA,Ciliates,58
+71744304,549834,151076,genus,Chilodonella,NA,Ciliates,21
+71745101,549835,151076,genus,Chilodonella,NA,Ciliates,647
+71746400,549836,151076,genus,Chilodonella,NA,Ciliates,104
+71747446,549837,151076,genus,Chilodonella,NA,Ciliates,51
+71743285,549833,154967,genus,Nuclearia,Amoeba,Other,21
+71744776,549834,154967,genus,Nuclearia,Amoeba,Other,11
+71745429,549835,154967,genus,Nuclearia,Amoeba,Other,111
+71889181,549836,154967,genus,Nuclearia,Amoeba,Other,30
+71747754,549837,154967,genus,Nuclearia,Amoeba,Other,33
+71743123,549833,155202,genus,Ichthyobodo,Fish pathogen,Other,144
+71744155,549834,155202,genus,Ichthyobodo,Fish pathogen,Other,95
+71745421,549835,155202,genus,Ichthyobodo,Fish pathogen,Other,82
+71746783,549836,155202,genus,Ichthyobodo,Fish pathogen,Other,107
+71747452,549837,155202,genus,Ichthyobodo,Fish pathogen,Other,47
+71640970,549837,156973,genus,Dysgonomonas,NA,Bacteria,8
+71631248,549833,157591,genus,Sterolibacterium,NA,Bacteria,79
+71637713,549836,157591,genus,Sterolibacterium,NA,Bacteria,50
+71635825,549835,158846,genus,Megamonas,NA,Bacteria,44
+71421249,549834,159370,genus,Pennantia,NA,Plants,25
+71570937,549834,159371,species,Pennantia corymbosa,Kaikomako,Plants,1956
+71571004,549835,159371,species,Pennantia corymbosa,Kaikomako,Plants,323
+71571155,549837,159371,species,Pennantia corymbosa,Kaikomako,Plants,1414
+71931733,549834,160068,species,Trebouxia aggregata,Green algae,Green algae,1088
+71743132,549833,164535,genus,Tetracladium,Fungus,Fungi,56
+71743933,549834,164535,genus,Tetracladium,Fungus,Fungi,522
+71745372,549835,164535,genus,Tetracladium,Fungus,Fungi,60
+71746266,549836,164535,genus,Tetracladium,Fungus,Fungi,549
+71747267,549837,164535,genus,Tetracladium,Fungus,Fungi,119
+71631993,549833,165695,genus,Sphingobium,NA,Bacteria,19
+71638118,549836,165695,genus,Sphingobium,NA,Bacteria,24
+71635786,549835,165696,genus,Novosphingobium,NA,Bacteria,71
+71747589,549837,165696,genus,Novosphingobium,NA,Bacteria,17
+71631162,549833,165697,genus,Sphingopyxis,NA,Bacteria,161
+71633194,549834,165697,genus,Sphingopyxis,NA,Bacteria,198
+71635441,549835,165697,genus,Sphingopyxis,NA,Bacteria,204
+71637544,549836,165697,genus,Sphingopyxis,NA,Bacteria,151
+71639585,549837,165697,genus,Sphingopyxis,NA,Bacteria,102
+71640551,549837,166953,genus,Kaistia,NA,Bacteria,16
+71743286,549833,168137,family,Tokophryidae,NA,Ciliates,21
+71746596,549836,168137,family,Tokophryidae,NA,Ciliates,22
+71742898,549833,168138,genus,Tokophrya,NA,Ciliates,984
+71746246,549836,168138,genus,Tokophrya,NA,Ciliates,1415
+71931714,549833,169617,subfamily,Rubioideae,NA,Plants,375
+71931741,549834,169617,subfamily,Rubioideae,NA,Plants,191
+71931758,549835,169617,subfamily,Rubioideae,NA,Plants,5
+71746741,549836,169617,subfamily,Rubioideae,NA,Plants,383
+71421522,549837,169617,subfamily,Rubioideae,NA,Plants,139
+71565480,549835,169929,species,Eukerria saltensis,Worm,Worms,33
+71631738,549833,171550,family,Rikenellaceae,NA,Bacteria,75
+71633464,549834,171550,family,Rikenellaceae,NA,Bacteria,155
+71635589,549835,171550,family,Rikenellaceae,NA,Bacteria,112
+71638366,549836,171550,family,Rikenellaceae,NA,Bacteria,28
+71639466,549837,171550,family,Rikenellaceae,NA,Bacteria,244
+71631778,549833,171552,family,Prevotellaceae,NA,Bacteria,36
+71638220,549836,171552,family,Prevotellaceae,NA,Bacteria,30
+71570913,549833,171637,subfamily,Amygdaloideae,NA,Plants,136
+71570879,549833,171638,subfamily,Rosoideae,NA,Plants,6514
+71571029,549836,171638,subfamily,Rosoideae,NA,Plants,1652
+71743273,549833,173493,genus,Planophila,Green alga,Green algae,62
+71744578,549834,173493,genus,Planophila,Green alga,Green algae,10
+71746550,549836,173493,genus,Planophila,Green alga,Green algae,87
+71747711,549837,173493,genus,Planophila,Green alga,Green algae,22
+71474135,549834,177761,species,Oeconesus maori,NZ caddisfly,Insects,6
+71474856,549835,177761,species,Oeconesus maori,NZ caddisfly,Insects,9
+71473279,549833,177810,genus,Pycnocentrodes,Stony cased caddisfly,Insects,11
+71473861,549834,177810,genus,Pycnocentrodes,Stony cased caddisfly,Insects,16
+71474486,549835,177810,genus,Pycnocentrodes,Stony cased caddisfly,Insects,64
+71476803,549837,177810,genus,Pycnocentrodes,Stony cased caddisfly,Insects,34
+71472988,549833,177934,subfamily,Polycentropodinae,Caddisflies,Insects,35
+71474794,549835,177934,subfamily,Polycentropodinae,Caddisflies,Insects,11
+71476868,549837,177934,subfamily,Polycentropodinae,Caddisflies,Insects,25
+71744687,549834,178374,genus,Cyphoderia,NA,Other,20
+71747678,549837,178374,genus,Cyphoderia,NA,Other,22
+71743617,549833,178377,genus,Pseudodifflugia,NA,Other,7
+71746733,549836,178377,genus,Pseudodifflugia,NA,Other,20
+71889934,549837,178377,genus,Pseudodifflugia,NA,Other,5
+71473659,549834,179666,species,Tyria jacobaeae,Cinnabar moth,Insects,154
+71474553,549835,179666,species,Tyria jacobaeae,Cinnabar moth,Insects,40
+71477043,549837,179666,species,Tyria jacobaeae,Cinnabar moth,Insects,12
+71631117,549833,180162,genus,Cetobacterium,NA,Bacteria,146
+71633753,549834,180162,genus,Cetobacterium,NA,Bacteria,32
+71636682,549835,180162,genus,Cetobacterium,NA,Bacteria,12
+71637466,549836,180162,genus,Cetobacterium,NA,Bacteria,110
+71639818,549837,180162,genus,Cetobacterium,NA,Bacteria,40
+71744646,549834,180225,family,Vexilliferidae,NA,Amoebae,9
+71631341,549833,183669,genus,Macromonas,NA,Bacteria,61
+71632996,549834,183669,genus,Macromonas,NA,Bacteria,385
+71635349,549835,183669,genus,Macromonas,NA,Bacteria,299
+71639227,549837,183669,genus,Macromonas,NA,Bacteria,500
+71631317,549833,183710,family,Deinococcaceae,NA,Bacteria,84
+71634865,549834,183710,family,Deinococcaceae,NA,Bacteria,7
+71636226,549835,183710,family,Deinococcaceae,NA,Bacteria,23
+71637934,549836,183710,family,Deinococcaceae,NA,Bacteria,49
+71640624,549837,183710,family,Deinococcaceae,NA,Bacteria,27
+71744150,549834,185694,genus,Lacrymaria,NA,Ciliates,34
+71745167,549835,185694,genus,Lacrymaria,NA,Ciliates,115
+71746404,549836,185694,genus,Lacrymaria,NA,Ciliates,53
+71747326,549837,185694,genus,Lacrymaria,NA,Ciliates,79
+71640166,549837,186650,genus,Microvirga,NA,Bacteria,25
+71631781,549833,186803,family,Lachnospiraceae,NA,Bacteria,36
+71634267,549834,186803,family,Lachnospiraceae,NA,Bacteria,40
+71636774,549835,186803,family,Lachnospiraceae,NA,Bacteria,36
+71638863,549836,186803,family,Lachnospiraceae,NA,Bacteria,81
+71640920,549837,186803,family,Lachnospiraceae,NA,Bacteria,15
+71634856,549834,186804,family,Peptostreptococcaceae,NA,Bacteria,7
+71633993,549834,186807,family,Peptococcaceae,NA,Bacteria,24
+71745959,549835,187607,family,Bourletiellidae,NA,Springtails,6
+71746854,549836,187607,family,Bourletiellidae,NA,Springtails,8
+71747879,549837,187607,family,Bourletiellidae,NA,Springtails,18
+71743731,549833,187632,subfamily,Onychiurinae,NA,Springtails,5
+71476201,549836,187706,species,Tomocerus minor,Springtail,Springtails,5
+71472816,549833,188228,species,Nais communis,Sludgeworm,Worms,74
+71473635,549834,188228,species,Nais communis,Sludgeworm,Worms,2903
+71474369,549835,188228,species,Nais communis,Sludgeworm,Worms,1845
+71475428,549836,188228,species,Nais communis,Sludgeworm,Worms,190
+71476556,549837,188228,species,Nais communis,Sludgeworm,Worms,6662
+71631298,549833,188907,genus,Oleispira,NA,Bacteria,68
+71633379,549834,188907,genus,Oleispira,NA,Bacteria,57
+71636632,549835,188907,genus,Oleispira,NA,Bacteria,13
+71637575,549836,188907,genus,Oleispira,NA,Bacteria,73
+71640288,549837,188907,genus,Oleispira,NA,Bacteria,21
+71744519,549834,188972,genus,Spongomonas,NA,Other,12
+71745680,549835,188972,genus,Spongomonas,NA,Other,26
+71747529,549837,188972,genus,Spongomonas,NA,Other,21
+71743255,549833,189349,family,Kornmanniaceae,NA,Green algae,23
+71744674,549834,189349,family,Kornmanniaceae,NA,Green algae,8
+71745441,549835,189349,family,Kornmanniaceae,NA,Green algae,27
+71746441,549836,189349,family,Kornmanniaceae,NA,Green algae,41
+71747511,549837,189349,family,Kornmanniaceae,NA,Green algae,22
+71633237,549834,189779,family,Nitrospiraceae,NA,Bacteria,84
+71635851,549835,189779,family,Nitrospiraceae,NA,Bacteria,42
+71639460,549837,189779,family,Nitrospiraceae,NA,Bacteria,89
+71474835,549835,190098,genus,Limnophyes,Non-biting midge,Insects,9
+71475945,549836,190098,genus,Limnophyes,Non-biting midge,Insects,9
+71477176,549837,190098,genus,Limnophyes,Non-biting midge,Insects,8
+71634578,549834,194924,family,Desulfovibrionaceae,NA,Bacteria,20
+71745695,549835,194924,family,Desulfovibrionaceae,NA,Bacteria,14
+71472871,549833,197532,species,Vannella simplex,Amoeba,Amoebae,56
+71475519,549836,197532,species,Vannella simplex,Amoeba,Amoebae,55
+71742991,549833,197895,family,Amphileptidae,NA,Ciliates,189
+71745470,549835,197895,family,Amphileptidae,NA,Ciliates,46
+71746320,549836,197895,family,Amphileptidae,NA,Ciliates,334
+71742937,549833,197908,family,Litonotidae,Ciliates,Ciliates,488
+71743992,549834,197908,family,Litonotidae,Ciliates,Ciliates,527
+71745116,549835,197908,family,Litonotidae,Ciliates,Ciliates,668
+71746265,549836,197908,family,Litonotidae,Ciliates,Ciliates,907
+71747213,549837,197908,family,Litonotidae,Ciliates,Ciliates,486
+71744013,549834,199487,genus,Hyalella,NA,Crustaceans,78
+71745795,549835,199487,genus,Hyalella,NA,Crustaceans,10
+71746630,549836,199487,genus,Hyalella,NA,Crustaceans,18
+71747788,549837,199487,genus,Hyalella,NA,Crustaceans,9
+71632700,549833,200414,genus,Caldisphaera,NA,Archaea,6
+71473159,549833,200888,genus,Korotnevella,Amoeba,Amoebae,30
+71744521,549834,200888,genus,Korotnevella,Amoeba,Amoebae,30
+71745737,549835,200888,genus,Korotnevella,Amoeba,Amoebae,12
+71476044,549836,200888,genus,Korotnevella,Amoeba,Amoebae,12
+71476930,549837,200888,genus,Korotnevella,Amoeba,Amoebae,19
+71743452,549833,202746,genus,Sulfurimonas,NA,Bacteria,12
+71641188,549837,203492,family,Fusobacteriaceae,NA,Bacteria,5
+71632638,549833,204434,family,Acidobacteriaceae,NA,Bacteria,6
+71472699,549833,205931,species,uncultured Pythium,NA,Oomycetes,308
+71473818,549834,205931,species,uncultured Pythium,NA,Oomycetes,23
+71474508,549835,205931,species,uncultured Pythium,NA,Oomycetes,54
+71475372,549836,205931,species,uncultured Pythium,NA,Oomycetes,397
+71476701,549837,205931,species,uncultured Pythium,NA,Oomycetes,115
+71743354,549833,211015,genus,Tintinnidium,NA,Ciliates,26
+71746646,549836,211015,genus,Tintinnidium,NA,Ciliates,49
+71472831,549833,212246,species,Chaetogaster diaphanus,Oligochaete worm,Worms,212
+71475460,549836,212246,species,Chaetogaster diaphanus,Oligochaete worm,Worms,101
+71570878,549833,212267,genus,Melicytus,Mahoe,Plants,7351
+71421194,549834,212267,genus,Melicytus,Mahoe,Plants,44692
+71570983,549835,212267,genus,Melicytus,Mahoe,Plants,4500
+71421382,549836,212267,genus,Melicytus,Mahoe,Plants,1388
+71421503,549837,212267,genus,Melicytus,Mahoe,Plants,13475
+71632012,549833,213119,family,Desulfobacteraceae,NA,Bacteria,25
+71638995,549836,213119,family,Desulfobacteraceae,NA,Bacteria,5
+71632506,549833,213121,family,Desulfobulbaceae,NA,Bacteria,8
+71636583,549835,213121,family,Desulfobulbaceae,NA,Bacteria,14
+71631789,549833,213422,family,Geobacteraceae,NA,Bacteria,25
+71637974,549836,213422,family,Geobacteraceae,NA,Bacteria,29
+71631480,549833,213483,family,Pseudobdellovibrionaceae,NA,Bacteria,64
+71633111,549834,213483,family,Pseudobdellovibrionaceae,NA,Bacteria,200
+71635505,549835,213483,family,Pseudobdellovibrionaceae,NA,Bacteria,104
+71637520,549836,213483,family,Pseudobdellovibrionaceae,NA,Bacteria,124
+71639603,549837,213483,family,Pseudobdellovibrionaceae,NA,Bacteria,62
+71632117,549833,216572,family,Oscillospiraceae,NA,Bacteria,16
+71633791,549834,216572,family,Oscillospiraceae,NA,Bacteria,51
+71638099,549836,216572,family,Oscillospiraceae,NA,Bacteria,25
+71639952,549837,216572,family,Oscillospiraceae,NA,Bacteria,33
+71743062,549833,216715,genus,Cocconeis,Diatom,Diatoms,57
+71743929,549834,216715,genus,Cocconeis,Diatom,Diatoms,577
+71745109,549835,216715,genus,Cocconeis,Diatom,Diatoms,515
+71746346,549836,216715,genus,Cocconeis,Diatom,Diatoms,193
+71747147,549837,216715,genus,Cocconeis,Diatom,Diatoms,1635
+71473402,549833,216736,genus,Pinnularia,Freshwater diatom,Diatoms,7
+71475687,549836,216736,genus,Pinnularia,Freshwater diatom,Diatoms,34
+71473356,549833,216740,genus,Sellaphora,Diatom,Diatoms,8
+71475590,549836,216740,genus,Sellaphora,Diatom,Diatoms,64
+71745567,549835,216744,genus,Cymbella,Diatom,Diatoms,29
+71743081,549833,216753,genus,Surirella,Diatom,Diatoms,92
+71744581,549834,216753,genus,Surirella,Diatom,Diatoms,18
+71745581,549835,216753,genus,Surirella,Diatom,Diatoms,26
+71746389,549836,216753,genus,Surirella,Diatom,Diatoms,135
+71747637,549837,216753,genus,Surirella,Diatom,Diatoms,14
+71631283,549833,217140,genus,Arcicella,NA,Bacteria,71
+71633009,549834,217140,genus,Arcicella,NA,Bacteria,386
+71635364,549835,217140,genus,Arcicella,NA,Bacteria,257
+71637459,549836,217140,genus,Arcicella,NA,Bacteria,114
+71639289,549837,217140,genus,Arcicella,NA,Bacteria,202
+71743662,549833,218659,genus,Vexillifera,Amoeba,Amoebae,6
+71421147,549833,219384,subfamily,Danthonioideae,NA,Plants,81
+71421248,549834,219384,subfamily,Danthonioideae,NA,Plants,27
+71744314,549834,222514,genus,Lemonniera,Aquatic fungi,Fungi,65
+71889803,549837,222514,genus,Lemonniera,Aquatic fungi,Fungi,10
+71474774,549835,223994,genus,Lipaphis,NA,Insects,12
+71475895,549836,223994,genus,Lipaphis,NA,Insects,11
+71631916,549833,224463,family,Nannocystaceae,NA,Bacteria,21
+71634262,549834,224463,family,Nannocystaceae,NA,Bacteria,17
+71638211,549836,224463,family,Nannocystaceae,NA,Bacteria,21
+71640192,549837,224463,family,Nannocystaceae,NA,Bacteria,24
+71889085,549836,231615,genus,Cephalodella,NA,Rotifers,32
+71636891,549835,232115,genus,Mesonia,NA,Bacteria,9
+71887309,549833,232264,genus,Telonema,NA,Other,13
+71744621,549834,232264,genus,Telonema,NA,Other,9
+71888735,549835,232264,genus,Telonema,NA,Other,5
+71744840,549834,232852,genus,Protophysarum,NA,Amoebae,5
+71474122,549834,239222,genus,Ectopsocus,Psocopteran fly,Insects,6
+71887172,549833,239359,family,Acinetidae,NA,Ciliates,36
+71888875,549836,239359,family,Acinetidae,NA,Ciliates,310
+71631800,549833,239759,genus,Alistipes,NA,Bacteria,25
+71634189,549834,239759,genus,Alistipes,NA,Bacteria,19
+71636185,549835,239759,genus,Alistipes,NA,Bacteria,43
+71638136,549836,239759,genus,Alistipes,NA,Bacteria,23
+71634055,549834,240411,genus,Chitinimonas,NA,Bacteria,22
+71636354,549835,240411,genus,Chitinimonas,NA,Bacteria,19
+71640141,549837,240411,genus,Chitinimonas,NA,Bacteria,25
+71421295,549835,240843,genus,Helosciadium,NA,Plants,126
+71421402,549836,240843,genus,Helosciadium,NA,Plants,29
+71476705,549837,241030,genus,Coloburiscus,Mayfly,Insects,62
+71473642,549834,241031,species,Coloburiscus humeralis,NZ spinygilled mayfly,Insects,414
+71474430,549835,241031,species,Coloburiscus humeralis,NZ spinygilled mayfly,Insects,155
+71476570,549837,241031,species,Coloburiscus humeralis,NZ spinygilled mayfly,Insects,689
+71747997,549837,241603,genus,Atoxoplasma,NA,Other,5
+71421135,549833,241778,subfamily,Apioideae,NA,Plants,140
+71421303,549835,241778,subfamily,Apioideae,NA,Plants,154
+71421537,549837,241778,subfamily,Apioideae,NA,Plants,31
+71631481,549833,246875,genus,Algoriphagus,NA,Bacteria,44
+71636627,549835,246875,genus,Algoriphagus,NA,Bacteria,14
+71637856,549836,246875,genus,Algoriphagus,NA,Bacteria,37
+71477316,549837,249532,species,Icerya purchasi,NA,Insects,6
+71745912,549835,253308,genus,Articulospora,NA,Fungi,15
+71635826,549835,254245,genus,Aquicella,NA,Bacteria,44
+71639809,549837,254245,genus,Aquicella,NA,Bacteria,41
+71473397,549833,261957,genus,Amegilla,Bee,Insects,7
+71631654,549833,263066,genus,Malikia,NA,Bacteria,31
+71638302,549836,263066,genus,Malikia,NA,Bacteria,18
+71631253,549833,263369,family,Bacteriovoracaceae,NA,Bacteria,78
+71633223,549834,263369,family,Bacteriovoracaceae,NA,Bacteria,87
+71635638,549835,263369,family,Bacteriovoracaceae,NA,Bacteria,65
+71638435,549836,263369,family,Bacteriovoracaceae,NA,Bacteria,15
+71640085,549837,263369,family,Bacteriovoracaceae,NA,Bacteria,27
+71633944,549834,265487,genus,Blastopirellula,NA,Bacteria,26
+71744473,549834,265488,genus,Rhodopirellula,NA,Bacteria,27
+71745835,549835,265488,genus,Rhodopirellula,NA,Bacteria,9
+71639647,549837,265488,genus,Rhodopirellula,NA,Bacteria,82
+71888106,549834,265567,genus,Achnanthidium,Diatom,Diatoms,5
+71747832,549837,265567,genus,Achnanthidium,Diatom,Diatoms,9
+71558399,549835,266374,species,Prosthemadera novaeseelandiae,Tui,Birds,566
+71743003,549833,266822,genus,Procryptobia,NA,Other,277
+71743943,549834,266822,genus,Procryptobia,NA,Other,367
+71745102,549835,266822,genus,Procryptobia,NA,Other,852
+71746398,549836,266822,genus,Procryptobia,NA,Other,216
+71747200,549837,266822,genus,Procryptobia,NA,Other,215
+71561182,549835,269403,species,Nasonovia ribisnigri,Lettuce aphid,Insects,253
+71561236,549836,269403,species,Nasonovia ribisnigri,Lettuce aphid,Insects,110
+71561286,549837,269403,species,Nasonovia ribisnigri,Lettuce aphid,Insects,381
+71745965,549835,272143,genus,Bicosoeca,Flagellate,Heterokont algae,6
+71888407,549835,273904,species,Strombidium biarmatum,Ciliate,Ciliates,31
+71889392,549836,273904,species,Strombidium biarmatum,Ciliate,Ciliates,5
+71473650,549834,279418,genus,Archichauliodes,NA,Insects,278
+71421242,549834,281174,species,Brachyglottis repanda,Bushman's friend,Plants,42
+71744092,549834,283646,genus,Mesodinium,Ciliate,Ciliates,62
+71745548,549835,283646,genus,Mesodinium,Ciliate,Ciliates,30
+71746738,549836,283646,genus,Mesodinium,Ciliate,Ciliates,25
+71747746,549837,283646,genus,Mesodinium,Ciliate,Ciliates,10
+71632056,549833,286130,genus,Sulfuricurvum,NA,Bacteria,25
+71634052,549834,286130,genus,Sulfuricurvum,NA,Bacteria,33
+71636053,549835,286130,genus,Sulfuricurvum,NA,Bacteria,51
+71637695,549836,286130,genus,Sulfuricurvum,NA,Bacteria,75
+71640881,549837,286130,genus,Sulfuricurvum,NA,Bacteria,9
+71561267,549836,288873,species,Paratanytarsus grimmii,Chironomid,Insects,14
+71561322,549837,288873,species,Paratanytarsus grimmii,Chironomid,Insects,9
+71475703,549836,290171,species,Dactylobiotus parthenogeneticus,NA,Other,21
+71743029,549833,291294,family,Tetrahymenidae,NA,Ciliates,204
+71743918,549834,291294,family,Tetrahymenidae,NA,Ciliates,885
+71745091,549835,291294,family,Tetrahymenidae,NA,Ciliates,1021
+71746295,549836,291294,family,Tetrahymenidae,NA,Ciliates,460
+71747182,549837,291294,family,Tetrahymenidae,NA,Ciliates,596
+71421134,549833,291486,species,Carex secta,Makura,Plants,145
+71634974,549834,292628,family,Anaerolineaceae,NA,Bacteria,6
+71633258,549834,292833,genus,Candidatus Rhabdochlamydia,NA,Bacteria,80
+71635660,549835,292833,genus,Candidatus Rhabdochlamydia,NA,Bacteria,61
+71742997,549833,293088,genus,Martelella,NA,Bacteria,93
+71746381,549836,293088,genus,Martelella,NA,Bacteria,64
+71473370,549833,295491,species,Globisporangium cystogenes,Parasitic oomycete,Oomycetes,8
+71477151,549837,295491,species,Globisporangium cystogenes,Parasitic oomycete,Oomycetes,9
+71633920,549834,295577,genus,Chthoniobacter,NA,Bacteria,26
+71638075,549836,295577,genus,Chthoniobacter,NA,Bacteria,25
+71640178,549837,295577,genus,Chthoniobacter,NA,Bacteria,24
+71633675,549834,296051,genus,Terrimonas,NA,Bacteria,36
+71635713,549835,296051,genus,Terrimonas,NA,Bacteria,57
+71638022,549836,296051,genus,Terrimonas,NA,Bacteria,27
+71639705,549837,296051,genus,Terrimonas,NA,Bacteria,48
+71742892,549833,298464,family,Canthocamptidae,NA,Crustaceans,2849
+71887746,549834,298464,family,Canthocamptidae,NA,Crustaceans,34
+71745070,549835,298464,family,Canthocamptidae,NA,Crustaceans,1585
+71746247,549836,298464,family,Canthocamptidae,NA,Crustaceans,2950
+71747286,549837,298464,family,Canthocamptidae,NA,Crustaceans,90
+71476076,549836,303400,species,Nitzschia palea,Diatom,Diatoms,7
+71561202,549835,307492,species,Aphis craccivora,Cowpea aphid,Insects,57
+71632240,549833,308865,genus,Elizabethkingia,NA,Bacteria,13
+71475039,549835,309666,species,Ichthybotus hudsoni,Mayfly,Insects,5
+71476624,549837,309672,species,Ameletopsis perscitus,Yellow mayfly,Insects,164
+71421387,549836,310852,genus,Neopanax,NA,Plants,35
+71631533,549833,311181,genus,Denitratisoma,NA,Bacteria,39
+71633311,549834,311181,genus,Denitratisoma,NA,Bacteria,68
+71635989,549835,311181,genus,Denitratisoma,NA,Bacteria,33
+71638109,549836,311181,genus,Denitratisoma,NA,Bacteria,24
+71640377,549837,311181,genus,Denitratisoma,NA,Bacteria,19
+71633153,549834,312063,genus,Azohydromonas,NA,Bacteria,114
+71635897,549835,312063,genus,Azohydromonas,NA,Bacteria,39
+71639687,549837,312063,genus,Azohydromonas,NA,Bacteria,50
+71631102,549833,312278,genus,Emticicia,NA,Bacteria,168
+71633522,549834,312278,genus,Emticicia,NA,Bacteria,45
+71637364,549836,312278,genus,Emticicia,NA,Bacteria,273
+71742920,549833,312470,genus,Neobodo,NA,Other,949
+71743919,549834,312470,genus,Neobodo,NA,Other,1078
+71745142,549835,312470,genus,Neobodo,NA,Other,661
+71746305,549836,312470,genus,Neobodo,NA,Other,879
+71747202,549837,312470,genus,Neobodo,NA,Other,408
+71743626,549833,313557,genus,Cochliopodium,Amoeba,Amoebae,15
+71473791,549834,313557,genus,Cochliopodium,Amoeba,Amoebae,29
+71746869,549836,313557,genus,Cochliopodium,Amoeba,Amoebae,18
+71631101,549833,314343,genus,Sideroxydans,NA,Bacteria,169
+71637421,549836,314343,genus,Sideroxydans,NA,Bacteria,150
+71421151,549833,317702,species,Pittosporum eugenioides,Lemonwood,Plants,73
+71421401,549836,317702,species,Pittosporum eugenioides,Lemonwood,Plants,19
+71472799,549833,318527,genus,Centropyxis,NA,Amoebae,82
+71475446,549836,318527,genus,Centropyxis,NA,Amoebae,101
+71744271,549834,321420,genus,Eocercomonas,NA,Other,24
+71746016,549835,321420,genus,Eocercomonas,NA,Other,20
+71475659,549836,322492,species,Ectopsocus briggsi,Psocopteran fly,Insects,24
+71565435,549834,323341,species,Astrohydra japonica,Hydra,Cnidarians,929
+71565465,549835,323341,species,Astrohydra japonica,Hydra,Cnidarians,1421
+71565535,549837,323341,species,Astrohydra japonica,Hydra,Cnidarians,9846
+71634767,549834,323413,genus,Dokdonella,NA,Bacteria,9
+71632384,549833,323620,genus,Shinella,NA,Bacteria,10
+71634015,549834,323620,genus,Shinella,NA,Bacteria,31
+71636795,549835,323620,genus,Shinella,NA,Bacteria,17
+71638563,549836,323620,genus,Shinella,NA,Bacteria,12
+71640607,549837,323620,genus,Shinella,NA,Bacteria,14
+71744539,549834,328842,genus,Pseudodictyosporium,NA,Fungi,12
+71561110,549833,330420,genus,Cavariella,NA,Insects,181
+71561181,549835,330420,genus,Cavariella,NA,Insects,270
+71561229,549836,330420,genus,Cavariella,NA,Insects,205
+71561285,549837,330420,genus,Cavariella,NA,Insects,507
+71633186,549834,332102,genus,Fluviicola,NA,Bacteria,200
+71635823,549835,332102,genus,Fluviicola,NA,Bacteria,44
+71638737,549836,332102,genus,Fluviicola,NA,Bacteria,9
+71639452,549837,332102,genus,Fluviicola,NA,Bacteria,92
+71631569,549833,332161,family,Solibacteraceae,NA,Bacteria,36
+71633978,549834,332161,family,Solibacteraceae,NA,Bacteria,24
+71635528,549835,332161,family,Solibacteraceae,NA,Bacteria,92
+71638341,549836,332161,family,Solibacteraceae,NA,Bacteria,17
+71639936,549837,332161,family,Solibacteraceae,NA,Bacteria,33
+71634854,549834,332162,genus,Candidatus Solibacter,NA,Bacteria,8
+71636826,549835,332247,family,Trueperaceae,NA,Bacteria,10
+71634702,549834,332248,genus,Truepera,NA,Bacteria,10
+71631141,549833,335929,family,Erythrobacteraceae,NA,Bacteria,168
+71633243,549834,335929,family,Erythrobacteraceae,NA,Bacteria,143
+71635507,549835,335929,family,Erythrobacteraceae,NA,Bacteria,103
+71637469,549836,335929,family,Erythrobacteraceae,NA,Bacteria,217
+71639449,549837,335929,family,Erythrobacteraceae,NA,Bacteria,117
+71632219,549833,338191,genus,Nitrosopumilus,NA,Archaea,26
+71744622,549834,338191,genus,Nitrosopumilus,NA,Archaea,9
+71635596,549835,338191,genus,Nitrosopumilus,NA,Archaea,86
+71640828,549837,338191,genus,Nitrosopumilus,NA,Archaea,10
+71638689,549836,338321,genus,Turneriella,NA,Bacteria,10
+71742911,549833,340079,family,Frontoniidae,NA,Ciliates,629
+71746276,549836,340079,family,Frontoniidae,NA,Ciliates,399
+71747161,549837,340079,family,Frontoniidae,NA,Ciliates,790
+71631137,549833,346096,genus,Paludibacter,NA,Bacteria,127
+71633241,549834,346096,genus,Paludibacter,NA,Bacteria,83
+71635461,549835,346096,genus,Paludibacter,NA,Bacteria,127
+71637432,549836,346096,genus,Paludibacter,NA,Bacteria,138
+71639407,549837,346096,genus,Paludibacter,NA,Bacteria,107
+71472781,549833,350064,species,Hyalinella punctata,NA,Bryozoans,95
+71473376,549833,359162,genus,Paracalliope,Amphipod crustacean,Crustaceans,8
+71473811,549834,359162,genus,Paracalliope,Amphipod crustacean,Crustaceans,25
+71474483,549835,359162,genus,Paracalliope,Amphipod crustacean,Crustaceans,70
+71476667,549837,359162,genus,Paracalliope,Amphipod crustacean,Crustaceans,95
+71742961,549833,360658,genus,Dicranophorus,NA,Rotifers,235
+71746280,549836,360658,genus,Dicranophorus,NA,Rotifers,471
+71743379,549833,372085,genus,Paracercomonas,Rhizarian,Other,30
+71744100,549834,372085,genus,Paracercomonas,Rhizarian,Other,127
+71745275,549835,372085,genus,Paracercomonas,Rhizarian,Other,117
+71889110,549836,372085,genus,Paracercomonas,Rhizarian,Other,27
+71747429,549837,372085,genus,Paracercomonas,Rhizarian,Other,56
+71421288,549835,372382,species,Cyperus insularis,NA,Plants,95
+71421548,549837,372382,species,Cyperus insularis,NA,Plants,15
+71635856,549835,375288,genus,Parabacteroides,NA,Bacteria,42
+71638505,549836,375288,genus,Parabacteroides,NA,Bacteria,14
+71640266,549837,375288,genus,Parabacteroides,NA,Bacteria,22
+71742949,549833,380240,genus,Candidatus Brocadia,NA,Bacteria,152
+71746342,549836,380240,genus,Candidatus Brocadia,NA,Bacteria,84
+71565431,549834,380453,species,Pristina jenkinae,Worm,Worms,71164
+71631380,549833,380738,genus,Candidatus Kuenenia,NA,Bacteria,55
+71637417,549836,380738,genus,Candidatus Kuenenia,NA,Bacteria,159
+71631074,549833,392735,genus,Uliginosibacterium,NA,Bacteria,228
+71633316,549834,392735,genus,Uliginosibacterium,NA,Bacteria,66
+71635818,549835,392735,genus,Uliginosibacterium,NA,Bacteria,44
+71637367,549836,392735,genus,Uliginosibacterium,NA,Bacteria,264
+71639817,549837,392735,genus,Uliginosibacterium,NA,Bacteria,40
+71631697,549833,397864,genus,Barnesiella,NA,Bacteria,30
+71638460,549836,397864,genus,Barnesiella,NA,Bacteria,15
+71633611,549834,398041,genus,Flavisolibacter,NA,Bacteria,40
+71743492,549833,400947,genus,Deefgea,NA,Bacteria,11
+71744460,549834,400947,genus,Deefgea,NA,Bacteria,14
+71745445,549835,400947,genus,Deefgea,NA,Bacteria,27
+71747607,549837,400947,genus,Deefgea,NA,Bacteria,16
+71473002,549833,408863,species,Philodina flaviceps,Rotifer,Rotifers,33
+71474578,549835,408863,species,Philodina flaviceps,Rotifer,Rotifers,34
+71475391,549836,408863,species,Philodina flaviceps,Rotifer,Rotifers,196
+71476612,549837,408863,species,Philodina flaviceps,Rotifer,Rotifers,210
+71632656,549833,414371,genus,Aureimonas,NA,Bacteria,6
+71745261,549835,415537,genus,Microscolex,NA,Worms,82
+71747463,549837,415537,genus,Microscolex,NA,Worms,41
+71472991,549833,415614,species,Acanthocyclops robustus,Copepod,Crustaceans,34
+71475811,549836,415614,species,Acanthocyclops robustus,Copepod,Crustaceans,14
+71631675,549833,423349,genus,Mucilaginibacter,NA,Bacteria,30
+71633109,549834,423349,genus,Mucilaginibacter,NA,Bacteria,144
+71635384,549835,423349,genus,Mucilaginibacter,NA,Bacteria,212
+71637955,549836,423349,genus,Mucilaginibacter,NA,Bacteria,30
+71639383,549837,423349,genus,Mucilaginibacter,NA,Bacteria,120
+71634231,549834,423604,genus,Elusimicrobium,NA,Bacteria,18
+71889394,549836,425072,family,Monodopsidaceae,NA,Heterokont algae,5
+71473728,549834,425957,species,Beraeoptera roria,NZ caddisfly,Insects,56
+71476694,549837,425957,species,Beraeoptera roria,NZ caddisfly,Insects,73
+71477140,549837,426010,species,Zelolessica cheira,Caddisfly,Insects,9
+71472889,549833,431358,species,Frustulia vulgaris,Diatom,Diatoms,51
+71474732,549835,431358,species,Frustulia vulgaris,Diatom,Diatoms,14
+71475474,549836,431358,species,Frustulia vulgaris,Diatom,Diatoms,78
+71743989,549834,434572,genus,Proserpinaca,NA,Plants,204
+71747621,549837,434572,genus,Proserpinaca,NA,Plants,15
+71743605,549833,442430,genus,Coraliomargarita,NA,Bacteria,7
+71744580,549834,442430,genus,Coraliomargarita,NA,Bacteria,10
+71745860,549835,442430,genus,Coraliomargarita,NA,Bacteria,8
+71747836,549837,442430,genus,Coraliomargarita,NA,Bacteria,8
+71631134,549833,445219,genus,Reyranella,NA,Bacteria,128
+71632985,549834,445219,genus,Reyranella,NA,Bacteria,506
+71635317,549835,445219,genus,Reyranella,NA,Bacteria,554
+71637435,549836,445219,genus,Reyranella,NA,Bacteria,135
+71639215,549837,445219,genus,Reyranella,NA,Bacteria,613
+71744337,549834,446530,genus,Cordylophora,NA,Cnidarians,30
+71745876,549835,446530,genus,Cordylophora,NA,Cnidarians,8
+71747729,549837,446530,genus,Cordylophora,NA,Cnidarians,18
+71889372,549836,457378,genus,Urotricha,NA,Ciliates,6
+71421223,549834,462530,species,Senecio glastifolius,Woad-leaved ragwort; Holly-leaved senecio; Pink ragwort,Plants,84
+71421563,549837,462530,species,Senecio glastifolius,Woad-leaved ragwort; Holly-leaved senecio; Pink ragwort,Plants,7
+71633627,549834,466152,genus,Singulisphaera,NA,Bacteria,39
+71473194,549833,466814,species,Spaniocerca zelandica,Stonefly,Insects,16
+71474130,549834,466814,species,Spaniocerca zelandica,Stonefly,Insects,6
+71474653,549835,466814,species,Spaniocerca zelandica,Stonefly,Insects,23
+71477034,549837,466814,species,Spaniocerca zelandica,Stonefly,Insects,13
+71473800,549834,466846,genus,Zelandobius,Stonefly,Insects,28
+71474983,549835,466846,genus,Zelandobius,Stonefly,Insects,6
+71633286,549834,469322,genus,Steroidobacter,NA,Bacteria,81
+71635895,549835,469322,genus,Steroidobacter,NA,Bacteria,39
+71639697,549837,469322,genus,Steroidobacter,NA,Bacteria,49
+71474708,549835,481685,species,Xanthocnemis zealandica,Red damselfly,Insects,16
+71631109,549833,490567,genus,Arenimonas,NA,Bacteria,303
+71633006,549834,490567,genus,Arenimonas,NA,Bacteria,492
+71635389,549835,490567,genus,Arenimonas,NA,Bacteria,268
+71637431,549836,490567,genus,Arenimonas,NA,Bacteria,347
+71639243,549837,490567,genus,Arenimonas,NA,Bacteria,539
+71421433,549836,493341,species,Carex aff. geminata AK288389,NA,Plants,6
+71888372,549835,502082,family,Nassulidae,NA,Ciliates,40
+71745230,549835,502083,genus,Nassula,NA,Ciliates,67
+71636854,549835,504090,genus,Kushneria,NA,Bacteria,9
+71641146,549837,504090,genus,Kushneria,NA,Bacteria,5
+71561106,549833,511022,species,Lipaphis pseudobrassicae,NA,Insects,524
+71561145,549834,511022,species,Lipaphis pseudobrassicae,NA,Insects,281
+71561176,549835,511022,species,Lipaphis pseudobrassicae,NA,Insects,357
+71561220,549836,511022,species,Lipaphis pseudobrassicae,NA,Insects,719
+71561305,549837,511022,species,Lipaphis pseudobrassicae,NA,Insects,78
+71631772,549833,512381,genus,Acidisoma,NA,Bacteria,26
+71634066,549834,512381,genus,Acidisoma,NA,Bacteria,22
+71635804,549835,512381,genus,Acidisoma,NA,Bacteria,46
+71637962,549836,512381,genus,Acidisoma,NA,Bacteria,30
+71639700,549837,512381,genus,Acidisoma,NA,Bacteria,49
+71632281,549833,513557,genus,Syntrophorhabdus,NA,Bacteria,12
+71561268,549836,527612,species,Capitophorus elaeagni,Artichoke aphid,Insects,13
+71632017,549833,529883,genus,Rhodoluna,NA,Bacteria,18
+71637887,549836,529883,genus,Rhodoluna,NA,Bacteria,49
+71631260,549833,543313,family,Eubacteriales Family XII. Incertae Sedis,NA,Bacteria,93
+71634250,549834,543313,family,Eubacteriales Family XII. Incertae Sedis,NA,Bacteria,17
+71636042,549835,543313,family,Eubacteriales Family XII. Incertae Sedis,NA,Bacteria,30
+71637615,549836,543313,family,Eubacteriales Family XII. Incertae Sedis,NA,Bacteria,80
+71632053,549833,543314,family,Anaerovoracaceae,NA,Bacteria,18
+71634156,549834,543314,family,Anaerovoracaceae,NA,Bacteria,20
+71640937,549837,543314,family,Anaerovoracaceae,NA,Bacteria,9
+71476723,549837,551873,genus,Deleatidium,NZ mayfly,Insects,57
+71746925,549836,552360,genus,Histiobalantium,NA,Ciliates,6
+71745579,549835,552437,subfamily,Atalophlebiinae,Mayflies,Insects,18
+71633350,549834,556257,genus,Pseudolabrys,NA,Bacteria,61
+71635820,549835,556257,genus,Pseudolabrys,NA,Bacteria,44
+71637779,549836,556257,genus,Pseudolabrys,NA,Bacteria,43
+71745805,549835,560803,subgenus,Nippotipula,NA,Insects,10
+71889825,549837,560897,genus,Drepanepteryx,NA,Insects,9
+71632122,549833,563798,family,Cyclobacteriaceae,NA,Bacteria,16
+71631098,549833,563835,family,Chitinophagaceae,NA,Bacteria,865
+71632965,549834,563835,family,Chitinophagaceae,NA,Bacteria,2886
+71635318,549835,563835,family,Chitinophagaceae,NA,Bacteria,2893
+71638930,549836,563835,family,Chitinophagaceae,NA,Bacteria,1219
+71639219,549837,563835,family,Chitinophagaceae,NA,Bacteria,2910
+71632393,549833,568386,family,Nevskiaceae,NA,Bacteria,17
+71634595,549834,568386,family,Nevskiaceae,NA,Bacteria,11
+71636188,549835,568386,family,Nevskiaceae,NA,Bacteria,24
+71640393,549837,568386,family,Nevskiaceae,NA,Bacteria,19
+71632204,549833,574697,genus,Butyricimonas,NA,Bacteria,14
+71632284,549833,574976,family,Holophagaceae,NA,Bacteria,12
+71634101,549834,574976,family,Holophagaceae,NA,Bacteria,29
+71640557,549837,574976,family,Holophagaceae,NA,Bacteria,23
+71633803,549834,577469,genus,Demequina,NA,Bacteria,30
+71640719,549837,577469,genus,Demequina,NA,Bacteria,12
+71421239,549834,580468,species,Muehlenbeckia australis,NA,Plants,51
+71421344,549836,580468,species,Muehlenbeckia australis,NA,Plants,7837
+71472932,549833,587584,species,Gobiomorphus huttoni,Redfin bully,Fish,3570
+71475795,549836,587584,species,Gobiomorphus huttoni,Redfin bully,Fish,35271
+71636600,549835,600332,genus,Zavarzinella,NA,Bacteria,14
+71638761,549836,600332,genus,Zavarzinella,NA,Bacteria,9
+71475819,549836,600663,genus,Polyplectropus,Caddisfly,Insects,14
+71477220,549837,611450,species,Corynoneura scutellata,Non-biting midge,Insects,7
+71474755,549835,623643,species,Plectrocnemia maclachlani,Caddisfly,Insects,13
+71476827,549837,623643,species,Plectrocnemia maclachlani,Caddisfly,Insects,31
+71636398,549835,641876,family,Elusimicrobiaceae,NA,Bacteria,18
+71744773,549834,642599,family,Lobulomycetaceae,NA,Fungi,6
+71745298,549835,642599,family,Lobulomycetaceae,NA,Fungi,44
+71747263,549837,642599,family,Lobulomycetaceae,NA,Fungi,76
+71743516,549833,644136,genus,Abacarus,NA,Mites and ticks,16
+71634425,549834,649777,family,Synergistaceae,NA,Bacteria,14
+71637027,549835,649777,family,Synergistaceae,NA,Bacteria,6
+71639845,549837,649777,family,Synergistaceae,NA,Bacteria,39
+71636181,549835,660628,genus,Insolitispirillum,NA,Bacteria,24
+71743699,549833,666508,genus,Phycisphaera,NA,Bacteria,5
+71746713,549836,666508,genus,Phycisphaera,NA,Bacteria,14
+71636259,549835,667112,genus,Lutispora,NA,Bacteria,22
+71632008,549833,670486,genus,Dehalogenimonas,NA,Bacteria,19
+71636485,549835,682522,genus,Ilumatobacter,NA,Bacteria,16
+71637525,549836,682522,genus,Ilumatobacter,NA,Bacteria,85
+71639850,549837,682522,genus,Ilumatobacter,NA,Bacteria,38
+71747489,549837,683158,family,Didymellaceae,Fungi,Fungi,43
+71631346,549833,690621,genus,Georgfuchsia,NA,Bacteria,61
+71743476,549833,693142,genus,Placus,NA,Ciliates,21
+71743932,549834,693142,genus,Placus,NA,Ciliates,464
+71745223,549835,693142,genus,Placus,NA,Ciliates,102
+71746397,549836,693142,genus,Placus,NA,Ciliates,138
+71747191,549837,693142,genus,Placus,NA,Ciliates,338
+71743539,549833,693930,genus,Cinetochilum,NA,Ciliates,15
+71743975,549834,693930,genus,Cinetochilum,NA,Ciliates,227
+71745258,549835,693930,genus,Cinetochilum,NA,Ciliates,110
+71746487,549836,693930,genus,Cinetochilum,NA,Ciliates,78
+71747237,549837,693930,genus,Cinetochilum,NA,Ciliates,135
+71472680,549833,697957,species,Oxyethira albiceps,Micro caddisfly,Insects,326
+71475316,549836,697957,species,Oxyethira albiceps,Micro caddisfly,Insects,3599
+71476977,549837,697957,species,Oxyethira albiceps,Micro caddisfly,Insects,15
+71473332,549833,697960,species,Psilochorema mimicum,NZ caddisfly,Insects,9
+71474016,549834,697960,species,Psilochorema mimicum,NZ caddisfly,Insects,8
+71474718,549835,697960,species,Psilochorema mimicum,NZ caddisfly,Insects,15
+71476928,549837,697960,species,Psilochorema mimicum,NZ caddisfly,Insects,19
+71472973,549833,697963,species,Triplectides obsoletus,NZ caddisfly,Insects,37
+71475626,549836,697963,species,Triplectides obsoletus,NZ caddisfly,Insects,27
+71473145,549833,697976,species,Costachorema xanthopterum,Caddisfly,Insects,19
+71474167,549834,697976,species,Costachorema xanthopterum,Caddisfly,Insects,5
+71474842,549835,697976,species,Costachorema xanthopterum,Caddisfly,Insects,9
+71475633,549836,697976,species,Costachorema xanthopterum,Caddisfly,Insects,27
+71476659,549837,697976,species,Costachorema xanthopterum,Caddisfly,Insects,102
+71473183,549833,697985,species,Hydrobiosis copis,NZ caddisfly,Insects,16
+71476024,549836,697985,species,Hydrobiosis copis,NZ caddisfly,Insects,7
+71473977,549834,697987,species,Hydrobiosis gollanis,NZ Caddisfly,Insects,10
+71472976,549833,697990,species,Hydrobiosis parumbripennis,Caddisfly,Insects,37
+71473892,549834,697990,species,Hydrobiosis parumbripennis,Caddisfly,Insects,14
+71474437,549835,697990,species,Hydrobiosis parumbripennis,Caddisfly,Insects,129
+71475603,549836,697990,species,Hydrobiosis parumbripennis,Caddisfly,Insects,30
+71476606,549837,697990,species,Hydrobiosis parumbripennis,Caddisfly,Insects,236
+71477368,549837,735358,species,Buchholzia appendiculata,Worm,Worms,5
+71474705,549835,735367,genus,Henlea,Worm,Worms,17
+71565415,549833,745771,species,Potamothrix bavaricus,Aquatic oligochaete worm,Worms,179
+71475658,549836,745771,species,Potamothrix bavaricus,Aquatic oligochaete worm,Worms,240
+71561251,549836,796226,species,Dysaphis rumecicola,NA,Insects,41
+71743031,549833,863765,genus,Agolohymena,NA,Ciliates,116
+71744131,549834,863765,genus,Agolohymena,NA,Ciliates,55
+71888502,549835,863765,genus,Agolohymena,NA,Ciliates,17
+71473188,549833,880756,genus,Fistulifera,Diatom,Diatoms,16
+71744397,549834,880756,genus,Fistulifera,Diatom,Diatoms,17
+71474792,549835,880756,genus,Fistulifera,Diatom,Diatoms,78
+71747583,549837,880756,genus,Fistulifera,Diatom,Diatoms,17
+71640079,549837,908626,genus,Angustibacter,NA,Bacteria,28
+71631336,549833,909656,genus,Phocaeicola,NA,Bacteria,63
+71637596,549836,909656,genus,Phocaeicola,NA,Bacteria,117
+71565421,549833,913639,species,Cernosvitoviella aggtelekiensis,Worm,Worms,37
+71473984,549834,913639,species,Cernosvitoviella aggtelekiensis,Worm,Worms,18
+71475920,549836,913639,species,Cernosvitoviella aggtelekiensis,Worm,Worms,10
+71476892,549837,913639,species,Cernosvitoviella aggtelekiensis,Worm,Worms,44
+71473282,549833,914218,species,Megascolex laingii,Worm,Worms,11
+71475779,549836,914218,species,Megascolex laingii,Worm,Worms,21
+71931703,549833,926038,species,Rubus armeniacus,Himalaya blackberry,Plants,3239
+71931761,549836,926038,species,Rubus armeniacus,Himalaya blackberry,Plants,905
+71473433,549833,928822,species,Scaptomyza flava,Turnip leafminer,Insects,6
+71473856,549834,928822,species,Scaptomyza flava,Turnip leafminer,Insects,17
+71474693,549835,928822,species,Scaptomyza flava,Turnip leafminer,Insects,18
+71475843,549836,928822,species,Scaptomyza flava,Turnip leafminer,Insects,13
+71472853,549833,938119,genus,Paracyclops,Copepod,Crustaceans,63
+71474061,549834,938119,genus,Paracyclops,Copepod,Crustaceans,7
+71474384,549835,938119,genus,Paracyclops,Copepod,Crustaceans,463
+71475348,549836,938119,genus,Paracyclops,Copepod,Crustaceans,511
+71477014,549837,938119,genus,Paracyclops,Copepod,Crustaceans,13
+71473683,549834,977414,species,Trichoptera sp. BOLD:AAO0242,NA,Insects,100
+71474403,549835,977414,species,Trichoptera sp. BOLD:AAO0242,NA,Insects,237
+71476573,549837,977414,species,Trichoptera sp. BOLD:AAO0242,NA,Insects,618
+71743016,549833,993382,genus,Trachelius,NA,Ciliates,149
+71746273,549836,993382,genus,Trachelius,NA,Ciliates,415
+71474572,549835,999745,species,Hypogastrura purpurescens,Springtail,Springtails,35
+71476743,549837,999745,species,Hypogastrura purpurescens,Springtail,Springtails,50
+71743235,549833,1001748,subfamily,Stylonychinae,NA,Ciliates,50
+71472990,549833,1008863,genus,Ommatoiulus,NA,Other,35
+71473639,549834,1008863,genus,Ommatoiulus,NA,Other,568
+71474427,549835,1008863,genus,Ommatoiulus,NA,Other,161
+71475496,549836,1008863,genus,Ommatoiulus,NA,Other,65
+71476590,549837,1008863,genus,Ommatoiulus,NA,Other,357
+71742933,549833,1027875,family,Ichthyobodonidae,NA,Other,201
+71888708,549835,1027875,family,Ichthyobodonidae,NA,Other,6
+71746313,549836,1027875,family,Ichthyobodonidae,NA,Other,128
+71747968,549837,1027875,family,Ichthyobodonidae,NA,Other,5
+71632135,549833,1042315,genus,Armatimonas,NA,Bacteria,15
+71633401,549834,1042315,genus,Armatimonas,NA,Bacteria,56
+71635926,549835,1042315,genus,Armatimonas,NA,Bacteria,37
+71637795,549836,1042315,genus,Armatimonas,NA,Bacteria,42
+71639533,549837,1042315,genus,Armatimonas,NA,Bacteria,71
+71743244,549833,1046325,subfamily,Lumbricinae,NA,Worms,39
+71565441,549834,1046325,subfamily,Lumbricinae,NA,Worms,386
+71745582,549835,1046325,subfamily,Lumbricinae,NA,Worms,42
+71746762,549836,1046325,subfamily,Lumbricinae,NA,Worms,23
+71747393,549837,1046325,subfamily,Lumbricinae,NA,Worms,60
+71632218,549833,1055686,family,Sandaracinaceae,NA,Bacteria,13
+71633798,549834,1055686,family,Sandaracinaceae,NA,Bacteria,30
+71636360,549835,1055686,family,Sandaracinaceae,NA,Bacteria,19
+71638272,549836,1055686,family,Sandaracinaceae,NA,Bacteria,19
+71640143,549837,1055686,family,Sandaracinaceae,NA,Bacteria,25
+71747886,549837,1072174,genus,Paradermamoeba,NA,Amoebae,7
+71887462,549833,1078833,genus,Cryptodifflugia,NA,Amoebae,6
+71744786,549834,1078833,genus,Cryptodifflugia,NA,Amoebae,6
+71889410,549836,1078833,genus,Cryptodifflugia,NA,Amoebae,5
+71631486,549833,1091044,genus,Elstera,NA,Bacteria,43
+71633271,549834,1091044,genus,Elstera,NA,Bacteria,77
+71636057,549835,1091044,genus,Elstera,NA,Bacteria,29
+71637939,549836,1091044,genus,Elstera,NA,Bacteria,31
+71639411,549837,1091044,genus,Elstera,NA,Bacteria,107
+71421363,549836,1110380,subfamily,Polygonoideae,NA,Plants,368
+71472854,549833,1117027,species,Poteriospumella lacustris,Protist,Heterokont algae,63
+71474655,549835,1117027,species,Poteriospumella lacustris,Protist,Heterokont algae,22
+71475710,549836,1117027,species,Poteriospumella lacustris,Protist,Heterokont algae,20
+71476844,549837,1117027,species,Poteriospumella lacustris,Protist,Heterokont algae,28
+71887203,549833,1117029,genus,Pedospumella,NA,Heterokont algae,28
+71746547,549836,1117029,genus,Pedospumella,NA,Heterokont algae,27
+71743007,549833,1127830,family,Candidatus Brocadiaceae,NA,Bacteria,121
+71746531,549836,1127830,family,Candidatus Brocadiaceae,NA,Bacteria,55
+71632442,549833,1129771,family,Leptotrichiaceae,NA,Bacteria,9
+71638568,549836,1129771,family,Leptotrichiaceae,NA,Bacteria,12
+71640574,549837,1129771,family,Leptotrichiaceae,NA,Bacteria,15
+71475837,549836,1137563,species,Micromus tasmaniae,Tasmanian brown lacewing,Insects,13
+71565401,549833,1138460,species,Nais communis/variabilis complex sp. A1,Sludgeworm,Worms,5911
+71565442,549834,1138460,species,Nais communis/variabilis complex sp. A1,Sludgeworm,Worms,259
+71565460,549835,1138460,species,Nais communis/variabilis complex sp. A1,Sludgeworm,Worms,4078
+71565541,549837,1138460,species,Nais communis/variabilis complex sp. A1,Sludgeworm,Worms,1376
+71472750,549833,1138461,species,Nais communis/variabilis complex sp. A2,Sludgeworm,Worms,112
+71473682,549834,1138461,species,Nais communis/variabilis complex sp. A2,Sludgeworm,Worms,100
+71474443,549835,1138461,species,Nais communis/variabilis complex sp. A2,Sludgeworm,Worms,122
+71475360,549836,1138461,species,Nais communis/variabilis complex sp. A2,Sludgeworm,Worms,349
+71476692,549837,1138461,species,Nais communis/variabilis complex sp. A2,Sludgeworm,Worms,74
+71473106,549833,1138462,species,Nais communis/variabilis complex sp. A3,Sludgeworm,Worms,22
+71889895,549837,1158267,genus,Neospongiococcum,Green alga,Green algae,6
+71743017,549833,1167810,genus,Betamyces,NA,Fungi,152
+71744766,549834,1167810,genus,Betamyces,NA,Fungi,19
+71745216,549835,1167810,genus,Betamyces,NA,Fungi,218
+71746409,549836,1167810,genus,Betamyces,NA,Fungi,103
+71747517,549837,1167810,genus,Betamyces,NA,Fungi,57
+71746779,549836,1170555,genus,Pseudochilodonopsis,NA,Ciliates,26
+71638945,549836,1198451,family,Methanoregulaceae,NA,Archaea,6
+71633496,549834,1210119,genus,Ohtaekwangia,NA,Bacteria,47
+71639906,549837,1210119,genus,Ohtaekwangia,NA,Bacteria,35
+71743237,549833,1237874,genus,Rigifila,NA,Other,50
+71888570,549835,1237874,genus,Rigifila,NA,Other,13
+71746649,549836,1237874,genus,Rigifila,NA,Other,43
+71748003,549837,1237874,genus,Rigifila,NA,Other,5
+71474518,549835,1238133,species,Arcitalitrus dorrieni,NA,Crustaceans,52
+71632577,549833,1241326,genus,Rhizomicrobium,NA,Bacteria,7
+71421251,549834,1275945,genus,Botryosphaerella,Green alga,Green algae,19
+71743022,549833,1286322,subfamily,Leishmaniinae,NA,Other,120
+71744172,549834,1286322,subfamily,Leishmaniinae,NA,Other,65
+71745341,549835,1286322,subfamily,Leishmaniinae,NA,Other,73
+71746354,549836,1286322,subfamily,Leishmaniinae,NA,Other,149
+71747361,549837,1286322,subfamily,Leishmaniinae,NA,Other,70
+71472644,549833,1302608,genus,Eiseniella,Worm,Worms,1094
+71565402,549833,1302610,species,Eiseniella tetraedra,Squaretail worm,Worms,5378
+71565433,549834,1302610,species,Eiseniella tetraedra,Squaretail worm,Worms,2817
+71474735,549835,1302610,species,Eiseniella tetraedra,Squaretail worm,Worms,3834
+71475375,549836,1302610,species,Eiseniella tetraedra,Squaretail worm,Worms,2060
+71476839,549837,1302610,species,Eiseniella tetraedra,Squaretail worm,Worms,15940
+71571040,549836,1307796,subfamily,Chenopodioideae,NA,Plants,518
+71475790,549836,1334938,species,Scioniini gen. NZ sp. lerda,NA,Insects,16
+71477350,549837,1334938,species,Scioniini gen. NZ sp. lerda,NA,Insects,5
+71743510,549833,1352827,family,Chytriomycetaceae,Chytrid fungi,Fungi,10
+71477056,549837,1371973,species,Chloroclystis filata,Filata moth,Insects,12
+71635997,549835,1383070,genus,Brevifollis,NA,Bacteria,33
+71637904,549836,1383070,genus,Brevifollis,NA,Bacteria,34
+71747004,549836,1395793,genus,Protrudomyces,NA,Fungi,5
+71887372,549833,1396492,genus,Fimicolochytrium,NA,Fungi,10
+71474005,549834,1425391,species,Dysaphis aucupariae,Aphid,Insects,9
+71561254,549836,1425443,species,Neotoxoptera formosana,Onion aphid,Insects,33
+71631234,549833,1433993,genus,Chryseolinea,NA,Bacteria,82
+71633034,549834,1433993,genus,Chryseolinea,NA,Bacteria,264
+71635514,549835,1433993,genus,Chryseolinea,NA,Bacteria,100
+71637418,549836,1433993,genus,Chryseolinea,NA,Bacteria,156
+71639317,549837,1433993,genus,Chryseolinea,NA,Bacteria,172
+71631061,549833,1434046,genus,Sphingorhabdus,NA,Bacteria,320
+71633248,549834,1434046,genus,Sphingorhabdus,NA,Bacteria,99
+71635404,549835,1434046,genus,Sphingorhabdus,NA,Bacteria,212
+71637372,549836,1434046,genus,Sphingorhabdus,NA,Bacteria,284
+71639352,549837,1434046,genus,Sphingorhabdus,NA,Bacteria,157
+71931713,549833,1461652,subgenus,Veronica subgen. Beccabunga,NA,Plants,406
+71421400,549836,1461652,subgenus,Veronica subgen. Beccabunga,NA,Plants,22
+71631791,549833,1471398,family,Prolixibacteraceae,NA,Bacteria,25
+71633883,549834,1471398,family,Prolixibacteraceae,NA,Bacteria,33
+71635519,549835,1471398,family,Prolixibacteraceae,NA,Bacteria,156
+71638230,549836,1471398,family,Prolixibacteraceae,NA,Bacteria,39
+71640137,549837,1471398,family,Prolixibacteraceae,NA,Bacteria,65
+71473905,549834,1478093,species,Sidymella angulata,square ended crab spider,Spiders,14
+71421567,549837,1480571,genus,Anthosachne,NA,Plants,5
+71421204,549834,1483193,species,Veronica macrocarpa,NA,Plants,407
+71421380,549836,1483193,species,Veronica macrocarpa,NA,Plants,42
+71421485,549837,1483193,species,Veronica macrocarpa,NA,Plants,186
+71742893,549833,1484335,genus,Woronina,NA,Other,2680
+71745096,549835,1484335,genus,Woronina,NA,Other,538
+71746252,549836,1484335,genus,Woronina,NA,Other,1284
+71747864,549837,1484335,genus,Woronina,NA,Other,7
+71743169,549833,1486645,genus,Sheathia,Freshwater red alga,Red algae,53
+71746501,549836,1486645,genus,Sheathia,Freshwater red alga,Red algae,86
+71634069,549834,1486726,genus,Pseudobacteroides,NA,Bacteria,22
+71744142,549834,1489788,genus,Lagena,NA,Oomycetes,36
+71473146,549833,1490269,genus,Pilogalumna,Mite,Mites and ticks,19
+71474512,549835,1490269,genus,Pilogalumna,Mite,Mites and ticks,54
+71475913,549836,1490269,genus,Pilogalumna,Mite,Mites and ticks,10
+71476690,549837,1490269,genus,Pilogalumna,Mite,Mites and ticks,77
+71633659,549834,1499392,family,Chromobacteriaceae,NA,Bacteria,37
+71639852,549837,1499392,family,Chromobacteriaceae,NA,Bacteria,38
+71745146,549835,1500004,genus,Paraphysoderma,NA,Fungi,240
+71889897,549837,1500004,genus,Paraphysoderma,NA,Fungi,6
+71635037,549834,1501226,genus,Romboutsia,NA,Bacteria,5
+71638897,549836,1501226,genus,Romboutsia,NA,Bacteria,6
+71570883,549833,1502711,genus,Erythranthe,Monkey-flowers; musk-flowers,Plants,2958
+71421224,549834,1502711,genus,Erythranthe,Monkey-flowers; musk-flowers,Plants,4557
+71421286,549835,1502711,genus,Erythranthe,Monkey-flowers; musk-flowers,Plants,19968
+71571053,549836,1502711,genus,Erythranthe,Monkey-flowers; musk-flowers,Plants,240
+71421490,549837,1502711,genus,Erythranthe,Monkey-flowers; musk-flowers,Plants,19263
+71474093,549834,1502880,genus,Forsteropsalis,NA,Other,7
+71631876,549833,1508657,genus,Ruminiclostridium,NA,Bacteria,22
+71633420,549834,1508657,genus,Ruminiclostridium,NA,Bacteria,53
+71635849,549835,1508657,genus,Ruminiclostridium,NA,Bacteria,42
+71639632,549837,1508657,genus,Ruminiclostridium,NA,Bacteria,57
+71472668,549833,1512276,species,Cochliopodium kieliense,Amoeba,Amoebae,438
+71473707,549834,1512276,species,Cochliopodium kieliense,Amoeba,Amoebae,69
+71474457,549835,1512276,species,Cochliopodium kieliense,Amoeba,Amoebae,98
+71475336,549836,1512276,species,Cochliopodium kieliense,Amoeba,Amoebae,948
+71476669,549837,1512276,species,Cochliopodium kieliense,Amoeba,Amoebae,94
+71633744,549834,1538468,genus,Povalibacter,NA,Bacteria,33
+71636508,549835,1538468,genus,Povalibacter,NA,Bacteria,16
+71640010,549837,1538468,genus,Povalibacter,NA,Bacteria,30
+71631794,549833,1543704,genus,Niveispirillum,NA,Bacteria,25
+71635730,549835,1543704,genus,Niveispirillum,NA,Bacteria,55
+71640374,549837,1543704,genus,Niveispirillum,NA,Bacteria,19
+71631716,549833,1549126,genus,Desulfatiglans,NA,Bacteria,29
+71631322,549833,1553903,genus,Oligoflexus,NA,Bacteria,64
+71633394,549834,1553903,genus,Oligoflexus,NA,Bacteria,56
+71636348,549835,1553903,genus,Oligoflexus,NA,Bacteria,19
+71638043,549836,1553903,genus,Oligoflexus,NA,Bacteria,26
+71640138,549837,1553903,genus,Oligoflexus,NA,Bacteria,25
+71638496,549836,1562564,genus,Aridibacter,NA,Bacteria,14
+71474809,549835,1572558,species,Inopus rubriceps,Sugarcane soldier fly,Insects,10
+71475875,549836,1572558,species,Inopus rubriceps,Sugarcane soldier fly,Insects,11
+71476951,549837,1572558,species,Inopus rubriceps,Sugarcane soldier fly,Insects,17
+71477348,549837,1597328,species,Lepidoptera sp. NZAC 03012277,NA,Insects,5
+71476099,549836,1597748,species,Thysanoptera sp. NZAC 03011607,Thrip,Insects,6
+71565472,549835,1628347,genus,Chamaedrilus,Worm,Worms,350
+71631684,549833,1648491,genus,Aquihabitans,NA,Bacteria,30
+71637799,549836,1648491,genus,Aquihabitans,NA,Bacteria,42
+71639761,549837,1648491,genus,Aquihabitans,NA,Bacteria,44
+71636530,549835,1648505,genus,Chiayiivirga,NA,Bacteria,16
+71631118,549833,1649462,genus,Lacihabitans,NA,Bacteria,145
+71632993,549834,1649462,genus,Lacihabitans,NA,Bacteria,404
+71635454,549835,1649462,genus,Lacihabitans,NA,Bacteria,131
+71637434,549836,1649462,genus,Lacihabitans,NA,Bacteria,137
+71639266,549837,1649462,genus,Lacihabitans,NA,Bacteria,257
+71631057,549833,1649488,genus,Rivihabitans,NA,Bacteria,293
+71633793,549834,1649488,genus,Rivihabitans,NA,Bacteria,30
+71635394,549835,1649488,genus,Rivihabitans,NA,Bacteria,198
+71637403,549836,1649488,genus,Rivihabitans,NA,Bacteria,173
+71639596,549837,1649488,genus,Rivihabitans,NA,Bacteria,63
+71639902,549837,1649510,genus,Variibacter,NA,Bacteria,35
+71888113,549834,1654994,genus,Ischnamoeba,NA,Amoebae,5
+71475874,549836,1667446,species,Cricotopus sp. NZeP20,NZ mining midge,Insects,11
+71744682,549834,1682405,family,Microdochiaceae,NA,Fungi,8
+71473363,549833,1692154,species,Phytophthora chlamydospora,Water mould,Oomycetes,8
+71475763,549836,1692154,species,Phytophthora chlamydospora,Water mould,Oomycetes,17
+71887027,549833,1703786,species,Stentor roeselii,Ciliate,Ciliates,502
+71888890,549836,1703786,species,Stentor roeselii,Ciliate,Ciliates,228
+71631029,549833,1706371,family,Cellvibrionaceae,NA,Bacteria,412
+71632980,549834,1706371,family,Cellvibrionaceae,NA,Bacteria,624
+71635300,549835,1706371,family,Cellvibrionaceae,NA,Bacteria,915
+71637358,549836,1706371,family,Cellvibrionaceae,NA,Bacteria,307
+71639211,549837,1706371,family,Cellvibrionaceae,NA,Bacteria,727
+71631750,549833,1706375,family,Spongiibacteraceae,NA,Bacteria,27
+71637838,549836,1706375,family,Spongiibacteraceae,NA,Bacteria,38
+71640515,549837,1706375,family,Spongiibacteraceae,NA,Bacteria,16
+71476224,549836,1723375,genus,Homeopronematus,NA,Mites and ticks,5
+71472633,549833,1742636,genus,Candidatus Megaera,NA,Bacteria,2062
+71473878,549834,1742636,genus,Candidatus Megaera,NA,Bacteria,27
+71474442,549835,1742636,genus,Candidatus Megaera,NA,Bacteria,170
+71475370,549836,1742636,genus,Candidatus Megaera,NA,Bacteria,403
+71476710,549837,1742636,genus,Candidatus Megaera,NA,Bacteria,61
+71638504,549836,1748772,family,Blastocatellaceae,NA,Bacteria,14
+71633855,549834,1763524,family,Isosphaeraceae,NA,Bacteria,29
+71473676,549834,1763602,species,Archichauliodes diversus,NZ dobsonfly,Insects,109
+71474394,549835,1763602,species,Archichauliodes diversus,NZ dobsonfly,Insects,289
+71475627,549836,1763602,species,Archichauliodes diversus,NZ dobsonfly,Insects,27
+71476558,549837,1763602,species,Archichauliodes diversus,NZ dobsonfly,Insects,2878
+71744500,549834,1769746,genus,Pseudobacteriovorax,NA,Bacteria,13
+71632649,549833,1771355,family,Tepidisphaeraceae,NA,Bacteria,6
+71633583,549834,1771355,family,Tepidisphaeraceae,NA,Bacteria,57
+71636280,549835,1771355,family,Tepidisphaeraceae,NA,Bacteria,21
+71638128,549836,1771355,family,Tepidisphaeraceae,NA,Bacteria,24
+71639857,549837,1771355,family,Tepidisphaeraceae,NA,Bacteria,64
+71743523,549833,1771356,genus,Tepidisphaera,Bacteria,Bacteria,10
+71634228,549834,1771356,genus,Tepidisphaera,Bacteria,Bacteria,75
+71745395,549835,1771356,genus,Tepidisphaera,Bacteria,Bacteria,72
+71746938,549836,1771356,genus,Tepidisphaera,Bacteria,Bacteria,11
+71640201,549837,1771356,genus,Tepidisphaera,Bacteria,Bacteria,91
+71472880,549833,1778584,species,Acroperla trivacuata,Stonefly,Insects,53
+71473862,549834,1778584,species,Acroperla trivacuata,Stonefly,Insects,16
+71475720,549836,1778584,species,Acroperla trivacuata,Stonefly,Insects,19
+71473342,549833,1778848,species,Enchytraeidae sp. 1 RV-2016,NA,Worms,9
+71475648,549836,1778848,species,Enchytraeidae sp. 1 RV-2016,NA,Worms,26
+71743159,549833,1780200,subfamily,Naidinae,Sludgeworms,Worms,68
+71743974,549834,1780200,subfamily,Naidinae,Sludgeworms,Worms,284
+71745201,549835,1780200,subfamily,Naidinae,Sludgeworms,Worms,221
+71746408,549836,1780200,subfamily,Naidinae,Sludgeworms,Worms,197
+71747206,549837,1780200,subfamily,Naidinae,Sludgeworms,Worms,254
+71565546,549837,1780203,subfamily,Tubificinae,NA,Worms,708
+71631607,549833,1783343,family,Endomicrobiaceae,NA,Bacteria,34
+71476083,549836,1790055,genus,Monteithiella,NA,Insects,7
+71743378,549833,1804150,genus,Sorodiplophrys,NA,Heterokont algae,29
+71887838,549834,1804150,genus,Sorodiplophrys,NA,Heterokont algae,56
+71746772,549836,1804150,genus,Sorodiplophrys,NA,Heterokont algae,21
+71747915,549837,1804150,genus,Sorodiplophrys,NA,Heterokont algae,12
+71743282,549833,1810340,genus,Cothurnia,NA,Ciliates,21
+71745940,549835,1810340,genus,Cothurnia,NA,Ciliates,7
+71746500,549836,1810340,genus,Cothurnia,NA,Ciliates,32
+71743095,549833,1841640,genus,Segregatospumella,NA,Heterokont algae,74
+71744308,549834,1841640,genus,Segregatospumella,NA,Heterokont algae,64
+71745284,549835,1841640,genus,Segregatospumella,NA,Heterokont algae,98
+71746570,549836,1841640,genus,Segregatospumella,NA,Heterokont algae,57
+71747478,549837,1841640,genus,Segregatospumella,NA,Heterokont algae,67
+71633826,549834,1843490,family,Sporomusaceae,NA,Bacteria,29
+71637748,549836,1843490,family,Sporomusaceae,NA,Bacteria,47
+71640004,549837,1843490,family,Sporomusaceae,NA,Bacteria,30
+71631483,549833,1843491,family,Selenomonadaceae,NA,Bacteria,43
+71633422,549834,1843491,family,Selenomonadaceae,NA,Bacteria,53
+71637698,549836,1843491,family,Selenomonadaceae,NA,Bacteria,52
+71639709,549837,1843491,family,Selenomonadaceae,NA,Bacteria,47
+71630992,549833,1853230,family,Crocinitomicaceae,NA,Bacteria,3722
+71633321,549834,1853230,family,Crocinitomicaceae,NA,Bacteria,286
+71635665,549835,1853230,family,Crocinitomicaceae,NA,Bacteria,338
+71637300,549836,1853230,family,Crocinitomicaceae,NA,Bacteria,5341
+71639634,549837,1853230,family,Crocinitomicaceae,NA,Bacteria,340
+71636986,549835,1853232,family,Hymenobacteraceae,NA,Bacteria,7
+71640541,549837,1853232,family,Hymenobacteraceae,NA,Bacteria,23
+71887458,549833,1853743,genus,Symbiochloris,Green alga,Green algae,6
+71570967,549834,1881861,species,Tetragonia implexicoma,NA,Plants,219
+71571177,549837,1881861,species,Tetragonia implexicoma,NA,Plants,247
+71473079,549833,1889760,species,Ribautiana debilis,Typhlocybine,Insects,25
+71561233,549836,1898151,species,Idiopterus nephrelepidis,Black fern aphid,Insects,164
+71632225,549833,1903409,family,Erwiniaceae,NA,Bacteria,13
+71634172,549834,1903409,family,Erwiniaceae,NA,Bacteria,19
+71638273,549836,1903409,family,Erwiniaceae,NA,Bacteria,19
+71640114,549837,1903409,family,Erwiniaceae,NA,Bacteria,26
+71632059,549833,1914233,family,Gemmataceae,NA,Bacteria,17
+71633461,549834,1914233,family,Gemmataceae,NA,Bacteria,210
+71635801,549835,1914233,family,Gemmataceae,NA,Bacteria,46
+71637878,549836,1914233,family,Gemmataceae,NA,Bacteria,49
+71639754,549837,1914233,family,Gemmataceae,NA,Bacteria,218
+71744297,549834,1920164,family,Leptophryidae,NA,Other,37
+71745678,549835,1920164,family,Leptophryidae,NA,Other,24
+71747428,549837,1920164,family,Leptophryidae,NA,Other,47
+71631301,549833,1937960,family,Lewinellaceae,NA,Bacteria,68
+71634344,549834,1937960,family,Lewinellaceae,NA,Bacteria,15
+71635502,549835,1937960,family,Lewinellaceae,NA,Bacteria,110
+71638937,549836,1937960,family,Lewinellaceae,NA,Bacteria,169
+71639511,549837,1937960,family,Lewinellaceae,NA,Bacteria,83
+71476218,549836,1950761,species,Powellia vitreoradiata,NA,Insects,5
+71473787,549834,1955561,species,Paraphysomonas sp.,Golden-brown alga,Heterokont algae,30
+71474470,549835,1955561,species,Paraphysomonas sp.,Golden-brown alga,Heterokont algae,79
+71475483,549836,1955561,species,Paraphysomonas sp.,Golden-brown alga,Heterokont algae,72
+71476663,549837,1955561,species,Paraphysomonas sp.,Golden-brown alga,Heterokont algae,99
+71405671,549837,1956630,species,Dolomedes sp. CG96,Fishing spider,Spiders,102
+71473831,549834,1968928,species,Deleatidium myzobranchia,NZ mayfly,Insects,21
+71474728,549835,1968928,species,Deleatidium myzobranchia,NZ mayfly,Insects,14
+71474096,549834,1968957,species,Nesameletus flavitinctus,Mayfly,Insects,7
+71474654,549835,1981520,species,Ablabesmyia sp. NZ08.Motel,NA,Insects,22
+71421424,549836,1983537,species,Anthoxanthum sp. PT-2016,NA,Plants,9
+71636898,549835,2005519,family,Barnesiellaceae,NA,Bacteria,9
+71631899,549833,2005520,family,Dysgonomonadaceae,NA,Bacteria,22
+71633519,549834,2005520,family,Dysgonomonadaceae,NA,Bacteria,81
+71636674,549835,2005520,family,Dysgonomonadaceae,NA,Bacteria,13
+71639782,549837,2005520,family,Dysgonomonadaceae,NA,Bacteria,77
+71631639,549833,2005523,family,Paludibacteraceae,NA,Bacteria,32
+71633614,549834,2005523,family,Paludibacteraceae,NA,Bacteria,40
+71631861,549833,2005525,family,Tannerellaceae,NA,Bacteria,23
+71636765,549835,2005525,family,Tannerellaceae,NA,Bacteria,11
+71633887,549834,2008790,family,Thiobacillaceae,NA,Bacteria,27
+71635690,549835,2008790,family,Thiobacillaceae,NA,Bacteria,59
+71639257,549837,2008790,family,Thiobacillaceae,NA,Bacteria,307
+71631025,549833,2008793,family,Sterolibacteriaceae,NA,Bacteria,849
+71633071,549834,2008793,family,Sterolibacteriaceae,NA,Bacteria,503
+71635387,549835,2008793,family,Sterolibacteriaceae,NA,Bacteria,407
+71637323,549836,2008793,family,Sterolibacteriaceae,NA,Bacteria,960
+71639287,549837,2008793,family,Sterolibacteriaceae,NA,Bacteria,414
+71744433,549834,2008795,family,Azonexaceae,NA,Bacteria,15
+71745401,549835,2008795,family,Azonexaceae,NA,Bacteria,30
+71747951,549837,2010924,genus,Lacogromia,NA,Other,6
+71475736,549836,2041972,species,Supraphorura furcifera,Springtail,Springtails,19
+71475930,549836,2044801,species,Acizzia dodonaeae,NA,Insects,10
+71887303,549833,2045108,genus,Lithotrichon,Green alga,Green algae,14
+71889050,549836,2045108,genus,Lithotrichon,Green alga,Green algae,39
+71558402,549835,2068716,subfamily,Anatinae,NA,Birds,235
+71746549,549836,2070546,genus,Thuricola,NA,Ciliates,27
+71743069,549833,2109251,family,Naididae,Sludgeworms,Worms,129
+71746432,549836,2109251,family,Naididae,Sludgeworms,Worms,231
+71631268,549833,2448023,family,Ilumatobacteraceae,NA,Bacteria,74
+71633632,549834,2448023,family,Ilumatobacteraceae,NA,Bacteria,39
+71473303,549833,2449137,species,Ceratophysella aff. denticulata L3,Mushroom springtail,Springtails,10
+71473806,549834,2449137,species,Ceratophysella aff. denticulata L3,Mushroom springtail,Springtails,26
+71743422,549833,2493208,genus,Lentomonas,NA,Other,13
+71746970,549836,2493208,genus,Lentomonas,NA,Other,15
+71421432,549836,2508080,subfamily,Crocoideae,NA,Plants,7
+71473084,549833,2557471,species,Talara sp. 1YB,NA,Insects,24
+71474694,549835,2557471,species,Talara sp. 1YB,NA,Insects,18
+71743119,549833,2570650,family,Scytomonadidae,NA,Other,82
+71744116,549834,2570650,family,Scytomonadidae,NA,Other,91
+71745396,549835,2570650,family,Scytomonadidae,NA,Other,67
+71746564,549836,2570650,family,Scytomonadidae,NA,Other,50
+71747480,549837,2570650,family,Scytomonadidae,NA,Other,37
+71472658,549833,2581074,species,Orthonychiurus folsomi,Springtail,Springtails,601
+71473709,549834,2581074,species,Orthonychiurus folsomi,Springtail,Springtails,64
+71474663,549835,2581074,species,Orthonychiurus folsomi,Springtail,Springtails,21
+71475388,549836,2581074,species,Orthonychiurus folsomi,Springtail,Springtails,201
+71476605,549837,2581074,species,Orthonychiurus folsomi,Springtail,Springtails,236
+71743005,549833,2585968,genus,Metacineta,NA,Ciliates,102
+71888010,549834,2585968,genus,Metacineta,NA,Ciliates,8
+71746267,549836,2585968,genus,Metacineta,NA,Ciliates,312
+71477374,549837,2594519,species,Zapyrastra sp. Haloragis.leaf.miner,NA,Insects,5
+71474106,549834,2657845,species,Cecidomyiidae sp. BOLD:AAP5299,NA,Insects,7
+71473061,549833,2660484,species,Psychodidae sp. BOLD:AAU4648,NA,Insects,27
+71474928,549835,2660484,species,Psychodidae sp. BOLD:AAU4648,NA,Insects,7
+71475699,549836,2660484,species,Psychodidae sp. BOLD:AAU4648,NA,Insects,21
+71477028,549837,2660484,species,Psychodidae sp. BOLD:AAU4648,NA,Insects,13
+71565470,549835,2664990,species,Enchytraeus buchholzi complex sp. 2 MK-2019,Grindal worm,Worms,459
+71565518,549836,2664990,species,Enchytraeus buchholzi complex sp. 2 MK-2019,Grindal worm,Worms,75
+71565538,549837,2664990,species,Enchytraeus buchholzi complex sp. 2 MK-2019,Grindal worm,Worms,2563
+71632063,549833,2682485,family,Oedogoniaceae,NA,Green algae,17
+71637080,549835,2682485,family,Oedogoniaceae,NA,Green algae,5
+71638745,549836,2682485,family,Oedogoniaceae,NA,Green algae,9
+71631239,549833,2689614,family,Steroidobacteraceae,NA,Bacteria,101
+71633014,549834,2689614,family,Steroidobacteraceae,NA,Bacteria,347
+71635445,549835,2689614,family,Steroidobacteraceae,NA,Bacteria,153
+71637517,549836,2689614,family,Steroidobacteraceae,NA,Bacteria,114
+71639331,549837,2689614,family,Steroidobacteraceae,NA,Bacteria,182
+71631342,549833,2691357,family,Pirellulaceae,NA,Bacteria,162
+71633047,549834,2691357,family,Pirellulaceae,NA,Bacteria,1576
+71635571,549835,2691357,family,Pirellulaceae,NA,Bacteria,391
+71638853,549836,2691357,family,Pirellulaceae,NA,Bacteria,202
+71639345,549837,2691357,family,Pirellulaceae,NA,Bacteria,1211
+71744555,549834,2704095,genus,Sphenomonas,NA,Other,17
+71743439,549833,2723673,genus,Subanoplophrya,NA,Ciliates,13
+71744388,549834,2728145,family,Rhynchomonadidae,NA,Other,18
+71745779,549835,2728145,family,Rhynchomonadidae,NA,Other,11
+71747728,549837,2728145,family,Rhynchomonadidae,NA,Other,11
+71421310,549835,2732585,subgenus,Rumex subgen. Acetosa,NA,Plants,22
+71421410,549836,2732585,subgenus,Rumex subgen. Acetosa,NA,Plants,15
+71421530,549837,2732585,subgenus,Rumex subgen. Acetosa,NA,Plants,28
+71632401,549833,2762284,family,Flexibacteraceae,NA,Bacteria,10
+71633121,549834,2762284,family,Flexibacteraceae,NA,Bacteria,136
+71636297,549835,2762284,family,Flexibacteraceae,NA,Bacteria,21
+71638581,549836,2762284,family,Flexibacteraceae,NA,Bacteria,12
+71640406,549837,2762284,family,Flexibacteraceae,NA,Bacteria,19
+71633698,549834,2762286,family,Fulvivirgaceae,NA,Bacteria,35
+71635614,549835,2762286,family,Fulvivirgaceae,NA,Bacteria,70
+71637840,549836,2762286,family,Fulvivirgaceae,NA,Bacteria,38
+71639711,549837,2762286,family,Fulvivirgaceae,NA,Bacteria,47
+71631965,549833,2762318,family,Weeksellaceae,NA,Bacteria,20
+71635068,549834,2762318,family,Weeksellaceae,NA,Bacteria,5
+71640651,549837,2762318,family,Weeksellaceae,NA,Bacteria,14
+71632066,549833,2771471,family,Sulfurimonadaceae,NA,Bacteria,42
+71638119,549836,2771471,family,Sulfurimonadaceae,NA,Bacteria,87
+71631703,549833,2792075,genus,Pontixanthobacter,NA,Bacteria,29
+71633410,549834,2792075,genus,Pontixanthobacter,NA,Bacteria,55
+71635822,549835,2792075,genus,Pontixanthobacter,NA,Bacteria,44
+71638018,549836,2792075,genus,Pontixanthobacter,NA,Bacteria,27
+71639583,549837,2792075,genus,Pontixanthobacter,NA,Bacteria,65
+71744356,549834,2794838,family,Discinellaceae,NA,Fungi,36
+71746669,549836,2794838,family,Discinellaceae,NA,Fungi,39
+71473466,549833,2796156,species,Nothophytophthora lirii,NA,Oomycetes,5
+71631442,549833,2811504,family,Thermodesulfovibrionaceae,NA,Bacteria,47
+71636536,549835,2811504,family,Thermodesulfovibrionaceae,NA,Bacteria,15
+71637738,549836,2811504,family,Thermodesulfovibrionaceae,NA,Bacteria,48
+71631925,549833,2813035,family,Parvibaculaceae,NA,Bacteria,21
+71636421,549835,2813035,family,Parvibaculaceae,NA,Bacteria,18
+71475810,549836,2827493,species,Chironomidae sp.,NA,Insects,15
+71631068,549833,2829815,family,Azospirillaceae,NA,Bacteria,276
+71634164,549834,2829815,family,Azospirillaceae,NA,Bacteria,34
+71635358,549835,2829815,family,Azospirillaceae,NA,Bacteria,296
+71637480,549836,2829815,family,Azospirillaceae,NA,Bacteria,142
+71639507,549837,2829815,family,Azospirillaceae,NA,Bacteria,101
+71633398,549834,2831106,family,Devosiaceae,NA,Bacteria,56
+71635954,549835,2831106,family,Devosiaceae,NA,Bacteria,35
+71639575,549837,2831106,family,Devosiaceae,NA,Bacteria,66
+71640835,549837,2831111,family,Kaistiaceae,NA,Bacteria,10
+71633434,549834,2844375,family,Reyranellaceae,NA,Bacteria,88
+71636114,549835,2844375,family,Reyranellaceae,NA,Bacteria,27
+71639879,549837,2844375,family,Reyranellaceae,NA,Bacteria,37
+71634478,549834,2845253,family,Treponemataceae,NA,Bacteria,13
+71747944,549837,2870716,genus,Neoroseomonas,NA,Bacteria,6
+71473031,549833,2892870,genus,Galeripora,NA,Amoebae,30
+71475697,549836,2892870,genus,Galeripora,NA,Amoebae,21
+71473324,549833,2910652,species,Miridae sp.,NA,Insects,10
+71743298,549833,2923025,genus,Sericomyxa,NA,Other,36
+71744692,549834,2923025,genus,Sericomyxa,NA,Other,25
+71745382,549835,2923025,genus,Sericomyxa,NA,Other,55
+71746856,549836,2923025,genus,Sericomyxa,NA,Other,31
+71747818,549837,2923025,genus,Sericomyxa,NA,Other,27
+71744655,549834,2923026,family,Sericomyxidae,NA,Other,9
+71743441,549833,2923326,genus,Hillenburgia,NA,Other,12
+71744216,549834,2923326,genus,Hillenburgia,NA,Other,41
+71745492,549835,2923326,genus,Hillenburgia,NA,Other,34
+71889351,549836,2923326,genus,Hillenburgia,NA,Other,7
+71747865,549837,2923326,genus,Hillenburgia,NA,Other,14
+71475053,549835,2932956,species,Cixiidae sp.,NA,Insects,5
+71477142,549837,2938412,species,Dolichopodidae sp.,NA,Insects,9
+71472759,549833,2938421,species,Ephydridae sp.,NA,Insects,104
+71474567,549835,2938421,species,Ephydridae sp.,NA,Insects,49
+71477172,549837,2938421,species,Ephydridae sp.,NA,Insects,8
+71889368,549836,2938914,genus,Leontynka,NA,Green algae,7
+71475983,549836,2978540,species,Hydrozetidae sp.,NA,Mites and ticks,8
+71887262,549833,2983006,genus,Khitsovia,NA,Other,19
+71745704,549835,2983006,genus,Khitsovia,NA,Other,21
+71889109,549836,2983006,genus,Khitsovia,NA,Other,27
+71475724,549836,3021530,species,Chaetogaster sp. 10 JM-2023,Worm,Worms,19
+71475576,549836,3024580,species,Halichaetoderma hexagonale,NA,Other,34
+71472930,549833,3029438,species,Ricaniidae sp.,NA,Insects,42
+71475448,549836,3029438,species,Ricaniidae sp.,NA,Insects,100
+71889875,549837,3075449,genus,Uvulifera,NA,Green algae,7
+71476623,549837,3078955,species,Veliidae sp.,NA,Insects,165
+71472868,549833,3376873,species,Herpetocypris brevicaudata,NA,Crustaceans,56
+71474517,549835,3376873,species,Herpetocypris brevicaudata,NA,Crustaceans,52
+71475608,549836,3376873,species,Herpetocypris brevicaudata,NA,Crustaceans,29
+71472712,549833,3386344,subspecies,Pristina jenkinae idrensis,NA,Worms,177
+71473633,549834,3386344,subspecies,Pristina jenkinae idrensis,NA,Worms,93137
+71474678,549835,3386344,subspecies,Pristina jenkinae idrensis,NA,Worms,19
+71475394,549836,3386344,subspecies,Pristina jenkinae idrensis,NA,Worms,181
+71477099,549837,3386344,subspecies,Pristina jenkinae idrensis,NA,Worms,10
+71473204,549833,3386361,species,Pristina sp. CEE,NA,Worms,15
+71475521,549836,3386361,species,Pristina sp. CEE,NA,Worms,54
+71473968,549834,3386362,species,Pristina sp. CEF,NA,Worms,20
+71475743,549836,3386979,species,Nais communis complex sp. A3,NA,Worms,19
+71565439,549834,3394014,species,Enchytraeus buchholzi complex sp. CEF,NA,Worms,519
+71474895,549835,3394014,species,Enchytraeus buchholzi complex sp. CEF,NA,Worms,8
+71477194,549837,3394014,species,Enchytraeus buchholzi complex sp. CEF,NA,Worms,379
+71472902,549833,10000005,species,Austrosimulium australense,Sandfly,Insects,75
+71473776,549834,10000005,species,Austrosimulium australense,Sandfly,Insects,32
+71474485,549835,10000005,species,Austrosimulium australense,Sandfly,Insects,67
+71475439,549836,10000005,species,Austrosimulium australense,Sandfly,Insects,138
+71477013,549837,10000005,species,Austrosimulium australense,Sandfly,Insects,13
+71421399,549836,10000152,species,Phormium tenax or cookianum,Flax,Plants,23
+71421564,549837,10000275,species,Carex uncifolia or cirrhosa,Sedge,Plants,7
+71474557,549835,10000331,species,Limonia repanda,Cranefly,Insects,39
+71477234,549837,10000331,species,Limonia repanda,Cranefly,Insects,7

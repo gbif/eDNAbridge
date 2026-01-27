@@ -1,0 +1,2 @@
+JobID,SubmissionDate,JobReference,JobNotes,NumberOfSamples,AssayPanel,MakeDataPublic,JobStatus,ResultsLink
+607714,2024-12-13,NA,NA,5,Comprehensive panel,0,Complete,https://s3.ap-southeast-2.amazonaws.com/wilderlab.results/f7d7f63386ba4239b2384a6b07add66a/WLM607714_241218.xlsx
