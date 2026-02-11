@@ -20,9 +20,9 @@ It performs parallel requests for efficiency and combines the results into a sin
 \dontrun{
 # Get records data for multiple JobIDs
 samples <- wl_get_wilderlab_data("samples")
-jobIDs <- samples |> 
-  filter(MakeDataPublic == 1) |> 
-  pull(JobID) |> 
+jobIDs <- samples |>
+  filter(MakeDataPublic == 1) |>
+  pull(JobID) |>
   unique()
 records_data <- wl_get_records_from_joblist(jobIDs)
 print(head(records_data))

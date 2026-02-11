@@ -22,7 +22,7 @@ Uses the GBIF schema repository URLs to get the most recent files
 \dontrun{
 schemas_list <- get_all_gbif_dwc_schema()
 print(names(schemas_list))
-# [1] "occurrence_core" "dna_extension"   "mof_extension" 
+# [1] "occurrence_core" "dna_extension"   "mof_extension"
 }
 
 }
