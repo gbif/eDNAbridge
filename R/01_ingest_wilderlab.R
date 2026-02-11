@@ -57,6 +57,37 @@ wl_format_wilderlab_response <- function(response) {
   )
 }
 
+
+#' Get Wilderlab taxa data
+#'
+#' Taxa data have been migrated to a fixed location so this should be fetched directly,
+#' instead of using the generic function. Note that the file is now in RDS format.
+#'
+#' @return A data frame containing the taxa data
+#' @examples
+#' \dontrun{
+#' taxa_data <- wl_get_wilderlab_taxa()
+#' print(head(taxa_data))
+#' }
+#'
+#' @export
+wl_get_wilderlab_taxa <- function() {
+  file <- tempfile(fileext = ".rds")
+
+  httr2::request(
+    "https://s3.ap-southeast-2.amazonaws.com/wilderlab.examples/taxa.rds"
+  ) |>
+    httr2::req_user_agent("eDNABridge R package") |>
+    httr2::req_throttle(capacity = 30, fill_time_s = 60) |> # 30 request per min max
+    httr2::req_perform() |>
+    httr2::resp_body_raw() |>
+    writeBin(file)
+
+  readRDS(file) |>
+    tibble::as_tibble()
+}
+
+
 #' Get data from Wilderlab API
 #'
 #' This function retrieves data from the Wilderlab API for a specified table and optional JobID.
@@ -91,9 +122,13 @@ wl_get_wilderlab_data <- function(table, jobID = NULL) {
     )
   }
 
-  res <- wl_build_wilderlab_request(table = table, jobID = jobID) |>
-    httr2::req_perform() |>
-    wl_format_wilderlab_response()
+  if (table == "taxa") {
+    res <- wl_get_wilderlab_taxa()
+  } else {
+    res <- wl_build_wilderlab_request(table = table, jobID = jobID) |>
+      httr2::req_perform() |>
+      wl_format_wilderlab_response()
+  }
 
   cli::cli_status_clear(waiter)
   if (table == "records") {
