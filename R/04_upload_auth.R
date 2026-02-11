@@ -8,19 +8,18 @@
 ## ------------------------------------------------------------------------ ##
 ##############################################################################
 
-
 #' Authenticate to an IPT instance
-#' 
+#'
 #' This function logs into an IPT instance using credentials stored in environment variables.
 #' It returns an authenticated session that can be used for subsequent requests.
 #' If the required environment variables are not set, the user will be prompted to enter them.
-#' 
+#'
 #' @section Environment Variables:
 #' The following environment variables must be set for authentication:
 #' - `IPT_URL`: The base URL of the IPT instance (e.g., "https://ipt.example.com")
 #' - `IPT_USERNAME`: The username for IPT login
 #' - `IPT_PASSWORD`: The password for IPT login
-#' 
+#'
 #' @return An authenticated rvest session object
 #' @seealso [ipt_get_jsessionid()], [ipt_upload_archive()], [ipt_save_metadata()], [ipt_publish_resource()]
 #' @examples
@@ -47,13 +46,13 @@ ipt_login <- function() {
 }
 
 #' Extract JSESSIONID from an authenticated IPT session
-#' 
+#'
 #' This function retrieves the JSESSIONID cookie value from an authenticated IPT session.
 #' This cookie is required for making authenticated requests to the IPT.
 #' This works for both rvest sessions and httr2 requests.
 #' However, the token expires when a session is closed, so holding a session open with
 #' [ipt_login()] is required for httr2.
-#' 
+#'
 #' @param session An authenticated rvest session object
 #' @return The JSESSIONID cookie value as a string
 #' @seealso [ipt_login()], [ipt_upload_archive()], [ipt_save_metadata()], [ipt_publish_resource()]
@@ -63,7 +62,7 @@ ipt_login <- function() {
 #' jsessionid <- ipt_get_jsessionid(session)
 #' print(jsessionid)
 #' }
-#' 
+#'
 #' @export
 ipt_get_jsessionid <- function(session) {
   session$response$cookies$value[session$response$cookies$name == "JSESSIONID"]

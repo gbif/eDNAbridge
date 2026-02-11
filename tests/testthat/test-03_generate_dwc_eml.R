@@ -9,7 +9,7 @@ test_that("Can set all EML parameters", {
     eml_add_creator(
       given_name = "Alice",
       family_name = "Johnson"
-    ) |> 
+    ) |>
     eml_set_abstract("This is a test abstract.") |>
     eml_set_license("CC-BY-NC-4.0") |>
     eml_set_coverage(

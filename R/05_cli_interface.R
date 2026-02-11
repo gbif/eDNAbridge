@@ -8,7 +8,6 @@
 ## ------------------------------------------------------------------------ ##
 ##############################################################################
 
-
 #' R6 class to handle CLI workflow
 #'
 #' This class handles the storage of user selections from the CLI
@@ -53,7 +52,9 @@ cli_workflow_helper <- R6::R6Class(
           issues <- issues |>
             dplyr::filter(!error_level %in% self$allowed_errors)
           if (nrow(issues) > 0) {
-            cli::cli_alert_danger("Validation failed with the following issues:")
+            cli::cli_alert_danger(
+              "Validation failed with the following issues:"
+            )
             print(issues)
             self$current_page <- "validation_failed"
             return(invisible(NULL))
@@ -65,7 +66,9 @@ cli_workflow_helper <- R6::R6Class(
       }
 
       if (is.null(self$generation_func)) {
-        cli::cli_alert_warning("No generation function configured. Exiting workflow.")
+        cli::cli_alert_warning(
+          "No generation function configured. Exiting workflow."
+        )
         return(invisible(NULL))
       } else {
         cli::cli_h2("Darwin Core Archive Generation Beginning")
@@ -88,23 +91,25 @@ cli_workflow_helper <- R6::R6Class(
 )
 
 #' eDNABridge CLI Interface
-#' 
+#'
 #' This function launches a command-line interface (CLI) for the eDNABridge package,
 #' allowing users to interactively configure and execute a workflow for publishing
 #' eDNA data to GBIF. Users can select options for data ingestion, validation,
 #' Darwin Core Archive generation, and data upload to the GBIF IPT.
-#' 
+#'
 #' @examples
 #' \dontrun{
 #' eDNABridge()
 #' }
 #' @return Invisibly returns NULL after exiting the CLI interface.
-#' 
+#'
 #' @export
 eDNABridge <- function() {
   cli_helper <- cli_workflow_helper$new()
   cli::cli_h1("Welcome to the eDNABridge CLI Interface")
-  cli::cli_text("This interface will guide you through the process of publishing your eDNA data to GBIF.")
+  cli::cli_text(
+    "This interface will guide you through the process of publishing your eDNA data to GBIF."
+  )
   cli::cli_text("Select options as prompted to complete the workflow.")
   cli::cli_rule()
   repeat {
@@ -129,7 +134,9 @@ eDNABridge <- function() {
       cli::cli_h1("Exiting the eDNABridge CLI Interface")
       break
     } else {
-      cli::cli_alert_danger("Invalid choice. Please enter a number between 0 and 3.")
+      cli::cli_alert_danger(
+        "Invalid choice. Please enter a number between 0 and 3."
+      )
     }
     cli::cli_rule()
   }
@@ -138,10 +145,18 @@ eDNABridge <- function() {
 #' @noRd
 cli_print_status <- function(cli_helper) {
   cli::cli_h2("Current Workflow Configuration Status")
-  cli::cli_text("Ingestion Step: {ifelse(cli_helper$status$ingestion, 'Configured', 'Not Configured')}")
-  cli::cli_text("Validation Step: {ifelse(cli_helper$status$validation, 'Configured', 'Not Configured')}")
-  cli::cli_text("Generation Step: {ifelse(cli_helper$status$generation, 'Configured', 'Not Configured')}")
-  cli::cli_text("Upload Step: {ifelse(cli_helper$status$upload, 'Configured', 'Not Configured')}")
+  cli::cli_text(
+    "Ingestion Step: {ifelse(cli_helper$status$ingestion, 'Configured', 'Not Configured')}"
+  )
+  cli::cli_text(
+    "Validation Step: {ifelse(cli_helper$status$validation, 'Configured', 'Not Configured')}"
+  )
+  cli::cli_text(
+    "Generation Step: {ifelse(cli_helper$status$generation, 'Configured', 'Not Configured')}"
+  )
+  cli::cli_text(
+    "Upload Step: {ifelse(cli_helper$status$upload, 'Configured', 'Not Configured')}"
+  )
   cli::cli_text("\n")
 }
 
@@ -182,19 +197,21 @@ cli_configure_workflow <- function(cli_helper) {
   if (ingestion_choice == "1") {
     cli_helper$ingestion_func <- function() {
       wl_get_all_wilderlab_data() |>
-      wl_map_wilderlab_data() |>
-      wl_inject_dwc_wilderlab_constants()
+        wl_map_wilderlab_data() |>
+        wl_inject_dwc_wilderlab_constants()
     }
     cli_helper$status$ingestion <- TRUE
   } else if (ingestion_choice == "2") {
     cli_helper$ingestion_func <- function() {
       wl_get_all_wilderlab_data(public_only = FALSE) |>
-      wl_map_wilderlab_data() |>
-      wl_inject_dwc_wilderlab_constants()
+        wl_map_wilderlab_data() |>
+        wl_inject_dwc_wilderlab_constants()
     }
     cli_helper$status$ingestion <- TRUE
   } else if (ingestion_choice == "3") {
-    cli::cli_alert_info("Please ensure your CSV file matches the expected format.")
+    cli::cli_alert_info(
+      "Please ensure your CSV file matches the expected format."
+    )
     cli::cli_text("\n")
     file_path <- readline("Enter the path to the CSV file: ")
     cli_helper$ingestion_func <- function() {
@@ -227,7 +244,7 @@ cli_configure_workflow <- function(cli_helper) {
   } else if (validation_choice == "2") {
     cli_helper$validation_func <- NULL
     cli_helper$status$validation <- TRUE
-  } else{
+  } else {
     cli::cli_alert_info("Returning to Main Menu.")
     return(cli_helper)
   }
@@ -238,7 +255,7 @@ cli_configure_workflow <- function(cli_helper) {
   cli::cli_text("\n")
   generation_choice <- readline("Select generation method: ")
   if (generation_choice == "1") {
-    cli_helper$generation_func <- function(input){
+    cli_helper$generation_func <- function(input) {
       bbox <- eml_calculate_bounding_box(
         lats = input$decimalLatitude,
         longs = input$decimalLongitude
@@ -253,15 +270,21 @@ cli_configure_workflow <- function(cli_helper) {
       template_choice <- readline("Select an option: ")
 
       if (template_choice == "1") {
-        cli::cli_alert_info("To continue, please provide a path to save the generated archive template.")
+        cli::cli_alert_info(
+          "To continue, please provide a path to save the generated archive template."
+        )
         cli::cli_text("\n")
         template_path <- readline("Enter the path for the template CSV file: ")
         eml_gbif_template_create(template_path)
-        cli::cli_alert_info("Please fill out the generated template with appropriate metadata.")
+        cli::cli_alert_info(
+          "Please fill out the generated template with appropriate metadata."
+        )
         cli::cli_text("\n")
         readline("Press Enter once the template is filled out and saved: ")
       } else {
-        cli::cli_alert_info("To continue, please provide a path to the filled out template.")
+        cli::cli_alert_info(
+          "To continue, please provide a path to the filled out template."
+        )
         cli::cli_text("\n")
         template_path <- readline("Enter the path for the template CSV file: ")
       }
@@ -286,7 +309,9 @@ cli_configure_workflow <- function(cli_helper) {
     cli_helper$status$generation <- TRUE
   } else if (generation_choice == "2") {
     cli_helper$generation_func <- function(...) {
-      cli::cli_alert_info("Please provide the path to your existing Darwin Core Archive ZIP file.")
+      cli::cli_alert_info(
+        "Please provide the path to your existing Darwin Core Archive ZIP file."
+      )
       cli::cli_text("\n")
       archive_path <- readline("Enter the path to the ZIP file: ")
       return(archive_path)
@@ -304,7 +329,9 @@ cli_configure_workflow <- function(cli_helper) {
   upload_choice <- readline("Select upload method: ")
   if (upload_choice == "1") {
     cli_helper$upload_func <- function(archive_path) {
-      cli::cli_alert_info("Please provide a resource shortname for your dataset on GBIF IPT. (lowercase, no spaces)")
+      cli::cli_alert_info(
+        "Please provide a resource shortname for your dataset on GBIF IPT. (lowercase, no spaces)"
+      )
       cli::cli_text("\n")
       dataset_shortname <- readline("Enter dataset shortname: ")
       ipt_upload_and_publish(archive_path, dataset_shortname)
@@ -312,7 +339,9 @@ cli_configure_workflow <- function(cli_helper) {
     cli_helper$status$upload <- TRUE
   } else if (upload_choice == "2") {
     cli_helper$upload_func <- function(archive_path) {
-      cli::cli_alert_info("Please provide a resource shortname for your dataset on GBIF IPT. (lowercase, no spaces)")
+      cli::cli_alert_info(
+        "Please provide a resource shortname for your dataset on GBIF IPT. (lowercase, no spaces)"
+      )
       cli::cli_text("\n")
       dataset_shortname <- readline("Enter dataset shortname: ")
       ipt_login() |>

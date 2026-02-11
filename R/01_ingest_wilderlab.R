@@ -8,7 +8,6 @@
 ## ------------------------------------------------------------------------ ##
 ##############################################################################
 
-
 #' Build Wilderlab API request
 #' @param table The name of the table to query (jobs, samples, taxa, records)
 #' @param jobID Optional JobID to filter results (only for records tables)
@@ -51,7 +50,7 @@ wl_build_wilderlab_request <- function(table, jobID = NULL) {
 #' @noRd
 wl_format_wilderlab_response <- function(response) {
   return(
-    response |> 
+    response |>
       httr2::resp_body_json(simplifyVector = TRUE) |>
       magrittr::extract2("message") |>
       readr::read_csv(show_col_types = FALSE)
@@ -59,12 +58,12 @@ wl_format_wilderlab_response <- function(response) {
 }
 
 #' Get data from Wilderlab API
-#' 
+#'
 #' This function retrieves data from the Wilderlab API for a specified table and optional JobID.
 #' It displays terminal output and formats the response.
 #' Underlying functions will request Wilderlab API keys if necessary. These are not stored
 #' Unless you choose to cache them in a .Renviron, which will be made in the working directory
-#' 
+#'
 #' @param table The name of the table to query (jobs, samples, taxa, records)
 #' @param jobID Optional JobID to filter results (only for records tables)
 #' @param request_only Logical; if TRUE, only the request object is returned without performing the request
@@ -75,26 +74,32 @@ wl_format_wilderlab_response <- function(response) {
 #' jobs_data <- wl_get_wilderlab_data("jobs")
 #' print(head(jobs_data))
 #' }
-#' 
+#'
 #' @export
 wl_get_wilderlab_data <- function(table, jobID = NULL) {
   if (table == "records" && is.null(jobID)) {
     stop("jobID must be provided when querying the records table.")
   }
-  
-  if(table == "records") {
-    waiter <- cli::cli_status("Downloading {.val {table}} data for job {.val {jobID}} from Wilderlab ...")
+
+  if (table == "records") {
+    waiter <- cli::cli_status(
+      "Downloading {.val {table}} data for job {.val {jobID}} from Wilderlab ..."
+    )
   } else {
-    waiter <- cli::cli_status("Downloading {.val {table}} data from Wilderlab ...")
+    waiter <- cli::cli_status(
+      "Downloading {.val {table}} data from Wilderlab ..."
+    )
   }
-  
-  res <- wl_build_wilderlab_request(table = table, jobID = jobID)  |> 
+
+  res <- wl_build_wilderlab_request(table = table, jobID = jobID) |>
     httr2::req_perform() |>
     wl_format_wilderlab_response()
-    
+
   cli::cli_status_clear(waiter)
   if (table == "records") {
-    cli::cli_alert_success("{.val {table}} data for job {.val {jobID}} downloaded from Wilderlab")
+    cli::cli_alert_success(
+      "{.val {table}} data for job {.val {jobID}} downloaded from Wilderlab"
+    )
   } else {
     cli::cli_alert_success("{.val {table}} data downloaded from Wilderlab")
   }
@@ -103,10 +108,10 @@ wl_get_wilderlab_data <- function(table, jobID = NULL) {
 }
 
 #' Export Wilderlab data to local folder
-#' 
+#'
 #' Creates jobs.csv, samples.csv, taxa.csv, and records.csv files in the specified folder.
 #' Each file is formatted as it exists in the Wilderlab API.
-#' 
+#'
 #' @param wilderlab_data A list containing data frames for jobs, samples, taxa, and records
 #' @param path The path to the folder where the CSV files will be saved
 #' @return None. The function writes CSV files to the specified folder.
@@ -118,7 +123,7 @@ wl_get_wilderlab_data <- function(table, jobID = NULL) {
 #' wilderlab_data <- wl_get_all_wilderlab_data()
 #' wl_export_wilderlab_data(wilderlab_data, path = "path/to/save/folder")
 #' }
-#' 
+#'
 #' @export
 wl_export_wilderlab_data <- function(wilderlab_data, path) {
   readr::write_csv(wilderlab_data$jobs, file.path(path, "jobs.csv"))
@@ -128,10 +133,10 @@ wl_export_wilderlab_data <- function(wilderlab_data, path) {
 }
 
 #' Read Wilderlab data from local folder
-#' 
+#'
 #' This function reads Wilderlab data from CSV files in a specified folder.
 #' It expects the folder to contain jobs.csv, samples.csv, taxa.csv, and records.csv
-#' 
+#'
 #' @param folder_path The path to the folder containing the CSV files
 #' @return A list containing data frames for jobs, samples, taxa, and records
 #' @seealso [wl_export_wilderlab_data()]
@@ -141,13 +146,25 @@ wl_export_wilderlab_data <- function(wilderlab_data, path) {
 #' wilderlab_data <- wl_read_wilderlab_data("path/to/folder")
 #' print(head(wilderlab_data$jobs))
 #' }
-#' 
+#'
 #' @export
 wl_read_wilderlab_data <- function(folder_path) {
-  jobs <- readr::read_csv(file.path(folder_path, "jobs.csv"), show_col_types = FALSE)
-  samples <- readr::read_csv(file.path(folder_path, "samples.csv"), show_col_types = FALSE)
-  taxa <- readr::read_csv(file.path(folder_path, "taxa.csv"), show_col_types = FALSE)
-  records <- readr::read_csv(file.path(folder_path, "records.csv"), show_col_types = FALSE)
+  jobs <- readr::read_csv(
+    file.path(folder_path, "jobs.csv"),
+    show_col_types = FALSE
+  )
+  samples <- readr::read_csv(
+    file.path(folder_path, "samples.csv"),
+    show_col_types = FALSE
+  )
+  taxa <- readr::read_csv(
+    file.path(folder_path, "taxa.csv"),
+    show_col_types = FALSE
+  )
+  records <- readr::read_csv(
+    file.path(folder_path, "records.csv"),
+    show_col_types = FALSE
+  )
 
   return(list(
     jobs = jobs,
@@ -158,27 +175,29 @@ wl_read_wilderlab_data <- function(folder_path) {
 }
 
 #' Get records data for multiple JobIDs from Wilderlab API
-#' 
+#'
 #' This function retrieves records data for a list of JobIDs from the Wilderlab API.
 #' It performs parallel requests for efficiency and combines the results into a single data frame.
-#' 
+#'
 #' @param jobIDs A vector of JobIDs for which to retrieve records data
 #' @return A data frame containing the combined records data for all specified JobIDs
 #' @examples
 #' \dontrun{
 #' # Get records data for multiple JobIDs
 #' samples <- wl_get_wilderlab_data("samples")
-#' jobIDs <- samples |> 
-#'   filter(MakeDataPublic == 1) |> 
-#'   pull(JobID) |> 
+#' jobIDs <- samples |>
+#'   filter(MakeDataPublic == 1) |>
+#'   pull(JobID) |>
 #'   unique()
 #' records_data <- wl_get_records_from_joblist(jobIDs)
 #' print(head(records_data))
 #' }
-#' 
+#'
 #' @export
 wl_get_records_from_joblist <- function(jobIDs) {
-  record_waiter <- cli::cli_status('Downloading {.val records} data for all jobs from Wilderlab ...')
+  record_waiter <- cli::cli_status(
+    'Downloading {.val records} data for all jobs from Wilderlab ...'
+  )
   record_responses <- httr2::req_perform_parallel(
     lapply((jobIDs), function(id) {
       wl_build_wilderlab_request("records", jobID = id)
@@ -186,7 +205,9 @@ wl_get_records_from_joblist <- function(jobIDs) {
     progress = "Fetching records from Wilderlab"
   )
   cli::cli_status_clear(record_waiter)
-  cli::cli_alert_success('{.val records} data for all jobs downloaded from Wilderlab')
+  cli::cli_alert_success(
+    '{.val records} data for all jobs downloaded from Wilderlab'
+  )
 
   records_list <- lapply(record_responses, function(resp) {
     wl_format_wilderlab_response(resp)
@@ -196,11 +217,11 @@ wl_get_records_from_joblist <- function(jobIDs) {
 }
 
 #' Get all data from Wilderlab API
-#' 
+#'
 #' This function retrieves all data from the Wilderlab API, including jobs, samples, taxa, and all records in the job.
 #' It handles authentication and returns the data as a list of data frames.
 #' *Use with caution!* Depending on the number of jobs and records, this may take a long time.
-#' 
+#'
 #' @param public_only Logical; if TRUE, only public data is retrieved from Wilderlab
 #' @return A list containing data frames for jobs, samples, taxa, and records
 #' @examples
@@ -215,14 +236,15 @@ wl_get_all_wilderlab_data <- function(public_only = TRUE) {
   jobs <- wl_get_wilderlab_data("jobs")
   samples <- wl_get_wilderlab_data("samples")
 
-
-  if(public_only) {
-    jobIDs <- samples |> 
-      dplyr::filter(MakeDataPublic == 1) |> 
-      dplyr::pull(JobID) |> 
+  if (public_only) {
+    jobIDs <- samples |>
+      dplyr::filter(MakeDataPublic == 1) |>
+      dplyr::pull(JobID) |>
       unique()
-    if(length(jobIDs) == 0) {
-      cli::cli_alert_warning("No jobs found in Wilderlab data, are you sure you have public data?")
+    if (length(jobIDs) == 0) {
+      cli::cli_alert_warning(
+        "No jobs found in Wilderlab data, are you sure you have public data?"
+      )
       stop("No public jobs found")
     }
     jobs <- jobs |>
@@ -235,7 +257,9 @@ wl_get_all_wilderlab_data <- function(public_only = TRUE) {
     cli::cli_alert_info("Filtered to {.val {nrow(jobs)}} public jobs only")
   } else {
     taxa <- wl_get_wilderlab_data("taxa")
-    cli::cli_alert_info("Downloading records for all {.val {nrow(jobs)}} jobs (public and private)")
+    cli::cli_alert_info(
+      "Downloading records for all {.val {nrow(jobs)}} jobs (public and private)"
+    )
     records <- wl_get_records_from_joblist(jobs$JobID)
   }
 
@@ -250,11 +274,11 @@ wl_get_all_wilderlab_data <- function(public_only = TRUE) {
 }
 
 #' Map Wilderlab data to standard column names
-#' 
+#'
 #' This function maps the columns of Wilderlab data frames to standard column names used in the darwin core
 #' Also joins the data frames together into a single data frame using the records as the main table
 #' Optionally, mappings can be left blank just to get the joined dataframe, purely for testing purposes
-#' 
+#'
 #' @param wilderlab_data A list containing data frames for jobs, samples, taxa, and records
 #' @param mappings A named character vector where names are standard column names and values are Wilderlab column names
 #' @return A data frame with standardised column names
@@ -267,40 +291,59 @@ wl_get_all_wilderlab_data <- function(public_only = TRUE) {
 #' print(head(mapped_data))
 #' }
 #' @export
-wl_map_wilderlab_data <- function(wilderlab_data, mappings = wl_wilderlab_dwc_mappings()) {
-  lineage <- insect::get_lineage( # Travels the parent-child graph to get full taxonomy
+wl_map_wilderlab_data <- function(
+  wilderlab_data,
+  mappings = wl_wilderlab_dwc_mappings()
+) {
+  lineage <- insect::get_lineage(
+    # Travels the parent-child graph to get full taxonomy
     wilderlab_data$records$TaxID,
-    wilderlab_data$taxa |> 
-      dplyr::select(1:4) |> 
+    wilderlab_data$taxa |>
+      dplyr::select(1:4) |>
       dplyr::rename(
         c(
-          "taxID"="TaxID", 
-          "parent_taxID"="ParentTaxID", 
-          "rank"="Rank", 
-          "name"="Name")
-      ), 
-    simplify=FALSE,
-    )
+          "taxID" = "TaxID",
+          "parent_taxID" = "ParentTaxID",
+          "rank" = "Rank",
+          "name" = "Name"
+        )
+      ),
+    simplify = FALSE,
+  )
 
   joined_df <- wilderlab_data$records |>
-      dplyr::left_join(
-        wilderlab_data$samples,
-        by = c("UID")
-      ) |>
-      dplyr::left_join(
-        wilderlab_data$jobs,
-        by = c("JobID")
-      ) |>
-      dplyr::mutate(
-        kingdom = sapply(lineage, function(x) {x['kingdom']}),
-        phylum = sapply(lineage, function(x) {x['phylum']}),
-        class = sapply(lineage, function(x) {x['class']}),
-        order = sapply(lineage, function(x) {x['order']}),
-        family = sapply(lineage, function(x) {x['family']}),
-        genus = sapply(lineage, function(x) {x['genus']}),
-        species = sapply(lineage, function(x) {x['species']})
-      ) 
-  if(length(mappings) > 0) {
+    dplyr::left_join(
+      wilderlab_data$samples,
+      by = c("UID")
+    ) |>
+    dplyr::left_join(
+      wilderlab_data$jobs,
+      by = c("JobID")
+    ) |>
+    dplyr::mutate(
+      kingdom = sapply(lineage, function(x) {
+        x['kingdom']
+      }),
+      phylum = sapply(lineage, function(x) {
+        x['phylum']
+      }),
+      class = sapply(lineage, function(x) {
+        x['class']
+      }),
+      order = sapply(lineage, function(x) {
+        x['order']
+      }),
+      family = sapply(lineage, function(x) {
+        x['family']
+      }),
+      genus = sapply(lineage, function(x) {
+        x['genus']
+      }),
+      species = sapply(lineage, function(x) {
+        x['species']
+      })
+    )
+  if (length(mappings) > 0) {
     colnames <- names(mappings)
     joined_df <- joined_df |>
       dplyr::rename(!!!mappings) |>
@@ -310,16 +353,16 @@ wl_map_wilderlab_data <- function(wilderlab_data, mappings = wl_wilderlab_dwc_ma
 }
 
 #' Inject Wilderlab constant values
-#' 
+#'
 #' This function adds constant values required for Darwin Core compliance to the joined Wilderlab data frame.
 #' It sets the basisOfRecord, organismQuantityType, sampleSizeValue, and sampleSizeUnit fields.
-#' 
-#' @section Constants injected: 
+#'
+#' @section Constants injected:
 #' - Basis of Record is set to "MaterialSample"
 #' - Organism Quantity Type is set to "DNA sequence reads"
 #' - Sample Size Value is set to the total sum of organismQuantity across all records
 #' - Sample Size Unit is set to "DNA sequence reads"
-#' 
+#'
 #' @param joined_wilderlab_df A data frame resulting from wl_map_wilderlab_data
 #' @return A data frame with additional constant fields for Darwin Core compliance
 #' @examples

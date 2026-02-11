@@ -8,7 +8,6 @@
 ## ------------------------------------------------------------------------ ##
 ##############################################################################
 
-
 #' Create a tibble row for validation warnings
 #' @param term The term being validated
 #' @param error_level The severity level of the issue (e.g., "warning", "error")
@@ -18,7 +17,7 @@
 #' @return A tibble with columns: term, index, value, issue
 #' @keywords internal
 #' @noRd
-val_create_issue <- function(term, error_level, issue, index=NA, value=NA) {
+val_create_issue <- function(term, error_level, issue, index = NA, value = NA) {
   tibble::tibble(
     term = term,
     error_level = error_level,
@@ -40,7 +39,7 @@ val_tibble_to_issues <- function(issues_tibble) {
   }
   issue_list <- purrr::pmap(
     issues_tibble,
-    function(term, error_level, issue, index=NA, value=NA, ...) {
+    function(term, error_level, issue, index = NA, value = NA, ...) {
       val_create_issue(
         term = term,
         error_level = error_level,

@@ -8,7 +8,6 @@
 ## ------------------------------------------------------------------------ ##
 ##############################################################################
 
-
 #' Returns the mappings of Wilderlab columns to Darwin Core standard column names
 #' @return A named character vector where names are standard column names and values are Wilderlab
 #' @keywords internal

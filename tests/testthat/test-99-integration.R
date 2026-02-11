@@ -12,7 +12,7 @@ test_eml_file <- function() {
     eml_add_persons(
       type = "contact",
       persons = list(person("Emmy", "Davis"), person("John", "Smith"))
-    ) |> 
+    ) |>
     eml_set_abstract("This is a test abstract.") |>
     eml_set_license("CC-BY-NC-4.0") |>
     eml_set_coverage(
@@ -55,15 +55,14 @@ test_eml_file <- function() {
     )
 }
 
-test_that("Integration from data ingestion to archive generation",
-{
+test_that("Integration from data ingestion to archive generation", {
   example_files <- list(
-    jobs=test_path("testdata/jobs.csv"),
-    samples=test_path("testdata/samples.csv"),
-    taxa=test_path("testdata/taxa.csv"),
-    records=test_path("testdata/records.csv")
+    jobs = test_path("testdata/jobs.csv"),
+    samples = test_path("testdata/samples.csv"),
+    taxa = test_path("testdata/taxa.csv"),
+    records = test_path("testdata/records.csv")
   )
-  
+
   ingested_data <- wl_read_wilderlab_data(test_path("testdata/")) |>
     wl_map_wilderlab_data() |>
     wl_inject_dwc_wilderlab_constants()
@@ -83,11 +82,11 @@ test_that("Integration from data ingestion to archive generation",
   eml_xml <- test_eml_file()
   meta_xml <- meta_xml_base() |>
     meta_xml_add_file(
-      type="core",
-      df=dwc_tibbles$occurrence_core,
-      location="occurrence_core.txt",
+      type = "core",
+      df = dwc_tibbles$occurrence_core,
+      location = "occurrence_core.txt",
     )
-  
+
   gen_make_dwc_archive(
     dwc_tibbles = dwc_tibbles,
     eml_xml = eml_xml,

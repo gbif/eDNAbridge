@@ -8,11 +8,10 @@
 ## ------------------------------------------------------------------------ ##
 ##############################################################################
 
-
 #' Generate base Darwin Core Archive metadata XML
-#' 
+#'
 #' Automatically sets up an empty core node for adding fields later
-#' 
+#'
 #' @return Darwin Core Archive metadata XML object
 #' @examples
 #' meta_xml <- meta_xml_base()
@@ -26,13 +25,13 @@ meta_xml_base <- function() {
 }
 
 #' Add a file to Darwin Core Archive metadata XML
-#' 
+#'
 #' The function adds a core or extension file description to the Darwin Core Archive metadata XML.
 #' It includes attributes for file encoding, field delimiters, and row types.
 #' It also maps the columns of the provided data frame to Darwin Core terms based on the GBIF schema.
 #' Downstream functions will make tab delimited text files, so the defaults should only be changed
 #' if you are designing a custom workflow.
-#' 
+#'
 #' @param xml Darwin Core Archive metadata XML object
 #' @param type Type of file to add (e.g., "core" or "extension")
 #' @param df Data frame to describe
@@ -62,19 +61,19 @@ meta_xml_base <- function() {
 #' )
 #' print(xml2::as_xml_document(meta_xml))
 #' }
-#' 
+#'
 #' @export
 meta_xml_add_file <- function(
   xml,
   type,
   df,
   location,
-  encoding="UTF-8",
-  fieldsTerminatedBy="\\t",
-  linesTerminatedBy="\\n",
-  fieldsEnclosedBy="",
-  ignoreHeaderLines="1",
-  rowType="http://rs.tdwg.org/dwc/terms/Occurrence"
+  encoding = "UTF-8",
+  fieldsTerminatedBy = "\\t",
+  linesTerminatedBy = "\\n",
+  fieldsEnclosedBy = "",
+  ignoreHeaderLines = "1",
+  rowType = "http://rs.tdwg.org/dwc/terms/Occurrence"
 ) {
   # Raise an error if a core file already exists
   if (type == "core") {
@@ -101,7 +100,7 @@ meta_xml_add_file <- function(
   index_node <- xml2::xml_add_child(node, "id")
   xml2::xml_set_attr(index_node, "index", "0")
 
-  dwc_schema <- get_all_gbif_dwc_schema(bind=TRUE)
+  dwc_schema <- get_all_gbif_dwc_schema(bind = TRUE)
 
   # Add fields based on data frame column names
   # Will fail if a column is not described in DwC schema
@@ -123,17 +122,17 @@ meta_xml_add_file <- function(
       node,
       "field"
     )
-    xml2::xml_set_attr(field_node, "index", as.character(i-1))
+    xml2::xml_set_attr(field_node, "index", as.character(i - 1))
     xml2::xml_set_attr(field_node, "term", qual_name)
   }
-  
+
   return(xml)
 }
 
 #' Write Darwin Core Archive metadata XML to file
-#' 
+#'
 #' Wrapper function to write the Darwin Core Archive metadata XML to a specified file path.
-#' 
+#'
 #' @param meta_xml Darwin Core Archive metadata XML object
 #' @param path File path to write the metadata XML
 #' @return The file path where the metadata XML was written
@@ -157,7 +156,7 @@ meta_xml_add_file <- function(
 #' meta_path <- meta_write_xml(meta_xml, "meta.xml")
 #' print(paste("Metadata XML written to:", meta_path))
 #' }
-#' 
+#'
 #' @export
 meta_write_xml <- function(meta_xml, path) {
   xml2::write_xml(meta_xml, path)

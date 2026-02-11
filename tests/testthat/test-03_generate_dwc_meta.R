@@ -6,11 +6,11 @@ test_that("Generate a valid meta.xml file from test data", {
 
   meta_xml <- meta_xml_base() |>
     meta_xml_add_file(
-      type="core",
-      df=occurrence,
-      location="occurrence_core.txt"
+      type = "core",
+      df = occurrence,
+      location = "occurrence_core.txt"
     )
-  
+
   expected_xml <- xml2::read_xml(
     test_path("testdata/dwc/expected_meta.xml")
   )

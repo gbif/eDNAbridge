@@ -8,7 +8,6 @@
 ## ------------------------------------------------------------------------ ##
 ##############################################################################
 
-
 #' Upload Darwin Core Archive to IPT
 #'
 #' Uploads a Darwin Core Archive (DwCA) to the Integrated Publishing Toolkit (IPT)
@@ -174,9 +173,9 @@ ipt_publish_resource <- function(
 }
 
 #' Make IPT resource publicly visible
-#' 
+#'
 #' Sets the specified IPT resource to be publicly visible.
-#' 
+#'
 #' @param session An optional IPT session object. If NULL, a new session will be created.
 #' @param shortname The shortname of the resource to be made public.
 #' @return An updated IPT session object after making the resource public.
@@ -190,7 +189,7 @@ ipt_publish_resource <- function(
 #' )
 #' # Check IPT after a few seconds to confirm visibility
 #' }
-#' 
+#'
 #' @export
 ipt_set_visible <- function(
   session = NULL,
@@ -257,15 +256,15 @@ ipt_upload_and_publish <- function(
 }
 
 #' Register a resource with GBIF
-#' 
+#'
 #' Registers a resource on GBIF using its shortname in the IPT.
-#' 
+#'
 #' @param session An optional IPT session object. If NULL, a new session will be
 #' created.
 #' @param shortname The shortname of the resource to be registered with GBIF.
 #' @return An updated IPT session object after registering the resource.
 #' @seealso [ipt_login()], [ipt_get_jsessionid()]
-#' 
+#'
 #' @examples
 #' \dontrun{
 #' shortname <- "my_resource"
@@ -274,7 +273,7 @@ ipt_upload_and_publish <- function(
 #'   shortname = shortname
 #' )
 #' }
-#' 
+#'
 #' @export
 ipt_register_resource <- function(
   session = NULL,

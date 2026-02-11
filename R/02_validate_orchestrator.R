@@ -8,14 +8,13 @@
 ## ------------------------------------------------------------------------ ##
 ##############################################################################
 
-
 #' Validate Single Column
-#' 
+#'
 #' Validates a single column data frame by calling the corresponding
 #' class based on the column name.
 #' The column should be passed as a tibble not as a vector.
 #' E.g. `df[,1]` instead of `df$col1`.
-#' 
+#'
 #' @param df_col A data frame containing a single column to be validated.
 #' @return A list of validation results, including any issues found during the validation process.
 #' @keywords internal
@@ -31,11 +30,11 @@ val_validate_column <- function(df_col) {
 }
 
 #' Validate All Fields in Data Frame
-#' 
+#'
 #' This function serves as an orchestrator to validate all fields in a given data frame.
 #' It builds each validator class based on the column names of the data frame and applies the respective
 #' validation methods to ensure data integrity.
-#' 
+#'
 #' @param df A data frame containing the data to be validated.
 #' @return A list of validation results, including any issues found during the validation process.
 #' @examples
@@ -51,8 +50,8 @@ val_validate_column <- function(df_col) {
 #' } else {
 #'   print("No issues found")
 #' }
-#' 
-#' 
+#'
+#'
 #' @export
 val_validate_all_fields <- function(df) {
   all_issues <- list()

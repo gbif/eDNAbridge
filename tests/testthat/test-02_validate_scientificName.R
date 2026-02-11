@@ -11,7 +11,7 @@ test_that("Check scientific name - does not exist", {
 test_that("Check name list", {
   names <- c("Pseudomonas", "NonExistentSpecies12345", "Escherichia coli")
   result <- val_check_name_list(names, quiet = TRUE)
-  
+
   expect_true(is.data.frame(result))
   expect_equal(ncol(result), 2)
   expect_equal(nrow(result), 3)

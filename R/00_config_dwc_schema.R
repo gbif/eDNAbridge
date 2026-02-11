@@ -8,15 +8,14 @@
 ## ------------------------------------------------------------------------ ##
 ##############################################################################
 
-
 URL_CORE_SCHEMA <- "https://rs.gbif.org/core/?C=M;O=D"
 URL_GBIF_EXTENSION_SCHEMA <- "https://rs.gbif.org/extension/gbif/1.0/?C=M;O=D"
 URL_DWC_EXTENSION_SCHEMA <- "https://rs.gbif.org/extension/dwc/?C=M;O=D"
 
 #' Fetches the latest DWC schema from URL
-#' 
+#'
 #' By using the sort parameters in the URL, this function retrieves the most recent schema file.
-#' 
+#'
 #' @param url The URL to fetch the schema from
 #' @param name The name of the file to match (e.g., "occurrence")
 #' @return The URL of the latest schema file
@@ -36,9 +35,9 @@ latest_dwc_schema_from_url <- function(url, name) {
 }
 
 #' Converts a DWC XML schema to data frame
-#' 
+#'
 #' Reads all the property nodes and extracts all attr/value pairs into a data frame
-#' 
+#'
 #' @param schema_url The URL of the Darwin Core XML schema
 #' @return A data frame representing the schema properties
 #' @keywords internal
@@ -56,10 +55,10 @@ read_dwc_schema_url <- function(schema_url) {
 }
 
 #' Get latest GBIF Darwin Core schema
-#' 
-#' Fetches the latest versions of the occurrence core, DNA extension, and measurements or facts extension schemas 
+#'
+#' Fetches the latest versions of the occurrence core, DNA extension, and measurements or facts extension schemas
 #' Uses the GBIF schema repository URLs to get the most recent files
-#' 
+#'
 #' @param bind Logical indicating whether to bind all schemas into a single data frame (default: FALSE)
 #' @return A list of data frames for each schema or a single combined data frame if bind is TRUE
 #' @examples
@@ -68,14 +67,20 @@ read_dwc_schema_url <- function(schema_url) {
 #' \dontrun{
 #' schemas_list <- get_all_gbif_dwc_schema()
 #' print(names(schemas_list))
-#' # [1] "occurrence_core" "dna_extension"   "mof_extension" 
+#' # [1] "occurrence_core" "dna_extension"   "mof_extension"
 #' }
-#' 
+#'
 #' @export
 get_all_gbif_dwc_schema <- function(bind = FALSE) {
   core_url <- latest_dwc_schema_from_url(URL_CORE_SCHEMA, "occurrence")
-  dna_ext_url <- latest_dwc_schema_from_url(URL_GBIF_EXTENSION_SCHEMA, "dna_derived_data")
-  mof_ext_url <- latest_dwc_schema_from_url(URL_DWC_EXTENSION_SCHEMA, "measurements_or_facts")
+  dna_ext_url <- latest_dwc_schema_from_url(
+    URL_GBIF_EXTENSION_SCHEMA,
+    "dna_derived_data"
+  )
+  mof_ext_url <- latest_dwc_schema_from_url(
+    URL_DWC_EXTENSION_SCHEMA,
+    "measurements_or_facts"
+  )
 
   files <- list(
     occurrence_core = read_dwc_schema_url(core_url),

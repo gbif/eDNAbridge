@@ -8,19 +8,28 @@
 ## ------------------------------------------------------------------------ ##
 ##############################################################################
 
-
 # Overall validation against Darwin Core standards
 # https://www.gbif.org/data-quality-requirements-occurrences
 
 # Although basisOfRecord is required, this is inserted by the package as all samples will be "MaterialSample"
 DWC_REQUIRED <- c("occurrenceID", "eventDate", "scientificName")
 DWC_RECOMMENDED <- c(
-  "countryCode", "taxonRank", "kingdom", "decimalLatitude", "decimalLongitude",
-  "geodeticDatum", "coordinateUncertaintyInMeters", "individualCount", 
-  "organismQuantity", "organismQuantityType"
+  "countryCode",
+  "taxonRank",
+  "kingdom",
+  "decimalLatitude",
+  "decimalLongitude",
+  "geodeticDatum",
+  "coordinateUncertaintyInMeters",
+  "individualCount",
+  "organismQuantity",
+  "organismQuantityType"
 )
 DWC_PREFERRED <- c(
-  "informationWithheld", "dataGeneralizations", "eventTime", "country"
+  "informationWithheld",
+  "dataGeneralizations",
+  "eventTime",
+  "country"
 )
 DWC_LEVELS <- factor(
   c("required", "recommended", "preferred"),
@@ -29,10 +38,10 @@ DWC_LEVELS <- factor(
 )
 
 #' Validates existence of DwC columns to a specified standard
-#' 
+#'
 #' Given a data frame, checks for the presence of required, recommended, or preferred terms
 #' as defined by the Darwin Core standard / GBIF data quality requirements.
-#' 
+#'
 #' @param df A data frame to validate
 #' @param level A character string specifying the Darwin Core level to validate against.
 #' Must be one of "required", "recommended", or "preferred".
@@ -62,8 +71,8 @@ DWC_LEVELS <- factor(
 #'   print("No issues found")
 #' }
 #' }
-#' 
-#' 
+#'
+#'
 #' @export
 val_validate_dwc_to_level <- function(df, level) {
   terms_df <- tibble::tibble(term = DWC_REQUIRED, requirement = "required")
@@ -84,7 +93,9 @@ val_validate_dwc_to_level <- function(df, level) {
 
   issues <- terms_df |>
     dplyr::filter(!present) |>
-    dplyr::mutate(error_level = ifelse(requirement == "required", "error", "warning")) |>
+    dplyr::mutate(
+      error_level = ifelse(requirement == "required", "error", "warning")
+    ) |>
     dplyr::mutate(issue = paste("missing", requirement, "Darwin Core term")) |>
     val_tibble_to_issues()
 
@@ -95,10 +106,10 @@ val_validate_dwc_to_level <- function(df, level) {
 }
 
 #' Validates that no unexpected columns are present
-#' 
-#' Validates that no additional terms are present in the data frame beyond those defined 
+#'
+#' Validates that no additional terms are present in the data frame beyond those defined
 #' in the latest Darwin Core standard
-#' 
+#'
 #' @param df A data frame to validate
 #' @return A list of issue tibbles if any extra terms are found, or NULL if no extra terms are found
 #' @examples
@@ -119,7 +130,7 @@ val_validate_dwc_to_level <- function(df, level) {
 #'   print("No extra terms found")
 #' }
 #' }
-#' 
+#'
 #' @export
 val_validate_no_additional_terms <- function(df) {
   latest_terms <- util_get_latest_dwc_terms(recommendedOnly = FALSE)

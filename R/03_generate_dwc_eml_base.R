@@ -8,7 +8,6 @@
 ## ------------------------------------------------------------------------ ##
 ##############################################################################
 
-
 #' Create a base EML object for a pipe
 #'
 #' eml_* functions can be used in a pipe to build up an EML object, which is

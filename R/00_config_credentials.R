@@ -8,7 +8,6 @@
 ## ------------------------------------------------------------------------ ##
 ##############################################################################
 
-
 #' Set credentials for services in the package
 #'
 #' Sets a credential in the environment and optionally cache it in .Renviron
@@ -94,9 +93,9 @@ config_set_wilderlab_creds <- function(
 }
 
 #' Checks that a list of credentials are set in the environment
-#' 
+#'
 #' If not, prompts the user to set them via CLI input, or gives an option to stop to set .Renviron manually
-#' 
+#'
 #' @param keys A character vector of environment variable names to check
 #' @param prompt_user Logical indicating whether to prompt the user for missing keys
 #' @param read_fn Function to use for reading user input (default is readline, can be mocked for tests)

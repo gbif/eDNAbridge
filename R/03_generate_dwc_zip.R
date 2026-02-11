@@ -8,7 +8,6 @@
 ## ------------------------------------------------------------------------ ##
 ##############################################################################
 
-
 #' Generate Darwin Core Archive ZIP
 #'
 #' Generates a Darwin Core Archive ZIP file containing the provided data tables and metadata XML files.

@@ -8,13 +8,12 @@
 ## ------------------------------------------------------------------------ ##
 ##############################################################################
 
-
 #' Split dataframe by Darwin Core file
-#' 
+#'
 #' Converts a singular tibble into a list of Darwin Core data frames.
 #' Each data frame in the list corresponds to a Darwin Core extension.
-#' 
-#' 
+#'
+#'
 #' @param data A tibble containing the data to be converted.
 #' @return A named list of tibbles, each representing a Darwin Core extension.
 #' @examples
@@ -35,7 +34,7 @@
 #' # [1] "occurrence_core" "dna_extension"   "mof_extension"
 #' }
 #'
-#' 
+#'
 #' @export
 gen_tibble_to_dwc_frames <- function(data) {
   dwc_frames <- list()
@@ -47,7 +46,9 @@ gen_tibble_to_dwc_frames <- function(data) {
       dwc_schema <- get_all_gbif_dwc_schema()
     },
     error = function(e) {
-      message("Failed to fetch latest Darwin Core schema. Using internal fallback schema.")
+      message(
+        "Failed to fetch latest Darwin Core schema. Using internal fallback schema."
+      )
       dwc_schema <<- gbif_dwc_schema
     }
   )

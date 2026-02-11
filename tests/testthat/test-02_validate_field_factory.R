@@ -1,7 +1,10 @@
 test_that("Make R6 class for occurenceID", {
   test_field <- fld_field_occurrenceID$new()
   expect_equal(test_field$name, "occurrenceID")
-  expect_equal(test_field$dwc_link, "https://dwc.tdwg.org/list/#dwc_occurrenceID")
+  expect_equal(
+    test_field$dwc_link,
+    "https://dwc.tdwg.org/list/#dwc_occurrenceID"
+  )
   expect_true(is.function(test_field$type_check_func))
 })
 
@@ -38,6 +41,9 @@ test_that("Construct occurrenceID field dynamically using field factory", {
   field_name <- "occurrenceID"
   test_field <- fld_factory(field_name)
   expect_equal(test_field$name, field_name)
-  expect_equal(test_field$dwc_link, "https://dwc.tdwg.org/list/#dwc_occurrenceID")
+  expect_equal(
+    test_field$dwc_link,
+    "https://dwc.tdwg.org/list/#dwc_occurrenceID"
+  )
   expect_true(is.function(test_field$type_check_func))
 })
