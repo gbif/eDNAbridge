@@ -1,7 +1,7 @@
 # eDNABridge <img src="man/figures/logo.png" align="right" height="120" alt="" />
 
 <div style="font-size: smaller; width: 80%;"> 
-This package was designed and developed by Epi (https://www.epi.group/) with funding provided by the New Zealand Ministry for the Environment. Support was provided by Wilderlab, the Hawke's Bay Regional Council, Department of Conservation and NIWA. 
+This package was designed and developed by Epi (https://www.epi.group/) with funding provided by the New Zealand Ministry for the Environment. Support was provided by Wilderlab, the Hawke's Bay Regional Council, Department of Conservation and Earth Sciences New Zealand. 
 </div>
 
 This R package provides functions to facilitate the transformation of environmental DNA (eDNA) occurrence data into the Darwin Core Archive (DwC-A) format and publishing via the Global Biodiversity Information Facility (GBIF) Integrated Publishing Toolkit (IPT). It is aimed to be an end-to-end workflow primarily focused for holders of eDNA data looking for more automated solutions to publishing eDNA data to GBIF.
@@ -31,7 +31,7 @@ This R package provides functions to facilitate the transformation of environmen
 - Check for required columns and validate data types.
 - Standardise taxonomic names using GBIF’s backbone taxonomy.
 - Suggest recommended GBIF fields if missing.
-- Generate a summary report highlighting issues and data completeness.
+- Generate a summary table highlighting issues and data completeness.
 
 ### 3. Generate a Darwin Core Archive (DwC-A)
 
@@ -55,12 +55,6 @@ You can install the development version of eDNABridge from GitHub with:
 ```r
 # install.packages("devtools") # if not already installed
 devtools::install_github("gbif/eDNABridge")
-```
-
-Or install the released version from CRAN with:
-
-```r
-install.packages("eDNABridge")
 ```
 
 ## Example Usage
