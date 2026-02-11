@@ -8,7 +8,6 @@
 ## ------------------------------------------------------------------------ ##
 ##############################################################################
 
-
 # ID for GBIF Backbone Taxonomy
 GBIF_DATASET_ID <- "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c"
 
@@ -30,10 +29,10 @@ val_make_species_request <- function(name) {
 
 
 #' Check if a scientific name exists in the GBIF Backbone Taxonomy
-#' 
+#'
 #' This function queries the GBIF Species API to determine if the provided scientific name
 #' exists in the GBIF Backbone Taxonomy.
-#' 
+#'
 #' @param name A scientific name to check
 #' @return The number of matches found in the GBIF Backbone Taxonomy
 #' @seealso [val_check_name_list()]
@@ -42,8 +41,8 @@ val_make_species_request <- function(name) {
 #' val_check_scientific_name("Puma concolor") # should return TRUE
 #' val_check_scientific_name("Invalid species name") # should return FALSE
 #' }
-#' 
-#' 
+#'
+#'
 #' @export
 val_check_scientific_name <- function(name) {
   result <- val_make_species_request(name) |>
@@ -54,15 +53,15 @@ val_check_scientific_name <- function(name) {
 }
 
 #' Check multiple scientific names against the GBIF Backbone Taxonomy
-#' 
+#'
 #' Iterates over a list of scientific names and checks each one against the GBIF Backbone Taxonomy
 #' using the GBIF Species API. Returns a data frame indicating which names were found.
 #' The underlying API requests are performed in parallel for efficiency, and will show a progress bar
-#' unless `quiet = TRUE`. 
-#' 
+#' unless `quiet = TRUE`.
+#'
 #' Requests will be dynamically retried on failure, and throttled to 10 requests per second.
 #' GBIF does not require an API key and has not specified strict rate limits, but this is to be respectful of their servers.
-#' 
+#'
 #' @param name_list A vector of scientific names to check
 #' @return A data frame with scientific names and a logical column indicating if a match was found
 #' @seealso [val_check_scientific_name()]
@@ -77,8 +76,8 @@ val_check_scientific_name <- function(name) {
 #' #1 Puma concolor          TRUE
 #' #2 Invalid species name   FALSE
 #' }
-#' 
-#' 
+#'
+#'
 #' @export
 val_check_name_list <- function(name_list, quiet = FALSE) {
   unique_name_list <- unique(name_list)
@@ -104,10 +103,10 @@ val_check_name_list <- function(name_list, quiet = FALSE) {
   }
 
   match_list |>
-    tibble::as_tibble() |> 
+    tibble::as_tibble() |>
     tidyr::pivot_longer(
-      dplyr::everything(), 
-      names_to = "scientificName", 
+      dplyr::everything(),
+      names_to = "scientificName",
       values_to = "match"
     )
 }
@@ -141,7 +140,7 @@ fld_field_scientificName <- R6::R6Class(
           value_list,
           invalid_indices,
           "name not found in GBIF Backbone Taxonomy",
-          error="info"
+          error = "info"
         ))
       }
       return(NULL)

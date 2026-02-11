@@ -8,7 +8,6 @@
 ## ------------------------------------------------------------------------ ##
 ##############################################################################
 
-
 #' Create a minimally valid EML file for GBIF
 #'
 #' This function generates a basic EML (Ecological Metadata Language) file
@@ -117,11 +116,11 @@ eml_gbif_create <- function(
 }
 
 #' Create a CSV template for GBIF EML metadata
-#' 
+#'
 #' This function generates a CSV file template that users can fill out
 #' with their dataset metadata. The filled CSV can then be read and converted
 #' into a valid EML file for GBIF using the `eml_gbif_template_read` function.
-#' 
+#'
 #' @param path The file path where the CSV template will be saved.
 #' @return None. The function writes a CSV file to the specified path.
 #' @seealso [eml_gbif_template_read()]
@@ -129,8 +128,8 @@ eml_gbif_create <- function(
 #' \dontrun{
 #' eml_gbif_template_create("gbif_eml_template.csv")
 #' }
-#' 
-#' 
+#'
+#'
 #' @export
 eml_gbif_template_create <- function(
   path
@@ -164,10 +163,10 @@ eml_gbif_template_create <- function(
 }
 
 #' Create EML metadata from a filled GBIF template CSV
-#' 
+#'
 #' This function reads a CSV file filled out using the GBIF EML template
 #' and generates a valid EML metadata object.
-#' 
+#'
 #' @param path The file path to the filled CSV template.
 #' @param bbox A list or data frame containing the bounding box coordinates with
 #' columns: west, east, north, south.
@@ -179,7 +178,7 @@ eml_gbif_template_create <- function(
 #' bbox <- list(west = -120.0, east = -119.0, north = 35.0, south = 34.0)
 #' eml <- eml_gbif_template_read("filled_gbif_eml_template.csv", bbox)
 #' }
-#' 
+#'
 #' @export
 eml_gbif_template_read <- function(
   path,
@@ -224,30 +223,30 @@ eml_gbif_template_read <- function(
 
 
 #' Parse a person string in git format into a structured list
-#' 
+#'
 #' This function takes a string representing a person in git format with an optional org/title,
 #' Eg: `John Smith <jsmith@email.com> (Organization, Senior Developer)` and parses it
 #' into a structured list containing given name, family name, email, and title.
-#' 
+#'
 #' @param input A string representing a person in git format.
 #' @return A list with elements: given_name, family_name, email, title.
 #' @examples
 #' input <- "John Smith <jsmith@email.com> (Senior Developer)"
 #' person <- eml_parse_person(input)
 #' print(person)
-#' 
+#'
 #' @export
 eml_parse_person <- function(input) {
-  parts <- input |> 
+  parts <- input |>
     stringr::str_split("\\(", simplify = TRUE) |>
     as.vector()
-  
-  person <- parts[1] |> 
+
+  person <- parts[1] |>
     stringr::str_trim() |>
     as.person()
-  
+
   if (length(parts) == 2) {
-    job_string <- parts[2] |> 
+    job_string <- parts[2] |>
       stringr::str_remove("\\)") |>
       stringr::str_trim() |>
       stringr::str_split(",", simplify = TRUE) |>

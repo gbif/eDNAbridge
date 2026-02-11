@@ -8,7 +8,6 @@
 ## ------------------------------------------------------------------------ ##
 ##############################################################################
 
-
 # To validate fields, we create a general R6 class and methods for it.
 # Then have specific fields inherit from that class and add specific validation rules as needed.
 
@@ -47,7 +46,7 @@ fld_factory <- function(field_name) {
 #' @field type_check_func A function to check the type of field values
 #' @field default_error The default error level for validation issues
 #'
-#' @section Methods: 
+#' @section Methods:
 #' - validate_missing: Validate that the field does not contain missing values
 #' - validate_type: Validate that the field values are of the correct type
 #' - validate: Perform all validations for the field and return any issues found
@@ -113,7 +112,12 @@ fld_base_field <- R6::R6Class(
     }
   ),
   private = list(
-    format_issue = function(value_list, invalid_indices, issue_description, error_level=self$default_error) {
+    format_issue = function(
+      value_list,
+      invalid_indices,
+      issue_description,
+      error_level = self$default_error
+    ) {
       val_create_issue(
         term = self$name,
         error_level = error_level,
@@ -133,7 +137,7 @@ fld_base_field <- R6::R6Class(
 #' @field dwc_link A link to the Darwin Core term definition (set to "unknown")
 #' @field type_check_func A function that always returns TRUE
 #' @field default_error The default error level for validation issues (set to "warning")
-#' 
+#'
 #' @keywords internal
 #' @noRd
 fld_field_generic <- R6::R6Class(

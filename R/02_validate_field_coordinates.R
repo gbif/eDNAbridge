@@ -8,7 +8,6 @@
 ## ------------------------------------------------------------------------ ##
 ##############################################################################
 
-
 #' Field class for decimalLatitude
 #' @keywords internal
 #' @noRd
@@ -33,7 +32,7 @@ fld_field_decimalLatitude <- R6::R6Class(
           value_list,
           invalid_indices,
           "latitude must be between -90 and 90",
-          error="error"
+          error = "error"
         ))
       }
       return(NULL)
@@ -70,7 +69,7 @@ fld_field_decimalLongitude <- R6::R6Class(
           value_list,
           invalid_indices,
           "longitude must be between -180 and 180",
-          error="error"
+          error = "error"
         ))
       }
       return(NULL)

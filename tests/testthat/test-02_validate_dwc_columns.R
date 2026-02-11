@@ -5,7 +5,7 @@ test_that("validate dwc to level - success", {
     eventDate = "2023-01-01",
     scientificName = "Pseudomonas aeruginosa"
   )
-  val_validate_dwc_to_level(df, "required") |> 
+  val_validate_dwc_to_level(df, "required") |>
     expect_equal(NULL)
 })
 
@@ -29,7 +29,7 @@ test_that("validate no additional terms - success", {
     eventDate = "2023-01-01",
     scientificName = "Pseudomonas aeruginosa"
   )
-  val_validate_no_additional_terms(df) |> 
+  val_validate_no_additional_terms(df) |>
     expect_equal(NULL)
 })
 

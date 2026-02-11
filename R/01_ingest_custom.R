@@ -8,12 +8,11 @@
 ## ------------------------------------------------------------------------ ##
 ##############################################################################
 
-
 #' Map custom table columns to standard names
-#' 
+#'
 #' A user can provide a custom table with non-standard column names,
 #' Along with a mapping vector that maps standard names to custom names
-#' 
+#'
 #' @param table A data frame representing the custom table, or a path to a CSV file
 #' @param mapping A named character vector where names are standard column names and values are custom column names
 #' @return A data frame with columns renamed to standard names
@@ -38,7 +37,7 @@
 #' # 1              1                 A              10.5
 #' # 2              2                 B              20.3
 #' # 3              3                 C              15.8
-#' 
+#'
 #' @export
 ingest_read_and_map_table <- function(table, mapping = c()) {
   if (is.character(table)) {
@@ -47,8 +46,9 @@ ingest_read_and_map_table <- function(table, mapping = c()) {
   if (length(mapping) == 0) {
     return(table)
   }
-  return(table |>
-    dplyr::rename(mapping) |>
-    dplyr::select(tidyselect::all_of(names(mapping)))
+  return(
+    table |>
+      dplyr::rename(mapping) |>
+      dplyr::select(tidyselect::all_of(names(mapping)))
   )
 }
