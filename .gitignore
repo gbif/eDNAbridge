@@ -58,3 +58,5 @@ inst/doc
 
 ./*.zip
 /.quarto/
+
+**/*.quarto_ipynb

@@ -69,7 +69,7 @@ This example uses functions from a module to ingest data from [Wilderlab](https:
 library(eDNABridge)
 library(dplyr)
 
-## Step 1: Ingest data from Wilderlab -----------------------------
+## Step 1, Option A: Ingest data from Wilderlab -----------------------------
 # Terminal will prompt for API keys if not in .Renviron
 # In this example, all data from an account is published at once
 # See vignette("upload_workflow") for more detailed examples
@@ -77,6 +77,18 @@ library(dplyr)
 ingested_data <- wl_get_all_wilderlab_data() |>
   wl_map_wilderlab_data() |>
   wl_inject_dwc_wilderlab_constants()
+
+## Step 1, Option B: Custom Data Ingestion
+# Alternatively, you can ingest your own flat table:
+# Providing an optional character vector to map data if the column names
+# in the file don't already match valid GBIF fields
+
+## Example truncated for brevity - in reality the mapping object would fully
+## describe all columns to be read. Any columns not mapped will be ignored
+## Omitting the mapping argument will read the full table as is
+# path <- "path/to/my/data.csv"
+# mapping <- c("basisOfRecord" = "column A", "scientificName" = "column B", ...)
+# ingested_data <- ingest_read_and_map_table(path, mapping)
 
 ## Step 2: Validate and clean data --------------------------------
 # Tibble contains various issues at error, warning or info levels
