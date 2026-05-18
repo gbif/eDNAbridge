@@ -56,6 +56,61 @@ ipt_upload_archive <- function(
   return(session)
 }
 
+#' Save a publishing organization for an IPT resource
+#'
+#' The setting for publishing organization was moved to its own form
+#' But retains the same format as when it was in the basic metadata form
+#'
+#' @param session An optional IPT session object. If NULL, a new session will be created.
+#' @param shortname The shortname of the resource for which to set the publishing organization.
+#' @param org The name of the organization to set as the publishing organization for the resource
+#'
+#' @return An updated IPT session object after setting the publishing organization.
+#' @seealso [ipt_login()], [ipt_get_jsessionid()], [ipt_upload_archive()], [ipt_save_metadata()]
+#'
+#' @keywords internal
+ipt_save_organisation <- function(
+  session = NULL,
+  shortname,
+  org
+) {
+  if (is.null(session)) {
+    session <- ipt_login()
+  }
+  session <- session |>
+    rvest::session_jump_to(paste0(
+      "/manage/publication-settings.do?r=",
+      shortname
+    ))
+  save_form <- rvest::html_form(session)[[1]]
+  org_choices <- save_form$fields$id$options
+
+  if (!any(names(org_choices) |> stringr::str_detect(org))) {
+    cli::cli_alert_warning(
+      paste0(
+        "Organization '",
+        org,
+        "' not found in IPT account. Available organizations are: ",
+        paste(names(org_choices), collapse = ", ")
+      )
+    )
+    cli::cli_alert_warning(
+      "Proceeding without setting organization."
+    )
+  } else {
+    save_form <- rvest::html_form_set(
+      save_form,
+      id = org_choices[names(org_choices) |> stringr::str_detect(org)][1]
+    )
+  }
+
+  filled <- rvest::html_form_set(
+    save_form
+  )
+  rvest::session_submit(session, filled)
+  return(session)
+}
+
 #' Trigger metadata save on IPT resource
 #'
 #' Even if an EML file in a Darwin Core Archive contains all required metadata,
@@ -93,32 +148,19 @@ ipt_save_metadata <- function(
       shortname
     ))
   save_form <- rvest::html_form(session)[[1]]
-  if (!is.null(org)) {
-    org_choices <- save_form$fields$id$options
-    if (!any(names(org_choices) |> stringr::str_detect(org))) {
-      cli::cli_alert_warning(
-        paste0(
-          "Organization '",
-          org,
-          "' not found in IPT account. Available organizations are: ",
-          paste(names(org_choices), collapse = ", ")
-        )
-      )
-      cli::cli_alert_warning(
-        "Proceeding without setting organization."
-      )
-    } else {
-      save_form <- rvest::html_form_set(
-        save_form,
-        id = org_choices[names(org_choices) |> stringr::str_detect(org)][1]
-      )
-    }
-  }
+
   filled <- rvest::html_form_set(
     save_form,
     eml.shortName = shortname
   )
   rvest::session_submit(session, filled)
+
+  session <- session |>
+    ipt_save_organisation(
+      shortname = shortname,
+      org = org
+    )
+
   return(session)
 }
 
