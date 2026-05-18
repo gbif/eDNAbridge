@@ -1,5 +1,5 @@
 ##############################################################################
-## ------------------------------ eDNABridge ------------------------------ ##
+## ------------------------------ eDNAbridge ------------------------------ ##
 ## This package was designed and developed by Epi (https://www.epi.group/)  ##
 ## with funding provided by the New Zealand Ministry for the Environment.   ##
 ##                                                                          ##
@@ -90,23 +90,23 @@ cli_workflow_helper <- R6::R6Class(
   )
 )
 
-#' eDNABridge CLI Interface
+#' eDNAbridge CLI Interface
 #'
-#' This function launches a command-line interface (CLI) for the eDNABridge package,
+#' This function launches a command-line interface (CLI) for the eDNAbridge package,
 #' allowing users to interactively configure and execute a workflow for publishing
 #' eDNA data to GBIF. Users can select options for data ingestion, validation,
 #' Darwin Core Archive generation, and data upload to the GBIF IPT.
 #'
 #' @examples
 #' \dontrun{
-#' eDNABridge()
+#' eDNAbridge()
 #' }
 #' @return Invisibly returns NULL after exiting the CLI interface.
 #'
 #' @export
-eDNABridge <- function() {
+eDNAbridge <- function() {
   cli_helper <- cli_workflow_helper$new()
-  cli::cli_h1("Welcome to the eDNABridge CLI Interface")
+  cli::cli_h1("Welcome to the eDNAbridge CLI Interface")
   cli::cli_text(
     "This interface will guide you through the process of publishing your eDNA data to GBIF."
   )
@@ -128,10 +128,10 @@ eDNABridge <- function() {
       cli_helper <- cli_configure_workflow(cli_helper)
     } else if (choice == "2") {
       cli_helper$execute_workflow()
-      cli::cli_h1("Exiting the eDNABridge CLI Interface")
+      cli::cli_h1("Exiting the eDNAbridge CLI Interface")
       break
     } else if (choice == "0") {
-      cli::cli_h1("Exiting the eDNABridge CLI Interface")
+      cli::cli_h1("Exiting the eDNAbridge CLI Interface")
       break
     } else {
       cli::cli_alert_danger(

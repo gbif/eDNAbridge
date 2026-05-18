@@ -1,5 +1,5 @@
 ##############################################################################
-## ------------------------------ eDNABridge ------------------------------ ##
+## ------------------------------ eDNAbridge ------------------------------ ##
 ## This package was designed and developed by Epi (https://www.epi.group/)  ##
 ## with funding provided by the New Zealand Ministry for the Environment.   ##
 ##                                                                          ##
@@ -31,7 +31,7 @@ wl_build_wilderlab_request <- function(table, jobID = NULL) {
     httr2::req_headers(
       `X-API-Key` = Sys.getenv("WILDERLAB_XAPIKEY")
     ) |>
-    httr2::req_user_agent("eDNABridge R package") |>
+    httr2::req_user_agent("eDNAbridge R package") |>
     httr2::req_throttle(capacity = 30, fill_time_s = 60) # 30 request per min max
 
   if (!is.null(jobID)) {
@@ -77,7 +77,7 @@ wl_get_wilderlab_taxa <- function() {
   httr2::request(
     "https://s3.ap-southeast-2.amazonaws.com/wilderlab.examples/taxa.rds"
   ) |>
-    httr2::req_user_agent("eDNABridge R package") |>
+    httr2::req_user_agent("eDNAbridge R package") |>
     httr2::req_throttle(capacity = 30, fill_time_s = 60) |> # 30 request per min max
     httr2::req_perform() |>
     httr2::resp_body_raw() |>

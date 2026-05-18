@@ -1,5 +1,5 @@
 ##############################################################################
-## ------------------------------ eDNABridge ------------------------------ ##
+## ------------------------------ eDNAbridge ------------------------------ ##
 ## This package was designed and developed by Epi (https://www.epi.group/)  ##
 ## with funding provided by the New Zealand Ministry for the Environment.   ##
 ##                                                                          ##

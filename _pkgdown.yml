@@ -1,14 +1,14 @@
 url: ~
 home:
-  title: "eDNABridge: A bridge for uploading eDNA occurrence data to GBIF"
-  description: "eDNABridge is an R package that facilitates the submission of environmental DNA (eDNA) occurrence data to the Global Biodiversity Information Facility (GBIF). It provides functions to format, validate, and upload eDNA data, ensuring compliance with GBIF's data standards."
+  title: "eDNAbridge: A bridge for uploading eDNA occurrence data to GBIF"
+  description: "eDNAbridge is an R package that facilitates the submission of environmental DNA (eDNA) occurrence data to the Global Biodiversity Information Facility (GBIF). It provides functions to format, validate, and upload eDNA data, ensuring compliance with GBIF's data standards."
 template:
   bootstrap: 5
 
 reference:
   - title: "CLI Interface"
     contents:
-      - eDNABridge
+      - eDNAbridge
   - title: "Data Ingestion"
     contents:
       - wl_read_wilderlab_data

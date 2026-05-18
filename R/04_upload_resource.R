@@ -1,5 +1,5 @@
 ##############################################################################
-## ------------------------------ eDNABridge ------------------------------ ##
+## ------------------------------ eDNAbridge ------------------------------ ##
 ## This package was designed and developed by Epi (https://www.epi.group/)  ##
 ## with funding provided by the New Zealand Ministry for the Environment.   ##
 ##                                                                          ##
@@ -155,7 +155,7 @@ ipt_publish_resource <- function(
   summary_message <- paste0(
     "Publishing resource '",
     shortname,
-    "' via {eDNABridge} on ",
+    "' via {eDNAbridge} on ",
     Sys.Date()
   )
   httr2::request(Sys.getenv("IPT_URL")) |>

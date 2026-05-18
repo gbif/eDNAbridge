@@ -1,4 +1,4 @@
-# eDNABridge <img src="man/figures/logo.png" align="right" height="120" alt="" />
+# eDNAbridge <img src="man/figures/logo.png" align="right" height="120" alt="" />
 
 <div style="font-size: smaller; width: 80%;"> 
 This package was designed and developed by Epi (https://www.epi.group/) with funding provided by the New Zealand Ministry for the Environment. Support was provided by Wilderlab, the Hawke's Bay Regional Council, Department of Conservation and Earth Sciences New Zealand. 
@@ -15,7 +15,7 @@ This R package provides functions to facilitate the transformation of environmen
 
 ### Overview of modules
 
-<img src="man/figures/flow_chart.png" alt="eDNABridge workflow flowchart"/>
+<img src="man/figures/flow_chart.png" alt="eDNAbridge workflow flowchart"/>
 
 ### 1. Source eDNA Occurrence Data
 
@@ -50,23 +50,23 @@ Create a fully compliant DwC-A `.zip` file, including:
 
 ## Installation
 
-You can install the development version of eDNABridge from GitHub with:
+You can install the development version of eDNAbridge from GitHub with:
 
 ```r
 # install.packages("devtools") # if not already installed
-devtools::install_github("gbif/eDNABridge")
+devtools::install_github("gbif/eDNAbridge")
 ```
 
 ## Example Usage
 
-An example workflow using eDNABridge, with intermediate level of control over each step.
+An example workflow using eDNAbridge, with intermediate level of control over each step.
 
 This example uses functions from a module to ingest data from [Wilderlab](https://wilderlab.co/), an eDNA service provider in New Zealand. A custom data ingestion function can be used to load data from other sources.
 
 ```r
 # Most steps require an internet connection
 
-library(eDNABridge)
+library(eDNAbridge)
 library(dplyr)
 
 ## Step 1, Option A: Ingest data from Wilderlab -----------------------------

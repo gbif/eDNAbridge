@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(eDNABridge)
+library(eDNAbridge)
 
-test_check("eDNABridge")
+test_check("eDNAbridge")

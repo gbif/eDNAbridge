@@ -1,8 +1,8 @@
 ---
-title: "eDNABridge"
+title: "eDNAbridge"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{eDNABridge}
+  %\VignetteIndexEntry{eDNAbridge}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 ```
 
 ```{r setup}
-library(eDNABridge)
+library(eDNAbridge)
 ```
 
 # Introduction
@@ -37,7 +37,7 @@ The command line interface (CLI) provides a guided workflow that prompts the use
 
 ```r
 # Start the CLI
-eDNABridge()
+eDNAbridge()
 ```
 
 <img src="./figures/cli_screenshot.png" alt="CLI Screenshot" width="400"/>

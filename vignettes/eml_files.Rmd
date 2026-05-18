@@ -15,12 +15,12 @@ knitr::opts_chunk$set(
 ```
 
 ```{r setup}
-library(eDNABridge)
+library(eDNAbridge)
 ```
 
-# Creating EML files with eDNABridge
+# Creating EML files with eDNAbridge
 
-The `eDNABridge` package provides functions to create Ecological Metadata Language (EML) files for eDNA datasets. The underlying functions call the xml2 package and are designed to be used with pipes for ease of use. 
+The `eDNAbridge` package provides functions to create Ecological Metadata Language (EML) files for eDNA datasets. The underlying functions call the xml2 package and are designed to be used with pipes for ease of use. 
 
 ```{r}
 # Example of creating an EML file

@@ -2,7 +2,7 @@
 
 export(config_set_creds)
 export(config_set_wilderlab_creds)
-export(eDNABridge)
+export(eDNAbridge)
 export(eml_add_contact)
 export(eml_add_creator)
 export(eml_add_persons)
