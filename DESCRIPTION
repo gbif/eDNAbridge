@@ -1,4 +1,4 @@
-Package: eDNABridge
+Package: eDNAbridge
 Title: Automate validating eDNA data against the Darwin Core and upload to GBIF
 Version: 0.3.0
 Authors@R: c(
